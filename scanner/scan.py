@@ -100,17 +100,28 @@ def run_scan(universe, interval, period):
     print(f"Lade {len(tickers)} Ticker ({interval}) ...")
     data = download(tickers, interval, period)
     info = universe.set_index("ticker")
-    rows, missing = [], [t for t in tickers if t not in data]
+    rows, states, missing = [], [], [t for t in tickers if t not in data]
     for t, df in data.items():
         df = completed_only(df, t, interval)
-        sig = last_signal(df)
-        if not sig:
+        if len(df) < 60:
+            missing.append(t)
             continue
         r = info.loc[t]
-        rows.append({"ticker": t, "name": r.get("name", ""), "region": r.get("region", ""),
-                     "cluster": r.get("cluster", ""), **sig, **metrics(df)})
+        base = {"ticker": t, "name": r.get("name", ""), "region": r.get("region", ""),
+                "cluster": r.get("cluster", ""), "sector": r.get("sector", ""), "continent": r.get("continent", "")}
+        wt = wavetrend(df).dropna()
+        if len(wt) >= 2:  # Zustand JEDES Werts -> Marktbreite
+            w1, w2 = float(wt.wt1.iloc[-1]), float(wt.wt2.iloc[-1])
+            states.append({**base, "wt1": round(w1, 2), "wt2": round(w2, 2),
+                           "zone": "überverkauft" if w2 <= -53 else ("überkauft" if w2 >= 53 else "neutral"),
+                           "momentum": "steigend" if w1 > w2 else "fallend",
+                           "spark": [round(float(x), 2) for x in df["Close"].iloc[-30:]],
+                           "spark_wt": [round(float(x), 1) for x in wt.wt2.iloc[-30:]], **metrics(df)})
+        sig = last_signal(df)
+        if sig:
+            rows.append({**base, **sig, **metrics(df)})
     print(f"Fertig: {len(data)} mit Daten, {len(missing)} ohne Daten, {len(rows)} Signale")
-    return pd.DataFrame(rows), missing
+    return pd.DataFrame(rows), missing, pd.DataFrame(states)
 
 
 def sort_signals(df):
@@ -161,8 +172,9 @@ def to_markdown(df, title, missing, cap=20):
 
 def weekly():
     uni = pd.read_csv(UNIVERSE).fillna("")
-    sig, missing = run_scan(uni, "1wk", "5y")
+    sig, missing, state = run_scan(uni, "1wk", "5y")
     sig = sort_signals(sig)
+    state.to_json(os.path.join(RES, "state_weekly.json"), orient="records", force_ascii=False)
     os.makedirs(os.path.join(RES, "weekly"), exist_ok=True)
     sig.to_csv(os.path.join(RES, "weekly", f"{TODAY}.csv"), index=False)
     sig.to_csv(os.path.join(RES, "weekly_latest.csv"), index=False)
@@ -190,7 +202,7 @@ def daily_watchlist(uni):
     extra["weekly_dot"] = "manuell"
     wl = pd.concat([wk, extra], ignore_index=True)
     meta = uni.set_index("ticker")
-    for col in ("name", "region", "cluster"):
+    for col in ("name", "region", "cluster", "sector", "continent"):
         wl[col] = wl["ticker"].map(meta[col]) if col in meta else ""
     return wl.fillna("")
 
@@ -203,7 +215,9 @@ def daily():
     if wl.empty:
         print("Watchlist leer – erst einen Weekly-Scan laufen lassen.")
         return
-    sig, missing = run_scan(wl[["ticker", "name", "region", "cluster"]], "1d", "2y")
+    cols = [c for c in ("ticker", "name", "region", "cluster", "sector", "continent") if c in wl.columns]
+    sig, missing, state = run_scan(wl[cols], "1d", "2y")
+    state.to_json(os.path.join(RES, "state_daily.json"), orient="records", force_ascii=False)
     if not sig.empty:
         sig = sig.merge(wl[["ticker", "weekly_dot", "weekly_strength", "weekly_date"]], on="ticker", how="left")
         # Bestätigung: Daily-Punkt in dieselbe Richtung wie der Weekly-Punkt

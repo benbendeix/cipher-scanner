@@ -11,6 +11,9 @@ import sys
 import pandas as pd
 import requests
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sectors import CONTINENT, from_cluster, from_text, region_from_ticker  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UNI_DIR = os.path.join(ROOT, "universe")
 OUT = os.path.join(UNI_DIR, "universe.csv")
@@ -86,18 +89,64 @@ def fetch_source(name, url, suffix, region, tcols, ncols):
         if tcol is None:
             continue
         ncol = next((c for want in ncols for c in tb.columns if want.lower() in c.lower()), None)
-        best = (tb, tcol, ncol)
+        scol = next((c for c in tb.columns if "gics sector" in c.lower()), None) or \
+            next((c for c in tb.columns if "sector" in c.lower() or "industry" in c.lower()), None)
+        best = (tb, tcol, ncol, scol)
         break
     if best is None:
         cols = [list(_flatcols(t).columns)[:6] for t in tables if len(t) >= 10][:4]
         raise ValueError(f"keine passende Tabelle. Spalten: {cols}")
-    tb, tcol, ncol = best
+    tb, tcol, ncol, scol = best
     rows = []
     for _, r in tb.iterrows():
         t = _norm(r[tcol], suffix)
         if t:
-            rows.append({"ticker": t, "name": str(r[ncol]) if ncol else "", "region": region, "source": name})
+            rows.append({"ticker": t, "name": str(r[ncol]) if ncol else "", "region": region, "source": name,
+                         "sector_raw": str(r[scol]) if scol else ""})
     return rows
+
+
+CACHE = os.path.join(UNI_DIR, "sector_cache.csv")
+
+
+def _yf_sector(ticker):
+    import yfinance as yf
+    try:
+        info = yf.Ticker(ticker).get_info()
+    except Exception:
+        return ""
+    qt = str(info.get("quoteType", "")).upper()
+    if qt in ("ETF", "INDEX", "MUTUALFUND", "FUTURE", "CURRENCY"):
+        return "ETFs & Indizes" if qt != "FUTURE" else "Rohstoffe & Materialien"
+    if qt == "CRYPTOCURRENCY":
+        return "Krypto"
+    return from_text(f"{info.get('sector', '')} {info.get('industry', '')}")
+
+
+def add_sectors(df):
+    """Reihenfolge: manuelle Zuordnung / Marktlandkarte-Cluster > Wikipedia > Cache > yfinance."""
+    cache = pd.read_csv(CACHE).set_index("ticker")["sector"].to_dict() if os.path.exists(CACHE) else {}
+    sectors, todo = [], []
+    for _, r in df.iterrows():
+        sec = from_cluster(r["ticker"], r.get("cluster", "")) or from_text(r.get("sector_raw", "")) \
+            or cache.get(r["ticker"], "")
+        if sec != sec:  # NaN aus Cache
+            sec = ""
+        if not sec:
+            todo.append(r["ticker"])
+        sectors.append(sec)
+    df["sector"] = sectors
+    print(f"\nBranchen: {len(df) - len(todo)} zugeordnet, {len(todo)} per yfinance nachschlagen ...")
+    found = {}
+    for i, t in enumerate(todo):
+        found[t] = _yf_sector(t) or "Sonstige"
+        if (i + 1) % 50 == 0:
+            print(f"  {i + 1}/{len(todo)}")
+    if found:
+        df.loc[df["ticker"].isin(found), "sector"] = df["ticker"].map(found)
+        cache.update(found)
+        pd.DataFrame({"ticker": list(cache), "sector": list(cache.values())}).to_csv(CACHE, index=False)
+    df.drop(columns=["sector_raw"], errors="ignore", inplace=True)
 
 
 def main():
@@ -119,8 +168,8 @@ def main():
             d = pd.read_csv(p)
             for _, r in d.iterrows():
                 rows.append({"ticker": r["ticker"], "name": r.get("name", ""),
-                             "region": r.get("region", r.get("cluster", "")), "source": src,
-                             "cluster": r.get("cluster", "")})
+                             "region": r["region"] if "region" in d.columns else region_from_ticker(r["ticker"]),
+                             "source": src, "cluster": r.get("cluster", ""), "sector_raw": ""})
 
     df = pd.DataFrame(rows)
     if "cluster" not in df:
@@ -130,9 +179,12 @@ def main():
     clusters = df[df["cluster"] != ""].drop_duplicates("ticker").set_index("ticker")["cluster"]
     df = df.drop_duplicates("ticker", keep="first").copy()
     df["cluster"] = df["ticker"].map(clusters).fillna("")
+    add_sectors(df)
+    df["continent"] = df["region"].map(CONTINENT).fillna("Sonstige")
     df.to_csv(OUT, index=False)
     print(f"\nUniversum: {len(df)} eindeutige Ticker -> {OUT}")
     print(df.groupby("source").size().to_string())
+    print("\nBranchen:\n" + df.groupby("sector").size().sort_values(ascending=False).to_string())
 
 
 if __name__ == "__main__":

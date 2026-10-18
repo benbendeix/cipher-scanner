@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "weekly | daily | validate | universe"
+        description: "weekly | daily | validate | universe | dashboard"
         default: weekly
       tickers:
         description: "nur für validate, z.B. CLSK AAPL"
@@ -15,6 +15,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: scan
@@ -55,6 +57,10 @@ jobs:
         if: steps.m.outputs.mode == 'daily'
         run: python scanner/scan.py daily
 
+      - name: Dashboard-Daten bündeln
+        if: steps.m.outputs.mode == 'weekly' || steps.m.outputs.mode == 'daily' || steps.m.outputs.mode == 'dashboard'
+        run: python scanner/make_dashboard.py
+
       - name: Abgleich mit TradingView
         if: steps.m.outputs.mode == 'validate'
         run: mkdir -p results && python scanner/scan.py validate ${{ inputs.tickers }} 2>&1 | tee results/validate.txt
@@ -67,3 +73,27 @@ jobs:
           git add -A universe results
           git diff --cached --quiet || git commit -m "Scan ${{ steps.m.outputs.mode }} $(date -u +%F)"
           git pull --rebase && git push
+
+  pages:
+    needs: scan
+    if: always() && needs.scan.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Seite zusammenstellen
+        run: |
+          mkdir -p _site
+          cp dashboard/index.html _site/index.html
+          cp results/dashboard.json _site/dashboard.json 2>/dev/null || echo "{}" > _site/dashboard.json
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
