@@ -78,6 +78,7 @@ jobs:
     needs: scan
     if: always() && needs.scan.result == 'success'
     runs-on: ubuntu-latest
+    continue-on-error: true   # bis GitHub Pages in den Repo-Einstellungen aktiviert ist
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
