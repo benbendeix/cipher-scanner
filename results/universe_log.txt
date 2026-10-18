@@ -1,10 +1,10 @@
-[ok]   S&P 500       503 Ticker  z.B. ['MMM', 'AOS', 'ABT', 'ABBV']
-[ok]   S&P 400       616 Ticker  z.B. ['HUBS', 'AGNC', 'CORT', 'EAT']
-[FAIL] Nasdaq-100   keine passende Tabelle gefunden  -> 0 aus letzter Liste übernommen
+[FAIL] S&P 500      keine passende Tabelle. Spalten: [['Symbol', 'Security', 'GICS Sector', 'GICS Su  -> 503 aus letzter Liste übernommen
+[ok]   S&P 400       400 Ticker  z.B. ['AA', 'AAL', 'AAON', 'ACI']
+[FAIL] Nasdaq-100   keine passende Tabelle. Spalten: [['0', '1'], ['Year', 'Closing level', 'Change   -> 0 aus letzter Liste übernommen
 [ok]   DAX            40 Ticker  z.B. ['ADS.DE', 'AIR.PA', 'ALV.DE', 'BAS.DE']
 [ok]   MDAX           50 Ticker  z.B. ['AIXA.DE', 'AT1.DE', 'NDA.DE', 'BC8.DE']
-[FAIL] SDAX         keine passende Tabelle gefunden  -> 0 aus letzter Liste übernommen
-[FAIL] ATX          keine passende Tabelle gefunden  -> 0 aus letzter Liste übernommen
+[FAIL] SDAX         keine passende Tabelle. Spalten: [['Logo', 'Name', 'Industry', 'Location']]  -> 0 aus letzter Liste übernommen
+[FAIL] ATX          keine passende Tabelle. Spalten: [['Year', 'Closing level', 'Change in index in   -> 0 aus letzter Liste übernommen
 [ok]   FTSE 100      100 Ticker  z.B. ['III.L', 'ABDN.L', 'ADM.L', 'AAF.L']
 [ok]   CAC 40         40 Ticker  z.B. ['AC.PA', 'AI.PA', 'AIR.PA', 'MT.AS']
 [ok]   SMI            20 Ticker  z.B. ['NOVN.SW', 'ROP.SW', 'NESN.SW', 'ABBN.SW']
@@ -13,24 +13,25 @@
 [ok]   FTSE MIB       40 Ticker  z.B. ['A2A.MI', 'AMP.MI', 'AVIO.MI', 'AZM.MI']
 [ok]   OMXS30         30 Ticker  z.B. ['ABB.ST', 'ADDT-B.ST', 'ALFA.ST', 'ASSA-B.ST']
 [ok]   Hang Seng      85 Ticker  z.B. ['0005.HK', '0388.HK', '0939.HK', '1299.HK']
-[ok]   NIFTY 50       50 Ticker  z.B. ['ADANIENT.NS', 'ADANIPORTS.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+[FAIL] NIFTY 50     keine passende Tabelle. Spalten: [['0', '1'], ['Company name', 'Symbol', 'Sector  -> 50 aus letzter Liste übernommen
 [ok]   S&P/TSX 60     59 Ticker  z.B. ['AEM.TO', 'ATD.TO', 'BMO.TO', 'BNS.TO']
 
-Universum: 1858 eindeutige Ticker -> /home/runner/work/cipher-scanner/cipher-scanner/universe/universe.csv
+Universum: 1721 eindeutige Ticker -> /home/runner/work/cipher-scanner/cipher-scanner/universe/universe.csv
 source
-AEX                24
-Asien statisch     86
-CAC 40             39
-DAX                40
-FTSE 100          100
-FTSE MIB           40
-Hang Seng          85
-IBEX 35            35
-MDAX               47
-Marktlandkarte    142
-NIFTY 50           50
-OMXS30             30
-S&P 400           558
-S&P 500           503
-S&P/TSX 60         59
-SMI                20
+AEX                    24
+ATX/Extra statisch     21
+Asien statisch         86
+CAC 40                 39
+DAX                    40
+FTSE 100              100
+FTSE MIB               40
+Hang Seng              85
+IBEX 35                35
+MDAX                   47
+Marktlandkarte        142
+NIFTY 50               50
+OMXS30                 30
+S&P 400               400
+S&P 500               503
+S&P/TSX 60             59
+SMI                    20
