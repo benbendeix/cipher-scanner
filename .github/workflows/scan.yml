@@ -88,7 +88,7 @@ jobs:
       - name: Seite zusammenstellen
         run: |
           mkdir -p _site
-          cp dashboard/index.html _site/index.html
+          { printf '<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style></head><body>'; cat dashboard/index.html; printf '</body></html>'; } > _site/index.html
           cp results/dashboard.json _site/dashboard.json 2>/dev/null || echo "{}" > _site/dashboard.json
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5

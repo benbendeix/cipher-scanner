@@ -99,8 +99,18 @@ def setups(sig, daily, state):
                 "strength": r["strength"], "wt2": r["wt2"], "close": r["close"], "chg_pct": r["chg_pct"],
                 "vs_52hi_pct": r["vs_52hi_pct"], "score": score, "reasons": reasons}
         (longs if green else warns).append(item)
-    key = lambda x: (-x["score"], x["wt2"])  # noqa: E731
-    return sorted(longs, key=key)[:15], sorted(warns, key=lambda x: (-x["score"], -x["wt2"]))[:15]
+    def dedupe(items):  # Doppel-Listings (z.B. Stellantis Paris + Mailand) nur einmal
+        seen, out = set(), []
+        for it in items:
+            k = str(it["name"]).lower().split()[0] if it["name"] else it["ticker"]
+            if k in seen:
+                continue
+            seen.add(k)
+            out.append(it)
+        return out
+    longs = dedupe(sorted(longs, key=lambda x: (-x["score"], x["wt2"])))
+    warns = dedupe(sorted(warns, key=lambda x: (-x["score"], -x["wt2"])))
+    return longs[:15], warns[:15]
 
 
 def main():

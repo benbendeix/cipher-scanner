@@ -1,1 +1,479 @@
-<p>Dashboard wird gebaut …</p>
+<title>Cipher-B Marktradar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: Terminal-Dashboard im Stil der Marktlandkarte – Kopfzeile mit Tabs, darunter einspaltige Module, ab 900px zweispaltig */
+:root {
+  --bg: #131722; --surface: #1b2130; --surface2: #222a3d; --line: #2a3247;
+  --fg: #d6dbe6; --muted: #8a93a8;
+  --green: #26a69a; --red: #ef5350; --gold: #f0c75e; --blue: #5b8def; --purple: #b28dff;
+  --green-bg: rgba(38,166,154,.13); --red-bg: rgba(239,83,80,.12); --gold-bg: rgba(240,199,94,.12);
+  --zone: rgba(138,147,168,.10);
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #f4f6fa; --surface: #ffffff; --surface2: #eceff5; --line: #d7dce7;
+  --fg: #1c2230; --muted: #5f6880;
+  --green: #0f8a7e; --red: #d63d3a; --gold: #a87a00; --blue: #2f62d6; --purple: #7a4fd6;
+  --green-bg: rgba(15,138,126,.10); --red-bg: rgba(214,61,58,.09); --gold-bg: rgba(168,122,0,.10);
+  --zone: rgba(95,104,128,.09); color-scheme: light;
+} }
+:root[data-theme="light"] {
+  --bg: #f4f6fa; --surface: #ffffff; --surface2: #eceff5; --line: #d7dce7;
+  --fg: #1c2230; --muted: #5f6880;
+  --green: #0f8a7e; --red: #d63d3a; --gold: #a87a00; --blue: #2f62d6; --purple: #7a4fd6;
+  --green-bg: rgba(15,138,126,.10); --red-bg: rgba(214,61,58,.09); --gold-bg: rgba(168,122,0,.10);
+  --zone: rgba(95,104,128,.09); color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 14px; line-height: 1.45; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+header .wrap { padding-block: 12px 8px; display: grid; gap: 8px; }
+.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+h1 { margin: 0; font: 700 16px/1.2 var(--mono); letter-spacing: .14em; }
+h1 b { color: var(--green); font-weight: 700; }
+.asof { font: 12px var(--mono); color: var(--muted); }
+nav { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+nav button { font: 12px var(--mono); padding: 7px 12px; border-radius: 6px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; white-space: nowrap; }
+nav button[aria-selected="true"] { color: var(--gold); border-color: var(--gold); background: var(--surface2); }
+button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+main .wrap { padding-block: 16px 48px; }
+section[role="tabpanel"] { display: grid; gap: 16px; }
+.grid2 { display: grid; gap: 16px; }
+@media (min-width: 900px) { .grid2 { grid-template-columns: 1fr 1fr; align-items: start; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-width: 0; }
+h2 { margin: 0 0 4px; font-size: 15px; font-weight: 650; text-wrap: balance; }
+.sub { margin: 0 0 12px; color: var(--muted); font-size: 12.5px; }
+.label { font: 11px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* Kennzahlen */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.kpi { background: var(--surface); padding: 12px 14px; display: grid; gap: 2px; }
+.kpi .v { font: 600 22px/1.15 var(--mono); font-variant-numeric: tabular-nums; }
+.kpi .d { font-size: 12px; color: var(--muted); }
+
+/* Einschätzung */
+.view { border-left: 3px solid var(--gold); }
+.view ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+.view p { margin: 8px 0 0; max-width: 72ch; }
+.picks { display: grid; gap: 8px; margin-top: 10px; }
+.pick { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; padding: 10px; border-radius: 6px; background: var(--surface2); }
+.pick .t { font: 600 13px var(--mono); }
+.pick .why { grid-column: 1 / -1; color: var(--fg); font-size: 13px; }
+.disclaim { margin-top: 10px; font-size: 12px; color: var(--muted); }
+
+/* Thermometer */
+.therm { display: grid; gap: 4px; }
+.trow { display: grid; grid-template-columns: minmax(0, 150px) 1fr 74px; gap: 10px; align-items: center; padding: 6px 4px; border-radius: 6px; cursor: pointer; background: transparent; border: 0; color: inherit; text-align: left; font: inherit; width: 100%; }
+.trow:hover { background: var(--surface2); }
+.trow .nm { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.trow .nm small { color: var(--muted); font-family: var(--mono); }
+.bar { position: relative; height: 18px; border-radius: 3px; background: linear-gradient(90deg, var(--green-bg) 0 23.5%, var(--zone) 23.5% 76.5%, var(--red-bg) 76.5% 100%); }
+.bar .mid { position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--line); }
+.bar .mk { position: absolute; top: 2px; width: 4px; height: 14px; border-radius: 2px; transform: translateX(-50%); }
+.counts { display: flex; gap: 6px; justify-content: flex-end; font: 11.5px var(--mono); }
+.g { color: var(--green); } .r { color: var(--red); }
+.axis { display: grid; grid-template-columns: minmax(0, 150px) 1fr 74px; gap: 10px; font: 10.5px var(--mono); color: var(--muted); padding: 0 4px; }
+.axis div:nth-child(2) { display: flex; justify-content: space-between; }
+
+/* Signal-Listen */
+.filters { display: grid; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 12px var(--mono); padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+.chip[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); background: var(--surface2); }
+.chip.gs[aria-pressed="true"] { color: var(--green); border-color: var(--green); background: var(--green-bg); }
+.chip.rs[aria-pressed="true"] { color: var(--red); border-color: var(--red); background: var(--red-bg); }
+.chip.star[aria-pressed="true"] { color: var(--gold); border-color: var(--gold); background: var(--gold-bg); }
+.selects { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+select, input[type="search"] { width: 100%; font: 13px var(--sans); padding: 8px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+.result-info { font: 12px var(--mono); color: var(--muted); }
+details.grp { border-top: 1px solid var(--line); }
+details.grp:first-of-type { border-top: 0; }
+details.grp > summary { list-style: none; cursor: pointer; padding: 10px 2px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+details.grp > summary::-webkit-details-marker { display: none; }
+details.grp > summary .h { font-weight: 600; }
+details.grp > summary .c { font: 12px var(--mono); color: var(--muted); }
+.rows { display: grid; gap: 2px; padding-bottom: 8px; }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto 88px; gap: 4px 12px; align-items: center; padding: 8px; border-radius: 6px; }
+.row:nth-child(odd) { background: var(--surface2); }
+.row .id { min-width: 0; }
+.row .tk { font: 600 13px var(--mono); }
+.row .nmx { color: var(--muted); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 3px; }
+.tag { font: 10.5px var(--mono); padding: 1px 6px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.tag.cl { border-color: var(--purple); color: var(--purple); }
+.stats { display: grid; justify-items: end; gap: 2px; font: 12px var(--mono); font-variant-numeric: tabular-nums; }
+.pill { font: 600 11px var(--mono); padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+.pill.green { color: var(--green); background: var(--green-bg); }
+.pill.red { color: var(--red); background: var(--red-bg); }
+.pill.strong.green { color: var(--bg); background: var(--green); }
+.pill.strong.red { color: var(--bg); background: var(--red); }
+svg.spark { width: 88px; height: 34px; display: block; }
+.empty { padding: 16px 4px; color: var(--muted); }
+
+/* Setup-Karten */
+.setups { display: grid; gap: 8px; }
+.setup { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 10px; padding: 10px; border-radius: 6px; background: var(--surface2); }
+.score { display: flex; gap: 3px; align-items: center; }
+.score i { width: 7px; height: 7px; border-radius: 2px; background: var(--line); display: block; }
+.score.g i.on { background: var(--green); } .score.r i.on { background: var(--red); }
+.reasons { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 5px; }
+.reasons span { font-size: 11.5px; padding: 2px 7px; border-radius: 4px; background: var(--surface); color: var(--fg); border: 1px solid var(--line); }
+
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font: 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+footer { color: var(--muted); font-size: 12px; padding-block: 8px 0; }
+footer a { color: var(--blue); }
+@media (max-width: 520px) {
+  .trow, .axis { grid-template-columns: minmax(0, 104px) 1fr 62px; gap: 8px; }
+  .row { grid-template-columns: minmax(0, 1fr) auto; }
+  .row svg.spark { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <h1>CIPHER·B <b>MARKTRADAR</b></h1>
+      <span class="asof" id="asof">Lade Daten …</span>
+    </div>
+    <nav role="tablist" aria-label="Bereiche">
+      <button role="tab" id="tab-overview" aria-controls="overview" aria-selected="true">Überblick</button>
+      <button role="tab" id="tab-signals" aria-controls="signals" aria-selected="false">Signale</button>
+      <button role="tab" id="tab-sectors" aria-controls="sectors" aria-selected="false">Branchen</button>
+      <button role="tab" id="tab-daily" aria-controls="daily" aria-selected="false">Daily</button>
+      <button role="tab" id="tab-setups" aria-controls="setups" aria-selected="false">Top-Setups</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section role="tabpanel" id="overview" aria-labelledby="tab-overview">
+      <div class="kpis" id="kpis"></div>
+      <div class="panel view" id="view"></div>
+      <div class="grid2">
+        <div class="panel">
+          <h2>Branchen-Thermometer</h2>
+          <p class="sub">Durchschnittliches wt2 aller Werte der Branche auf dem Wochenchart. Links grün = überverkauft (≤ −53), rechts rot = überkauft (≥ 53). Tippen filtert die Signale.</p>
+          <div class="therm" id="therm-sector"></div>
+        </div>
+        <div class="panel">
+          <h2>Regionen</h2>
+          <p class="sub">Gleiche Skala, nach Kontinent.</p>
+          <div class="therm" id="therm-cont"></div>
+        </div>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="signals" aria-labelledby="tab-signals" hidden>
+      <div class="panel filters">
+        <div class="chips" id="dotchips" role="group" aria-label="Signal-Typ">
+          <button class="chip" data-f="all" aria-pressed="true">Alle</button>
+          <button class="chip gs" data-f="green-stark" aria-pressed="false">● Stark grün</button>
+          <button class="chip rs" data-f="red-stark" aria-pressed="false">● Stark rot</button>
+          <button class="chip gs" data-f="green" aria-pressed="false">Grün</button>
+          <button class="chip rs" data-f="red" aria-pressed="false">Rot</button>
+          <button class="chip star" id="onlymap" aria-pressed="false">★ Nur Marktlandkarte</button>
+        </div>
+        <div class="selects">
+          <select id="f-sector" aria-label="Branche"></select>
+          <select id="f-cont" aria-label="Region"></select>
+          <select id="f-sort" aria-label="Sortierung">
+            <option value="ext">Sortierung: Extremster wt2 zuerst</option>
+            <option value="chg">Sortierung: Größte Wochenbewegung</option>
+            <option value="hi">Sortierung: Weitester Abstand zum 52W-Hoch</option>
+            <option value="vol">Sortierung: Höchstes Volumen ×</option>
+          </select>
+          <input type="search" id="f-q" placeholder="Ticker oder Name suchen" aria-label="Suche">
+        </div>
+        <div class="result-info" id="resinfo"></div>
+      </div>
+      <div class="panel" id="siglist"></div>
+    </section>
+
+    <section role="tabpanel" id="sectors" aria-labelledby="tab-sectors" hidden>
+      <div class="panel">
+        <h2>Branchen im Detail</h2>
+        <p class="sub">Zustand aller gescannten Werte pro Branche auf dem Wochenchart. „Momentum steigend“ = wt1 über wt2.</p>
+        <div class="table-wrap"><table id="sectab"></table></div>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="daily" aria-labelledby="tab-daily" hidden>
+      <div class="panel">
+        <h2>Daily bestätigt</h2>
+        <p class="sub">Neuer Daily-Punkt in dieselbe Richtung wie ein Weekly-Punkt der letzten vier Wochen. Beobachtet werden starke Weekly-Signale, Marktlandkarte-Werte und deine eigene Watchlist.</p>
+        <div class="rows" id="daily-ok"></div>
+      </div>
+      <div class="panel">
+        <h2>Weitere Daily-Punkte</h2>
+        <p class="sub">Neue Punkte auf der Watchlist ohne passendes Weekly-Signal.</p>
+        <div class="rows" id="daily-rest"></div>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="setups" aria-labelledby="tab-setups" hidden>
+      <p class="sub" style="margin:0">Regelbasierter Score: Weekly-Kreuz (stark +3, normal +1), Daily bestätigt (+3), Extremwert über ±70 (+1), Trend passend zur MA200 (+1), Volumen ≥ 1,5× (+1). ETFs und Indizes sind ausgenommen.</p>
+      <div class="grid2">
+        <div class="panel"><h2 class="g">Long-Beobachtung</h2><p class="sub">Grüne Kreuze mit der meisten Bestätigung.</p><div class="setups" id="set-long"></div></div>
+        <div class="panel"><h2 class="r">Vorsicht</h2><p class="sub">Rote Kreuze mit der meisten Bestätigung.</p><div class="setups" id="set-warn"></div></div>
+      </div>
+    </section>
+
+    <footer id="foot"></footer>
+  </div>
+</main>
+
+<script id="view-data" type="application/json">
+{
+  "date": "18.10.2026",
+  "title": "Lage & Einschätzung",
+  "lage": [
+    "Tech-Ausverkauf: Der Halbleiter-ETF SOXX verlor letzte Woche 11,8 %, der Tech-Sektor 7,7 %. Treiber ist die Frage, wie die AI-Investitionen finanziert werden. Der VIX liegt über 20.",
+    "Makro-Gegenwind: Die Fed hat im September erhöht, die 10-jährige US-Rendite liegt um 5 %, die Inflationsdaten waren heiß und Brent-Öl steht über 110 $. Energie und Basiskonsum führten zuletzt.",
+    "Der Scanner zeigt dasselbe Bild: Technologie hat 21 starke rote Weekly-Punkte, mehr als alle anderen Branchen zusammen. Immobilien, Versorger und zyklischer Konsum sind am tiefsten überverkauft.",
+    "Termine: Netflix (Di), Meta, Tesla, SAP, Texas Instruments und Lam Research (Mi), Einkaufsmanager-Indizes (Fr), Fed-Sitzung am 27./28. Oktober."
+  ],
+  "take": "Die vielen grünen Punkte in Immobilien, Versorgern und Luxus sind Gegenbewegungen in einem Umfeld mit 5 % Zinsen. Solche Kreuze unter der MA200 scheitern öfter. Am interessantesten sind deshalb überverkaufte Werte, deren langfristiger Trend noch steht (über MA200) und deren Daily das Weekly-Signal schon bestätigt.",
+  "picks": [
+    {"t": "HEI.DE", "n": "Heidelberg Materials", "k": "green", "why": "Sauberstes Setup im Scan: starker grüner Weekly-Punkt (wt2 −73), Daily bestätigt, Kurs über der MA200. Rücksetzer im intakten Aufwärtstrend."},
+    {"t": "NEE", "n": "NextEra Energy", "k": "green", "why": "Tief überverkauft (wt2 −74) und über der MA200, dazu die AI-Strom-Story. Haken: Versorger reagieren stark auf die Zinsen, die Fed-Sitzung am 28.10. ist das Risiko."},
+    {"t": "EN.PA · ORA.PA", "n": "Bouygues · Orange", "k": "green", "why": "Defensive Europa-Werte, beide über der MA200 und tief überverkauft. Passen zur Rotation in defensive Branchen. Daily-Bestätigung steht noch aus."},
+    {"t": "GBF.DE", "n": "Bilfinger", "k": "green", "why": "Höchster Score (Weekly stark, Daily bestätigt, Volumen 1,6×), aber 56 % unter dem 52-Wochen-Hoch und unter der MA200. Spekulativ, eher kleine Größe."},
+    {"t": "MC.PA", "n": "LVMH", "k": "watch", "why": "Tief überverkauft (wt2 −79), aber unter der MA200 und ohne Daily-Bestätigung. Auf der Watchlist lassen, nicht vorgreifen."},
+    {"t": "CRWD · NET · OKTA", "n": "Cybersecurity", "k": "red", "why": "Starke rote Weekly-Punkte aus dem überkauften Bereich. Mit den Tech-Earnings am Mittwoch ist das Risiko hoch, hier keine neuen Longs."}
+  ],
+  "disclaimer": "Keine Anlageberatung. Die Signale sind noch nicht historisch getestet, ein Backtest folgt."
+}
+</script>
+<script id="dash-data" type="application/json">__DASHBOARD_DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var D = null, V = null;
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var fmt = function (v, d) { if (v == null || v !== v) return "–"; return Number(v).toLocaleString("de-AT", { minimumFractionDigits: d || 0, maximumFractionDigits: d || 0 }); };
+  var pct = function (a, b) { return b ? Math.round(a / b * 100) : 0; };
+  var state = { f: "all", map: false, sector: "", cont: "", sort: "ext", q: "" };
+
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+
+  /* ---------- Tabs ---------- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  function show(id) {
+    tabs.forEach(function (t) {
+      var on = t.getAttribute("aria-controls") === id;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      $(t.getAttribute("aria-controls")).hidden = !on;
+    });
+    store("cbr-tab", id);
+  }
+  tabs.forEach(function (t) { t.addEventListener("click", function () { show(t.getAttribute("aria-controls")); window.scrollTo(0, 0); }); });
+
+  /* ---------- Bausteine ---------- */
+  function pill(dot, strength) {
+    var lbl = (dot === "green" ? "grün" : "rot") + (strength === "stark" ? " stark" : "");
+    return '<span class="pill ' + dot + (strength === "stark" ? " strong" : "") + '">● ' + lbl + "</span>";
+  }
+  function spark(t, dot) {
+    var s = D.spark && D.spark[t]; if (!s || !s.c || s.c.length < 2) return '<svg class="spark" aria-hidden="true"></svg>';
+    var c = s.c, w = 88, h = 34, min = Math.min.apply(null, c), max = Math.max.apply(null, c), rg = (max - min) || 1;
+    var pts = c.map(function (v, i) { return [(i / (c.length - 1)) * (w - 4) + 2, h - 3 - ((v - min) / rg) * (h - 8)]; });
+    var line = pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }).join("");
+    var col = dot === "green" ? "var(--green)" : "var(--red)", last = pts[pts.length - 1];
+    return '<svg class="spark" viewBox="0 0 ' + w + " " + h + '" aria-label="Kursverlauf 30 Wochen">' +
+      '<path d="' + line + "L" + last[0].toFixed(1) + " " + (h - 1) + "L2 " + (h - 1) + 'Z" fill="' + col + '" opacity=".12"></path>' +
+      '<path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="1.5" stroke-linejoin="round"></path>' +
+      '<circle cx="' + last[0].toFixed(1) + '" cy="' + last[1].toFixed(1) + '" r="2.4" fill="' + col + '"></circle></svg>';
+  }
+  function row(r, extra) {
+    var tags = '<span class="tag">' + esc(r.region || "") + "</span>";
+    if (r.cluster) tags += '<span class="tag cl">★ ' + esc(r.cluster) + "</span>";
+    if (r.above_ma200 === true) tags += '<span class="tag">über MA200</span>';
+    if (r.above_ma200 === false) tags += '<span class="tag">unter MA200</span>';
+    if (extra) tags += extra;
+    return '<div class="row"><div class="id"><div class="tk">' + esc(r.ticker) + '</div><div class="nmx">' + esc(r.name) + '</div><div class="meta">' + tags + "</div></div>" +
+      '<div class="stats">' + pill(r.dot, r.strength) + "<span>wt2 " + fmt(r.wt2, 1) + "</span><span>" + (r.chg_pct > 0 ? "+" : "") + fmt(r.chg_pct, 1) + " %</span>" +
+      '<span title="Abstand zum 52-Wochen-Hoch">' + fmt(r.vs_52hi_pct, 0) + " % v. Hoch</span></div>" + spark(r.ticker, r.dot) + "</div>";
+  }
+  function bar(v) {
+    var x = Math.max(0, Math.min(100, (v + 100) / 2));
+    var col = v <= -53 ? "var(--green)" : v >= 53 ? "var(--red)" : v < 0 ? "var(--green)" : "var(--red)";
+    var op = Math.abs(v) >= 53 ? 1 : 0.35 + Math.abs(v) / 53 * 0.5;
+    return '<div class="bar"><div class="mid"></div><div class="mk" style="left:' + x.toFixed(1) + "%;background:" + col + ";opacity:" + op.toFixed(2) + '"></div></div>';
+  }
+  function therm(el, list, key) {
+    var html = '<div class="axis" aria-hidden="true"><div></div><div><span>−100</span><span>−53</span><span>0</span><span>53</span><span>100</span></div><div></div></div>';
+    list.forEach(function (s) {
+      if (s.n < 3) return;
+      html += '<button class="trow" data-k="' + key + '" data-v="' + esc(s.name) + '" aria-label="' + esc(s.name) + ' filtern">' +
+        '<span class="nm">' + esc(s.name) + " <small>" + s.n + "</small></span>" + bar(s.avg_wt2) +
+        '<span class="counts"><span class="g" title="starke grüne Punkte">●' + s.green_strong + '</span><span class="r" title="starke rote Punkte">●' + s.red_strong + "</span></span></button>";
+    });
+    el.innerHTML = html;
+  }
+
+  /* ---------- Überblick ---------- */
+  function renderOverview() {
+    var o = D.overall[0] || { n: 0 };
+    $("kpis").innerHTML = [
+      ["Gescannt", fmt(o.n), "von " + fmt(D.universe) + " Werten weltweit"],
+      ["Überverkauft", pct(o.oversold, o.n) + " %", fmt(o.oversold) + " Werte mit wt2 ≤ −53"],
+      ["Überkauft", pct(o.overbought, o.n) + " %", fmt(o.overbought) + " Werte mit wt2 ≥ 53"],
+      ["Momentum ↑", fmt(o.rising_pct) + " %", "wt1 über wt2 (Welle dreht hoch)"],
+      ["Über MA200", fmt(o.above_ma200_pct) + " %", "langfristiger Trend intakt"],
+      ["Neue Punkte", '<span class="g">' + fmt(o.green_strong) + '</span> / <span class="r">' + fmt(o.red_strong) + "</span>", "stark grün / stark rot diese Woche"]
+    ].map(function (k) { return '<div class="kpi"><span class="label">' + k[0] + '</span><span class="v">' + k[1] + '</span><span class="d">' + k[2] + "</span></div>"; }).join("");
+
+    if (V) {
+      var cls = { green: "g", red: "r", watch: "" };
+      var lbl = { green: "Long-Beobachtung", red: "Vorsicht", watch: "Watchlist" };
+      $("view").innerHTML = '<h2>' + esc(V.title) + ' <span class="asof">· Stand ' + esc(V.date) + "</span></h2>" +
+        "<ul>" + V.lage.map(function (l) { return "<li>" + esc(l) + "</li>"; }).join("") + "</ul>" +
+        "<p><strong>Meine Einschätzung:</strong> " + esc(V.take) + "</p>" +
+        '<div class="picks">' + V.picks.map(function (p) {
+          return '<div class="pick"><span class="t ' + (cls[p.k] || "") + '">' + esc(p.t) + '</span><span><span class="label">' + esc(lbl[p.k] || "") + "</span> · " + esc(p.n) + '</span><span class="why">' + esc(p.why) + "</span></div>";
+        }).join("") + "</div>" +
+        '<div class="disclaim">' + esc(V.disclaimer) + "</div>";
+    } else { $("view").hidden = true; }
+
+    therm($("therm-sector"), D.by_sector, "sector");
+    therm($("therm-cont"), D.by_continent, "cont");
+    document.querySelectorAll(".trow").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.sector = b.dataset.k === "sector" ? b.dataset.v : "";
+        state.cont = b.dataset.k === "cont" ? b.dataset.v : "";
+        state.f = "all"; state.map = false; state.q = ""; $("f-q").value = "";
+        document.querySelectorAll("#dotchips .chip[data-f]").forEach(function (x) { x.setAttribute("aria-pressed", x.dataset.f === "all" ? "true" : "false"); });
+        $("onlymap").setAttribute("aria-pressed", "false");
+        $("f-sector").value = state.sector; $("f-cont").value = state.cont;
+        renderSignals(); show("signals"); window.scrollTo(0, 0);
+      });
+    });
+  }
+
+  /* ---------- Signale ---------- */
+  function fillSelect(el, label, values) {
+    el.innerHTML = '<option value="">' + label + "</option>" + values.map(function (v) { return '<option value="' + esc(v) + '">' + esc(v) + "</option>"; }).join("");
+  }
+  function sortFn(a, b) {
+    if (state.sort === "chg") return Math.abs(b.chg_pct || 0) - Math.abs(a.chg_pct || 0);
+    if (state.sort === "hi") return (a.vs_52hi_pct || 0) - (b.vs_52hi_pct || 0);
+    if (state.sort === "vol") return (b.vol_ratio || 0) - (a.vol_ratio || 0);
+    var ea = a.dot === "green" ? -a.wt2 : a.wt2, eb = b.dot === "green" ? -b.wt2 : b.wt2;
+    return (b.strength === "stark") - (a.strength === "stark") || eb - ea;
+  }
+  function renderSignals() {
+    var q = state.q.trim().toLowerCase();
+    var list = D.weekly.filter(function (r) {
+      if (state.f === "green-stark" && !(r.dot === "green" && r.strength === "stark")) return false;
+      if (state.f === "red-stark" && !(r.dot === "red" && r.strength === "stark")) return false;
+      if (state.f === "green" && r.dot !== "green") return false;
+      if (state.f === "red" && r.dot !== "red") return false;
+      if (state.map && !r.cluster) return false;
+      if (state.sector && r.sector !== state.sector) return false;
+      if (state.cont && r.continent !== state.cont) return false;
+      if (q && (r.ticker + " " + r.name).toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    }).sort(sortFn);
+    var groups = {};
+    list.forEach(function (r) { (groups[r.sector || "Sonstige"] = groups[r.sector || "Sonstige"] || []).push(r); });
+    var names = Object.keys(groups).sort(function (a, b) { return groups[b].length - groups[a].length; });
+    var ng = list.filter(function (r) { return r.dot === "green"; }).length;
+    $("resinfo").textContent = list.length + " Signale · " + ng + " grün · " + (list.length - ng) + " rot · " + names.length + " Branchen";
+    if (!list.length) { $("siglist").innerHTML = '<div class="empty">Keine Signale für diese Filter. Filter lockern oder „Alle“ wählen.</div>'; return; }
+    var open = names.length <= 3 || state.sector || q;
+    $("siglist").innerHTML = names.map(function (n, i) {
+      var g = groups[n], gg = g.filter(function (r) { return r.dot === "green"; }).length;
+      var shown = g.slice(0, 60);
+      return '<details class="grp"' + (open || i === 0 ? " open" : "") + '><summary><span class="h">' + esc(n) + '</span><span class="c"><span class="g">' + gg + ' grün</span> · <span class="r">' + (g.length - gg) + " rot</span></span></summary>" +
+        '<div class="rows">' + shown.map(function (r) { return row(r); }).join("") +
+        (g.length > shown.length ? '<div class="empty">+ ' + (g.length - shown.length) + " weitere. Filter oder Suche eingrenzen.</div>" : "") + "</div></details>";
+    }).join("");
+  }
+  function initFilters() {
+    var sectors = D.by_sector.map(function (s) { return s.name; }).sort();
+    var conts = D.by_continent.map(function (s) { return s.name; }).sort();
+    fillSelect($("f-sector"), "Alle Branchen", sectors);
+    fillSelect($("f-cont"), "Alle Regionen", conts);
+    document.querySelectorAll("#dotchips .chip[data-f]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.f = b.dataset.f;
+        document.querySelectorAll("#dotchips .chip[data-f]").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        renderSignals();
+      });
+    });
+    $("onlymap").addEventListener("click", function () { state.map = !state.map; this.setAttribute("aria-pressed", state.map ? "true" : "false"); renderSignals(); });
+    $("f-sector").addEventListener("change", function () { state.sector = this.value; renderSignals(); });
+    $("f-cont").addEventListener("change", function () { state.cont = this.value; renderSignals(); });
+    $("f-sort").addEventListener("change", function () { state.sort = this.value; renderSignals(); });
+    $("f-q").addEventListener("input", function () { state.q = this.value; renderSignals(); });
+  }
+
+  /* ---------- Branchen-Tabelle ---------- */
+  function renderSectors() {
+    var h = "<thead><tr><th>Branche</th><th>Werte</th><th>Ø wt2</th><th>Überverkauft</th><th>Überkauft</th><th>Momentum ↑</th><th>Über MA200</th><th>● grün stark</th><th>● rot stark</th><th>grün / rot</th></tr></thead><tbody>";
+    D.by_sector.forEach(function (s) {
+      h += "<tr><td>" + esc(s.name) + '</td><td class="n">' + s.n + '</td><td class="n ' + (s.avg_wt2 < 0 ? "g" : "r") + '">' + fmt(s.avg_wt2, 1) +
+        '</td><td class="n">' + pct(s.oversold, s.n) + ' %</td><td class="n">' + pct(s.overbought, s.n) + ' %</td><td class="n">' + fmt(s.rising_pct) +
+        ' %</td><td class="n">' + (s.above_ma200_pct == null ? "–" : fmt(s.above_ma200_pct) + " %") + '</td><td class="n g">' + s.green_strong +
+        '</td><td class="n r">' + s.red_strong + '</td><td class="n">' + s.green + " / " + s.red + "</td></tr>";
+    });
+    $("sectab").innerHTML = h + "</tbody>";
+  }
+
+  /* ---------- Daily ---------- */
+  function renderDaily() {
+    var ok = D.daily.filter(function (r) { return r.passt_zu_weekly === true; });
+    var rest = D.daily.filter(function (r) { return r.passt_zu_weekly !== true; });
+    var wk = function (r) {
+      if (!r.weekly_dot || r.weekly_dot === "manuell") return '<span class="tag">eigene Watchlist</span>';
+      return '<span class="tag">Weekly ' + (r.weekly_dot === "green" ? "grün" : "rot") + (r.weekly_strength === "stark" ? " stark" : "") + " · " + esc(r.weekly_date) + "</span>";
+    };
+    $("daily-ok").innerHTML = ok.length ? ok.map(function (r) { return row(r, wk(r)); }).join("") : '<div class="empty">Heute keine bestätigten Signale.</div>';
+    $("daily-rest").innerHTML = rest.length ? rest.map(function (r) { return row(r, wk(r)); }).join("") : '<div class="empty">Keine weiteren Daily-Punkte.</div>';
+  }
+
+  /* ---------- Setups ---------- */
+  function renderSetups() {
+    var card = function (s, kind) {
+      var dots = ""; for (var i = 1; i <= 9; i++) dots += '<i class="' + (i <= s.score ? "on" : "") + '"></i>';
+      return '<div class="setup"><div><div class="tk num"><strong>' + esc(s.ticker) + "</strong> " + pill(s.dot, s.strength) + '</div><div class="nmx">' + esc(s.name) + " · " + esc(s.sector) + " · " + esc(s.region) + "</div></div>" +
+        '<div class="score ' + kind + '" title="Score ' + s.score + ' von 9">' + dots + '<span class="num" style="margin-left:6px">' + s.score + "</span></div>" +
+        '<div class="reasons">' + s.reasons.map(function (x) { return "<span>" + esc(x) + "</span>"; }).join("") +
+        "<span>" + fmt(s.vs_52hi_pct, 0) + " % vom 52W-Hoch</span></div></div>";
+    };
+    $("set-long").innerHTML = D.setups_long.map(function (s) { return card(s, "g"); }).join("") || '<div class="empty">Keine.</div>';
+    $("set-warn").innerHTML = D.setups_warn.map(function (s) { return card(s, "r"); }).join("") || '<div class="empty">Keine.</div>';
+  }
+
+  /* ---------- Start ---------- */
+  function start(data) {
+    D = data;
+    try { V = JSON.parse($("view-data").textContent); } catch (e) { V = null; }
+    $("asof").textContent = "Weekly-Scan " + D.asof.split("-").reverse().join(".") + " · " + fmt(D.scanned) + " Werte";
+    $("foot").innerHTML = "Daten: Yahoo Finance über yfinance, berechnet mit VuManChu-Cipher-B-Einstellungen (9 / 12 / hlc3 / 3). Nur abgeschlossene Kerzen. Erzeugt " + esc(D.generated) +
+      '. Quelle: <a href="https://github.com/benbendeix/cipher-scanner" target="_blank" rel="noopener">github.com/benbendeix/cipher-scanner</a>';
+    renderOverview(); initFilters(); renderSignals(); renderSectors(); renderDaily(); renderSetups();
+    var want = (location.hash || "").replace("#", "") || store("cbr-tab");
+    if (want && $(want) && $(want).getAttribute("role") === "tabpanel") show(want);
+  }
+  var raw = $("dash-data").textContent.trim();
+  if (raw && raw.charAt(0) === "{") {
+    try { start(JSON.parse(raw)); } catch (e) { $("asof").textContent = "Daten konnten nicht gelesen werden."; }
+  } else {
+    fetch("dashboard.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(start).catch(function () { $("asof").textContent = "Noch keine Daten. Der nächste Scan erzeugt sie."; });
+  }
+})();
+</script>
