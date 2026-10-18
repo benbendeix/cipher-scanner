@@ -312,8 +312,8 @@ Stand: 2026-10-18 · 583 bestätigte Signale (vollständig in der CSV)
 | NVT | nVent Electric plc | USA | 17.4 | 142.03 | -15.2 | 1.5 | -23.1% | ja |
 | CLS.TO | Celestica Inc. | Kanada | 14.95 | 429.26 | -16.9 | 1.5 | -34.5% | ja |
 
-<details><summary>3 Ticker ohne Daten</summary>
+<details><summary>9 Ticker ohne Daten</summary>
 
-ECV.DE, ROG.SW, BITF
+ECV.DE, ROG.SW, BITF, FDXF, HONA, Q, VYLR, SOLS, EA
 
 </details>

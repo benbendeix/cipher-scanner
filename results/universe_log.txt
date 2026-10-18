@@ -13,6 +13,12 @@
 [ok]   NIFTY 50       50 Ticker  z.B. ['ADANIENT.NS', 'ADANIPORTS.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
 [ok]   S&P/TSX 60     59 Ticker  z.B. ['AEM.TO', 'ATD.TO', 'BMO.TO', 'BNS.TO']
 
+Branchen: 1482 zugeordnet, 239 per yfinance nachschlagen ...
+  50/239
+  100/239
+  150/239
+  200/239
+
 Universum: 1721 eindeutige Ticker -> /home/runner/work/cipher-scanner/cipher-scanner/universe/universe.csv
 source
 AEX                    24
@@ -32,3 +38,20 @@ S&P 400               400
 S&P 500               503
 S&P/TSX 60             59
 SMI                    20
+
+Branchen:
+sector
+Industrie & Defense        290
+Finanzen                   276
+Technologie                212
+Konsum zyklisch            201
+Gesundheit                 147
+Rohstoffe & Materialien    129
+Energie                     88
+Versorger                   86
+Konsum defensiv             85
+Immobilien                  85
+Kommunikation & Medien      79
+ETFs & Indizes              32
+Krypto                      10
+Sonstige                     1
