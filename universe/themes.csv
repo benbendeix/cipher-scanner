@@ -1,0 +1,382 @@
+ticker,name,cluster
+ASML,ASML,A1 Semis Equipment
+AMAT,Applied Materials,A1 Semis Equipment
+LRCX,Lam Research,A1 Semis Equipment
+KLAC,KLA,A1 Semis Equipment
+TER,Teradyne,A1 Semis Equipment
+SNPS,Synopsys,A1 EDA
+CDNS,Cadence,A1 EDA
+TSM,TSMC,A1 Foundry
+INTC,Intel,A1 Foundry
+GFS,GlobalFoundries,A1 Foundry
+NVDA,Nvidia,A1 Fabless
+AMD,AMD,A1 Fabless
+AVGO,Broadcom,A1 Fabless
+MRVL,Marvell,A1 Fabless
+QCOM,Qualcomm,A1 Fabless
+ARM,Arm,A1 Fabless
+MU,Micron,A1 Memory
+TXN,Texas Instruments,A1 Analog
+ADI,Analog Devices,A1 Analog
+NXPI,NXP,A1 Analog
+IFX.DE,Infineon,A1 Analog
+STM,STMicro,A1 Analog
+ON,onsemi,A1 Analog
+MCHP,Microchip,A1 Analog
+COHR,Coherent,A2 AI-Infra
+CRDO,Credo,A2 AI-Infra
+ALAB,Astera Labs,A2 AI-Infra
+LITE,Lumentum,A2 AI-Infra
+FN,Fabrinet,A2 AI-Infra
+CIEN,Ciena,A2 AI-Infra
+ANET,Arista,A2 AI-Infra
+CSCO,Cisco,A2 AI-Infra
+SMCI,Supermicro,A2 AI-Infra
+DELL,Dell,A2 AI-Infra
+HPE,HPE,A2 AI-Infra
+VRT,Vertiv,A2 AI-Infra
+ETN,Eaton,A2 AI-Infra
+IREN,IREN,A2 Miner-Pivot
+CLSK,CleanSpark,A2 Miner-Pivot
+APLD,Applied Digital,A2 Miner-Pivot
+CORZ,Core Scientific,A2 Miner-Pivot
+MSFT,Microsoft,A3 Mega-Cap
+GOOGL,Alphabet,A3 Mega-Cap
+AMZN,Amazon,A3 Mega-Cap
+META,Meta,A3 Mega-Cap
+ORCL,Oracle,A3 Mega-Cap
+AAPL,Apple,A3 Mega-Cap
+CRM,Salesforce,A4 Software
+NOW,ServiceNow,A4 Software
+ADBE,Adobe,A4 Software
+INTU,Intuit,A4 Software
+HUBS,HubSpot,A4 Software
+SAP.DE,SAP,A4 Software
+WDAY,Workday,A4 Software
+TEAM,Atlassian,A4 Software
+SNOW,Snowflake,A4 Software
+DDOG,Datadog,A4 Software
+MDB,MongoDB,A4 Software
+NET,Cloudflare,A4 Software
+CRWD,CrowdStrike,A4 Cyber
+PANW,Palo Alto,A4 Cyber
+ZS,Zscaler,A4 Cyber
+FTNT,Fortinet,A4 Cyber
+OKTA,Okta,A4 Cyber
+QBTS,D-Wave,A5 Quantum
+RGTI,Rigetti,A5 Quantum
+IONQ,IonQ,A5 Quantum
+QUBT,Quantum Computing,A5 Quantum
+ARQQ,Arqit,A5 Quantum
+NFLX,Netflix,A6 Internet
+SPOT,Spotify,A6 Internet
+DIS,Disney,A6 Internet
+UBER,Uber,A6 Internet
+ABNB,Airbnb,A6 Internet
+DASH,DoorDash,A6 Internet
+SHOP,Shopify,A6 Internet
+APP,AppLovin,A6 Internet
+TTD,Trade Desk,A6 Internet
+PINS,Pinterest,A6 Internet
+SNAP,Snap,A6 Internet
+RDDT,Reddit,A6 Internet
+RBLX,Roblox,A6 Gaming
+EA,Electronic Arts,A6 Gaming
+TTWO,Take-Two,A6 Gaming
+NTDOY,Nintendo,A6 Gaming
+TSLA,Tesla,A7 Robotik
+MBLY,Mobileye,A7 Robotik
+SYM,Symbotic,A7 Robotik
+KGX.DE,KION,A7 Robotik
+6954.T,Fanuc,A7 Robotik
+CEG,Constellation,B1 AI-Power
+VST,Vistra,B1 AI-Power
+NRG,NRG,B1 AI-Power
+TLN,Talen,B1 AI-Power
+OKLO,Oklo,B1 Nuklear
+SMR,NuScale,B1 Nuklear
+NNE,Nano Nuclear,B1 Nuklear
+LEU,Centrus,B1 Nuklear
+CCJ,Cameco,B1 Uran
+UEC,Uranium Energy,B1 Uran
+NXE,NexGen,B1 Uran
+GEV,GE Vernova,B1 Grid
+ENR.DE,Siemens Energy,B1 Grid
+ABBN.SW,ABB,B1 Grid
+HUBB,Hubbell,B1 Grid
+XOM,Exxon,B2 Öl & Gas
+CVX,Chevron,B2 Öl & Gas
+SHEL,Shell,B2 Öl & Gas
+TTE,TotalEnergies,B2 Öl & Gas
+BP,BP,B2 Öl & Gas
+COP,ConocoPhillips,B2 Öl & Gas
+EOG,EOG,B2 Öl & Gas
+OXY,Occidental,B2 Öl & Gas
+DVN,Devon,B2 Öl & Gas
+EQT,EQT,B2 Öl & Gas
+AR,Antero,B2 Öl & Gas
+LNG,Cheniere,B2 Öl & Gas
+MPC,Marathon Petroleum,B2 Öl & Gas
+PSX,Phillips 66,B2 Öl & Gas
+VLO,Valero,B2 Öl & Gas
+SLB,SLB,B2 Öl & Gas
+HAL,Halliburton,B2 Öl & Gas
+BKR,Baker Hughes,B2 Öl & Gas
+FSLR,First Solar,B3 Renewables
+ENPH,Enphase,B3 Renewables
+SEDG,SolarEdge,B3 Renewables
+VWS.CO,Vestas,B3 Renewables
+ORSTED.CO,Orsted,B3 Renewables
+PLUG,Plug Power,B3 Renewables
+NEL.OL,Nel,B3 Renewables
+FLNC,Fluence,B3 Renewables
+NEE,NextEra,B4 Utilities
+DUK,Duke,B4 Utilities
+SO,Southern,B4 Utilities
+RWE.DE,RWE,B4 Utilities
+EOAN.DE,E.ON,B4 Utilities
+IBE.MC,Iberdrola,B4 Utilities
+ENEL.MI,Enel,B4 Utilities
+GC=F,Gold,C1 Edelmetalle
+SI=F,Silber,C1 Edelmetalle
+PL=F,Platin,C1 Edelmetalle
+NEM,Newmont,C1 Edelmetalle
+AEM,Agnico Eagle,C1 Edelmetalle
+B,Barrick,C1 Edelmetalle
+WPM,Wheaton,C1 Edelmetalle
+PAAS,Pan American Silver,C1 Edelmetalle
+AG,First Majestic,C1 Edelmetalle
+HL,Hecla,C1 Edelmetalle
+SBSW,Sibanye,C1 Edelmetalle
+IMPUY,Impala,C1 Edelmetalle
+FNV,Franco-Nevada,C1 Edelmetalle
+RGLD,Royal Gold,C1 Edelmetalle
+HG=F,Kupfer,C2 Industriemetalle
+FCX,Freeport,C2 Industriemetalle
+SCCO,Southern Copper,C2 Industriemetalle
+IVN.TO,Ivanhoe,C2 Industriemetalle
+BHP,BHP,C2 Industriemetalle
+RIO,Rio Tinto,C2 Industriemetalle
+VALE,Vale,C2 Industriemetalle
+GLEN.L,Glencore,C2 Industriemetalle
+ALB,Albemarle,C2 Industriemetalle
+SQM,SQM,C2 Industriemetalle
+MP,MP Materials,C2 Industriemetalle
+NUE,Nucor,C2 Industriemetalle
+STLD,Steel Dynamics,C2 Industriemetalle
+AA,Alcoa,C2 Industriemetalle
+NTR,Nutrien,C3 Agrar & Chemie
+MOS,Mosaic,C3 Agrar & Chemie
+CF,CF Industries,C3 Agrar & Chemie
+ADM,ADM,C3 Agrar & Chemie
+CTVA,Corteva,C3 Agrar & Chemie
+LIN,Linde,C3 Agrar & Chemie
+BAS.DE,BASF,C3 Agrar & Chemie
+RHM.DE,Rheinmetall,D1 Defense
+R3NK.DE,Renk,D1 Defense
+HAG.DE,Hensoldt,D1 Defense
+LDO.MI,Leonardo,D1 Defense
+SAAB-B.ST,Saab,D1 Defense
+HO.PA,Thales,D1 Defense
+BA.L,BAE Systems,D1 Defense
+LMT,Lockheed,D1 Defense
+RTX,RTX,D1 Defense
+NOC,Northrop,D1 Defense
+GD,General Dynamics,D1 Defense
+HII,Huntington Ingalls,D1 Defense
+DRS,Leonardo DRS,D1 Defense
+PLTR,Palantir,D1 Defense
+AVAV,AeroVironment,D1 Defense
+KTOS,Kratos,D1 Defense
+BA,Boeing,D2 Aerospace
+AIR.PA,Airbus,D2 Aerospace
+GE,GE Aerospace,D2 Aerospace
+RR.L,Rolls-Royce,D2 Aerospace
+MTX.DE,MTU,D2 Aerospace
+RKLB,Rocket Lab,D2 Space
+ASTS,AST SpaceMobile,D2 Space
+LUNR,Intuitive Machines,D2 Space
+CAT,Caterpillar,D3 Maschinenbau
+DE,Deere,D3 Maschinenbau
+SIE.DE,Siemens,D3 Maschinenbau
+PH,Parker-Hannifin,D3 Maschinenbau
+EMR,Emerson,D3 Maschinenbau
+ROK,Rockwell,D3 Maschinenbau
+UNP,Union Pacific,D4 Transport
+CSX,CSX,D4 Transport
+UPS,UPS,D4 Transport
+FDX,FedEx,D4 Transport
+DHL.DE,DHL Group,D4 Transport
+DAL,Delta,D4 Transport
+LHA.DE,Lufthansa,D4 Transport
+ZIM,ZIM,D4 Transport
+MAERSK-B.CO,Maersk,D4 Transport
+DHI,D.R. Horton,D5 Bau
+LEN,Lennar,D5 Bau
+PHM,PulteGroup,D5 Bau
+VMC,Vulcan,D5 Bau
+MLM,Martin Marietta,D5 Bau
+HEI.DE,Heidelberg Materials,D5 Bau
+DG.PA,Vinci,D5 Bau
+HOT.DE,Hochtief,D5 Bau
+WM,Waste Management,D6 Abfall & Wasser
+RSG,Republic Services,D6 Abfall & Wasser
+XYL,Xylem,D6 Abfall & Wasser
+VIE.PA,Veolia,D6 Abfall & Wasser
+JPM,JPMorgan,E1 Banken
+BAC,Bank of America,E1 Banken
+GS,Goldman Sachs,E1 Banken
+MS,Morgan Stanley,E1 Banken
+C,Citigroup,E1 Banken
+WFC,Wells Fargo,E1 Banken
+DBK.DE,Deutsche Bank,E1 Banken
+UBSG.SW,UBS,E1 Banken
+UCG.MI,UniCredit,E1 Banken
+BNP.PA,BNP Paribas,E1 Banken
+SAN.MC,Santander,E1 Banken
+ISP.MI,Intesa,E1 Banken
+CME,CME,E2 Börsen & Payments
+ICE,ICE,E2 Börsen & Payments
+DB1.DE,Deutsche Börse,E2 Börsen & Payments
+HOOD,Robinhood,E2 Börsen & Payments
+SCHW,Schwab,E2 Börsen & Payments
+IBKR,Interactive Brokers,E2 Börsen & Payments
+V,Visa,E2 Börsen & Payments
+MA,Mastercard,E2 Börsen & Payments
+PYPL,PayPal,E2 Börsen & Payments
+ALV.DE,Allianz,E3 Versicherer
+MUV2.DE,Munich Re,E3 Versicherer
+BRK-B,Berkshire,E3 Versicherer
+SOFI,SoFi,E4 Fintech
+NU,Nubank,E4 Fintech
+AFRM,Affirm,E4 Fintech
+XYZ,Block,E4 Fintech
+ADYEN.AS,Adyen,E4 Fintech
+WISE.L,Wise,E4 Fintech
+LLY,Eli Lilly,F1 Pharma
+NVO,Novo Nordisk,F1 Pharma
+JNJ,J&J,F1 Pharma
+MRK,Merck,F1 Pharma
+ABBV,AbbVie,F1 Pharma
+PFE,Pfizer,F1 Pharma
+AZN,AstraZeneca,F1 Pharma
+GSK,GSK,F1 Pharma
+SNY,Sanofi,F1 Pharma
+ROG.SW,Roche,F1 Pharma
+NOVN.SW,Novartis,F1 Pharma
+BAYN.DE,Bayer,F1 Pharma
+XBI,Biotech-ETF,F2 Biotech
+VRTX,Vertex,F2 Biotech
+REGN,Regeneron,F2 Biotech
+AMGN,Amgen,F2 Biotech
+ISRG,Intuitive Surgical,F3 Medtech
+SYK,Stryker,F3 Medtech
+MDT,Medtronic,F3 Medtech
+SHL.DE,Siemens Healthineers,F3 Medtech
+UNH,UnitedHealth,F4 Krankenversicherer
+CVS,CVS,F4 Krankenversicherer
+HCA,HCA,F4 Krankenversicherer
+HIMS,Hims & Hers,F4 Krankenversicherer
+1211.HK,BYD,G1 Konsum zyklisch
+RIVN,Rivian,G1 Konsum zyklisch
+GM,GM,G1 Konsum zyklisch
+F,Ford,G1 Konsum zyklisch
+VOW3.DE,VW,G1 Konsum zyklisch
+BMW.DE,BMW,G1 Konsum zyklisch
+MBG.DE,Mercedes,G1 Konsum zyklisch
+P911.DE,Porsche,G1 Konsum zyklisch
+RACE,Ferrari,G1 Konsum zyklisch
+MC.PA,LVMH,G1 Konsum zyklisch
+RMS.PA,Hermès,G1 Konsum zyklisch
+CFR.SW,Richemont,G1 Konsum zyklisch
+ITX.MC,Inditex,G1 Konsum zyklisch
+ZAL.DE,Zalando,G1 Konsum zyklisch
+NKE,Nike,G1 Konsum zyklisch
+LULU,Lululemon,G1 Konsum zyklisch
+MCD,McDonald's,G1 Konsum zyklisch
+SBUX,Starbucks,G1 Konsum zyklisch
+CMG,Chipotle,G1 Konsum zyklisch
+BKNG,Booking,G1 Konsum zyklisch
+RCL,Royal Caribbean,G1 Konsum zyklisch
+MAR,Marriott,G1 Konsum zyklisch
+HLT,Hilton,G1 Konsum zyklisch
+PG,P&G,G2 Staples
+KO,Coca-Cola,G2 Staples
+PEP,PepsiCo,G2 Staples
+MDLZ,Mondelez,G2 Staples
+CL,Colgate,G2 Staples
+NESN.SW,Nestlé,G2 Staples
+COST,Costco,G2 Staples
+WMT,Walmart,G2 Staples
+EQIX,Equinix,H1 REITs
+DLR,Digital Realty,H1 REITs
+PLD,Prologis,H1 REITs
+AMT,American Tower,H1 REITs
+O,Realty Income,H1 REITs
+SPG,Simon Property,H1 REITs
+WELL,Welltower,H1 REITs
+VNA.DE,Vonovia,H1 REITs
+BTC-USD,Bitcoin,I1 Krypto
+ETH-USD,Ethereum,I1 Krypto
+SOL-USD,Solana,I1 Krypto
+XRP-USD,XRP,I1 Krypto
+DOGE-USD,Dogecoin,I1 Krypto
+LINK-USD,Chainlink,I1 Krypto
+ADA-USD,Cardano,I1 Krypto
+AVAX-USD,Avalanche,I1 Krypto
+HBAR-USD,Hedera,I1 Krypto
+XLM-USD,Stellar,I1 Krypto
+COIN,Coinbase,I2 Krypto-Aktien
+GLXY,Galaxy Digital,I2 Krypto-Aktien
+MSTR,Strategy,I2 Krypto-Aktien
+MARA,MARA,I2 Krypto-Aktien
+RIOT,Riot,I2 Krypto-Aktien
+HUT,Hut 8,I2 Krypto-Aktien
+BITF,Bitfarms,I2 Krypto-Aktien
+DTE.DE,Deutsche Telekom,J1 Telekom
+VZ,Verizon,J1 Telekom
+T,AT&T,J1 Telekom
+VOD.L,Vodafone,J1 Telekom
+BABA,Alibaba,K1 China Tech
+PDD,PDD,K1 China Tech
+BIDU,Baidu,K1 China Tech
+TCEHY,Tencent,K1 China Tech
+JD,JD.com,K1 China Tech
+1810.HK,Xiaomi,K1 China Tech
+SE,Sea,K1 China Tech
+MELI,MercadoLibre,K1 China Tech
+EEM,EM-ETF,K2 EM
+INDA,Indien-ETF,K2 EM
+EWZ,Brasilien-ETF,K2 EM
+IWM,Russell 2000,L1 Small Caps
+IWN,Russell 2000 Value,L1 Small Caps
+GXI.DE,Gerresheimer,L2 Nebenwerte DE
+G24.DE,Scout24,L2 Nebenwerte DE
+RAA.DE,Rational,L2 Nebenwerte DE
+NEM.DE,Nemetschek,L2 Nebenwerte DE
+SMH,Semis-ETF,ETF
+SOXX,Semis-ETF,ETF
+QQQ,Nasdaq-100-ETF,ETF
+IGV,Software-ETF,ETF
+URA,Uran-ETF,ETF
+XLE,Energie-ETF,ETF
+GDX,Goldminer-ETF,ETF
+COPX,Kupferminer-ETF,ETF
+ITA,Defense-ETF,ETF
+XLF,Financials-ETF,ETF
+XLV,Healthcare-ETF,ETF
+XLU,Utilities-ETF,ETF
+XLP,Staples-ETF,ETF
+XHB,Homebuilder-ETF,ETF
+KWEB,China-Internet-ETF,ETF
+IBIT,Bitcoin-ETF,ETF
+^GSPC,S&P 500,Kompass
+^NDX,Nasdaq 100,Kompass
+^GDAXI,DAX,Kompass
+^ATX,ATX,Kompass
+^VIX,VIX,Kompass
+DX-Y.NYB,Dollar-Index,Kompass
+^TNX,US10Y,Kompass
+HYG,High-Yield-Anleihen,Kompass
+EURUSD=X,EUR/USD,Kompass
+CL=F,WTI-Öl,Kompass

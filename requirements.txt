@@ -1,0 +1,6 @@
+yfinance>=0.2.50
+pandas>=2.2
+lxml
+html5lib
+beautifulsoup4
+requests

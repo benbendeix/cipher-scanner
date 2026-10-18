@@ -1,0 +1,87 @@
+ticker,name,region
+7203.T,Toyota,Japan
+6758.T,Sony,Japan
+8306.T,Mitsubishi UFJ,Japan
+6861.T,Keyence,Japan
+9984.T,SoftBank Group,Japan
+8035.T,Tokyo Electron,Japan
+6501.T,Hitachi,Japan
+9983.T,Fast Retailing,Japan
+4063.T,Shin-Etsu Chemical,Japan
+6098.T,Recruit,Japan
+8058.T,Mitsubishi Corp,Japan
+8001.T,Itochu,Japan
+8031.T,Mitsui & Co,Japan
+6367.T,Daikin,Japan
+7974.T,Nintendo,Japan
+4519.T,Chugai Pharma,Japan
+6857.T,Advantest,Japan
+6146.T,Disco,Japan
+6723.T,Renesas,Japan
+6920.T,Lasertec,Japan
+7011.T,Mitsubishi Heavy,Japan
+7012.T,Kawasaki Heavy,Japan
+7013.T,IHI,Japan
+6506.T,Yaskawa,Japan
+8316.T,Sumitomo Mitsui FG,Japan
+8411.T,Mizuho,Japan
+8766.T,Tokio Marine,Japan
+9432.T,NTT,Japan
+9433.T,KDDI,Japan
+4502.T,Takeda,Japan
+4568.T,Daiichi Sankyo,Japan
+6981.T,Murata,Japan
+6594.T,Nidec,Japan
+6702.T,Fujitsu,Japan
+6752.T,Panasonic,Japan
+7267.T,Honda,Japan
+7741.T,Hoya,Japan
+5108.T,Bridgestone,Japan
+5401.T,Nippon Steel,Japan
+8002.T,Marubeni,Japan
+005930.KS,Samsung Electronics,Korea
+000660.KS,SK Hynix,Korea
+373220.KS,LG Energy Solution,Korea
+207940.KS,Samsung Biologics,Korea
+005380.KS,Hyundai Motor,Korea
+000270.KS,Kia,Korea
+005490.KS,POSCO,Korea
+035420.KS,Naver,Korea
+035720.KS,Kakao,Korea
+012450.KS,Hanwha Aerospace,Korea
+329180.KS,HD Hyundai Heavy,Korea
+034020.KS,Doosan Enerbility,Korea
+105560.KS,KB Financial,Korea
+051910.KS,LG Chem,Korea
+006400.KS,Samsung SDI,Korea
+2330.TW,TSMC,Taiwan
+2317.TW,Hon Hai (Foxconn),Taiwan
+2454.TW,MediaTek,Taiwan
+2308.TW,Delta Electronics,Taiwan
+2382.TW,Quanta Computer,Taiwan
+3711.TW,ASE Technology,Taiwan
+2303.TW,UMC,Taiwan
+3231.TW,Wistron,Taiwan
+2345.TW,Accton,Taiwan
+3017.TW,Asia Vital Components,Taiwan
+2881.TW,Fubon Financial,Taiwan
+BHP.AX,BHP,Australien
+CBA.AX,Commonwealth Bank,Australien
+CSL.AX,CSL,Australien
+NAB.AX,NAB,Australien
+WBC.AX,Westpac,Australien
+ANZ.AX,ANZ,Australien
+WES.AX,Wesfarmers,Australien
+MQG.AX,Macquarie,Australien
+FMG.AX,Fortescue,Australien
+RIO.AX,Rio Tinto,Australien
+WDS.AX,Woodside,Australien
+NST.AX,Northern Star,Australien
+PLS.AX,Pilbara Minerals,Australien
+PDN.AX,Paladin Energy,Australien
+XRO.AX,Xero,Australien
+WTC.AX,WiseTech,Australien
+LYC.AX,Lynas,Australien
+D05.SI,DBS,Singapur
+O39.SI,OCBC,Singapur
+U11.SI,UOB,Singapur

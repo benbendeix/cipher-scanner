@@ -1,0 +1,5 @@
+# Eigene Ticker, die IMMER im Daily-Check laufen (ein Ticker pro Zeile, Yahoo-Schreibweise)
+# Beispiele: RHM.DE (Xetra), 7203.T (Tokio), 0700.HK (Hongkong), BTC-USD
+CLSK
+IREN
+PL=F
