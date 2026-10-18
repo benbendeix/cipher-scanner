@@ -20,11 +20,8 @@ UA = {"User-Agent": "cipher-scanner/1.0 (personal research; github.com/benbendei
 SOURCES = [
     ("S&P 500", "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies", "", "USA", ["Symbol", "Ticker"], ["Security", "Company"]),
     ("S&P 400", "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies", "", "USA", ["Symbol", "Ticker symbol", "Ticker"], ["Security", "Company"]),
-    ("Nasdaq-100", "https://en.wikipedia.org/wiki/Nasdaq-100", "", "USA", ["Ticker", "Symbol"], ["Company", "Security"]),
     ("DAX", "https://en.wikipedia.org/wiki/DAX", ".DE", "Deutschland", ["Ticker", "Symbol"], ["Company", "Name"]),
     ("MDAX", "https://en.wikipedia.org/wiki/MDAX", ".DE", "Deutschland", ["Ticker", "Symbol"], ["Company", "Name"]),
-    ("SDAX", "https://en.wikipedia.org/wiki/SDAX", ".DE", "Deutschland", ["Ticker", "Symbol"], ["Company", "Name"]),
-    ("ATX", "https://en.wikipedia.org/wiki/Austrian_Traded_Index", ".VI", "Österreich", ["Ticker", "Symbol"], ["Company", "Name"]),
     ("FTSE 100", "https://en.wikipedia.org/wiki/FTSE_100_Index", ".L", "UK", ["Ticker", "EPIC", "Symbol"], ["Company", "Name"]),
     ("CAC 40", "https://en.wikipedia.org/wiki/CAC_40", ".PA", "Frankreich", ["Ticker", "Symbol"], ["Company", "Name"]),
     ("SMI", "https://en.wikipedia.org/wiki/Swiss_Market_Index", ".SW", "Schweiz", ["Ticker", "Symbol"], ["Name", "Company"]),
@@ -81,7 +78,7 @@ def fetch_source(name, url, suffix, region, tcols, ncols):
     best = None
     for tb in tables:  # erste passende Tabelle = aktuelle Mitglieder (spätere sind meist "Änderungen")
         tb = _flatcols(tb)
-        if len(tb) < 10 or any("added" in c.lower() or "removed" in c.lower() for c in tb.columns):
+        if len(tb) < 10 or any(c.lower().startswith(("added", "removed")) for c in tb.columns):
             continue
         tcol = next((c for want in tcols for c in tb.columns if c.lower() == want.lower()), None)
         if tcol is None:
