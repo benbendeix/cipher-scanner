@@ -63,12 +63,15 @@ def _norm(raw, suffix):
     if suffix == ".TO":
         t = t.replace(".TO", "").replace(".", "-")
         return t + ".TO"
+    if suffix == ".L":  # London: "BA." -> BA.L, "BT.A" -> BT-A.L
+        t = t.replace(".L", "") if t.endswith(".L") else t
+        return t.rstrip(".").replace(".", "-") + ".L"
     if t.endswith(suffix):
         return t
     # schon mit anderer Börsen-Endung (z.B. .AS in CAC-Liste) -> übernehmen
     if re.search(r"\.[A-Z]{1,3}$", t) and not t.endswith("."):
         return t
-    t = t.rstrip(".").replace(" ", "-")
+    t = t.rstrip(".").replace(" ", "-").replace(".", "-")  # BT.A -> BT-A.L
     return t + suffix
 
 
@@ -76,18 +79,21 @@ def fetch_source(name, url, suffix, region, tcols, ncols):
     html = requests.get(url, headers=UA, timeout=30).text
     tables = pd.read_html(io.StringIO(html))
     best = None
-    for tb in tables:
+    for tb in tables:  # erste passende Tabelle = aktuelle Mitglieder (spätere sind meist "Änderungen")
         tb = _flatcols(tb)
-        tcol = next((c for c in tb.columns for want in tcols if c.lower() == want.lower()), None)
-        if tcol is None:
-            tcol = next((c for c in tb.columns for want in tcols if want.lower() in c.lower()), None)
-        if tcol is None or len(tb) < 10:
+        if len(tb) < 10 or any("added" in c.lower() or "removed" in c.lower() for c in tb.columns):
             continue
-        if best is None or len(tb) > len(best[0]):
-            ncol = next((c for c in tb.columns for want in ncols if want.lower() in c.lower()), None)
-            best = (tb, tcol, ncol)
+        tcol = next((c for want in tcols for c in tb.columns if c.lower() == want.lower()), None)
+        if tcol is None:
+            tcol = next((c for want in tcols for c in tb.columns if want.lower() in c.lower()), None)
+        if tcol is None:
+            continue
+        ncol = next((c for want in ncols for c in tb.columns if want.lower() in c.lower()), None)
+        best = (tb, tcol, ncol)
+        break
     if best is None:
-        raise ValueError("keine passende Tabelle gefunden")
+        cols = [list(_flatcols(t).columns)[:6] for t in tables if len(t) >= 10][:4]
+        raise ValueError(f"keine passende Tabelle. Spalten: {cols}")
     tb, tcol, ncol = best
     rows = []
     for _, r in tb.iterrows():
@@ -110,7 +116,7 @@ def main():
             print(f"[FAIL] {name:<12} {e!s:.80}  -> {len(fallback)} aus letzter Liste übernommen")
             rows += fallback
 
-    for fname, src in (("static_asia.csv", "Asien statisch"), ("themes.csv", "Marktlandkarte")):
+    for fname, src in (("static_asia.csv", "Asien statisch"), ("static_extra.csv", "ATX/Extra statisch"), ("themes.csv", "Marktlandkarte")):
         p = os.path.join(UNI_DIR, fname)
         if os.path.exists(p):
             d = pd.read_csv(p)

@@ -118,30 +118,42 @@ def sort_signals(df):
         return df
     df = df.copy()
     df["_s"] = (df["strength"] == "stark").astype(int)
-    df["_w"] = df["wt2"].abs()
+    # grün: je tiefer überverkauft, desto weiter oben; rot: je höher überkauft, desto weiter oben
+    df["_w"] = df.apply(lambda r: -r["wt2"] if r["dot"] == "green" else r["wt2"], axis=1)
     return df.sort_values(["dot", "_s", "_w"], ascending=[True, False, False]).drop(columns=["_s", "_w"])
 
 
-def to_markdown(df, title, missing):
-    lines = [f"# {title}", "", f"Stand: {TODAY} · {len(df)} bestätigte Signale", ""]
-    groups = [("🟢 Stark grün (überverkauft, wt2 ≤ −53)", "green", "stark"),
-              ("🔴 Stark rot (überkauft, wt2 ≥ 53)", "red", "stark"),
-              ("🟢 Grün normal", "green", "normal"),
-              ("🔴 Rot normal", "red", "normal")]
-    for head, dot, strength in groups:
-        g = df[(df["dot"] == dot) & (df["strength"] == strength)] if not df.empty else df
-        lines.append(f"## {head} ({len(g)})")
-        if g.empty:
-            lines += ["_keine_", ""]
-            continue
-        lines.append("| Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |")
-        lines.append("|---|---|---|---|---|---|---|---|---|")
-        for _, r in g.iterrows():
-            where = r["cluster"] if isinstance(r["cluster"], str) and r["cluster"] else r["region"]
-            ma = "–" if r["above_ma200"] is None or pd.isna(r["above_ma200"]) else ("ja" if r["above_ma200"] else "nein")
-            lines.append(f"| {r['ticker']} | {str(r['name'])[:28]} | {where} | {r['wt2']} | {r['close']} | "
-                         f"{r['chg_pct']} | {r['vol_ratio'] if r['vol_ratio'] else '–'} | {r['vs_52hi_pct']}% | {ma} |")
-        lines.append("")
+def _table(g):
+    out = ["| Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |",
+           "|---|---|---|---|---|---|---|---|---|"]
+    for _, r in g.iterrows():
+        where = r["cluster"] if isinstance(r["cluster"], str) and r["cluster"] else r["region"]
+        ma = "–" if r["above_ma200"] is None or pd.isna(r["above_ma200"]) else ("ja" if r["above_ma200"] else "nein")
+        out.append(f"| {r['ticker']} | {str(r['name'])[:28]} | {where} | {r['wt2']} | {r['close']} | "
+                   f"{r['chg_pct']} | {r['vol_ratio'] if pd.notna(r['vol_ratio']) and r['vol_ratio'] else '–'} | {r['vs_52hi_pct']}% | {ma} |")
+    return out + [""]
+
+
+def to_markdown(df, title, missing, cap=20):
+    lines = [f"# {title}", "", f"Stand: {TODAY} · {len(df)} bestätigte Signale (vollständig in der CSV)", ""]
+    if df.empty:
+        return "\n".join(lines + ["_keine Signale_"]) + "\n"
+    has_cluster = df["cluster"].fillna("").astype(str) != ""
+    sections = [
+        ("🟢 Stark grün – Kreuz im überverkauften Bereich (wt2 ≤ −53)", (df["dot"] == "green") & (df["strength"] == "stark"), None),
+        ("🔴 Stark rot – Kreuz im überkauften Bereich (wt2 ≥ 53)", (df["dot"] == "red") & (df["strength"] == "stark"), None),
+        ("⭐ Marktlandkarte – normale grüne Punkte", (df["dot"] == "green") & (df["strength"] == "normal") & has_cluster, None),
+        ("⭐ Marktlandkarte – normale rote Punkte", (df["dot"] == "red") & (df["strength"] == "normal") & has_cluster, None),
+        (f"🟢 Grün normal – Top {cap} (tiefster wt2)", (df["dot"] == "green") & (df["strength"] == "normal") & ~has_cluster, cap),
+        (f"🔴 Rot normal – Top {cap} (höchster wt2)", (df["dot"] == "red") & (df["strength"] == "normal") & ~has_cluster, cap),
+    ]
+    for head, mask, limit in sections:
+        g = df[mask]
+        total = len(g)
+        if limit:
+            g = g.head(limit)
+        lines.append(f"## {head} ({total})")
+        lines += _table(g) if not g.empty else ["_keine_", ""]
     if missing:
         lines += [f"<details><summary>{len(missing)} Ticker ohne Daten</summary>", "", ", ".join(missing), "", "</details>"]
     return "\n".join(lines) + "\n"
