@@ -1,0 +1,1859 @@
+ticker,name,region,source,cluster
+MMM,3M,USA,S&P 500,
+AOS,A. O. Smith,USA,S&P 500,
+ABT,Abbott Laboratories,USA,S&P 500,
+ABBV,AbbVie,USA,S&P 500,F1 Pharma
+ACN,Accenture,USA,S&P 500,
+ADBE,Adobe Inc.,USA,S&P 500,A4 Software
+AMD,Advanced Micro Devices,USA,S&P 500,A1 Fabless
+AES,AES Corporation,USA,S&P 500,
+AFL,Aflac,USA,S&P 500,
+A,Agilent Technologies,USA,S&P 500,
+APD,Air Products,USA,S&P 500,
+ABNB,Airbnb,USA,S&P 500,A6 Internet
+AKAM,Akamai Technologies,USA,S&P 500,
+ALB,Albemarle Corporation,USA,S&P 500,C2 Industriemetalle
+ARE,Alexandria Real Estate Equities,USA,S&P 500,
+ALGN,Align Technology,USA,S&P 500,
+ALLE,Allegion,USA,S&P 500,
+LNT,Alliant Energy,USA,S&P 500,
+ALL,Allstate,USA,S&P 500,
+GOOGL,Alphabet Inc. (Class A),USA,S&P 500,A3 Mega-Cap
+GOOG,Alphabet Inc. (Class C),USA,S&P 500,
+MO,Altria,USA,S&P 500,
+AMZN,Amazon,USA,S&P 500,A3 Mega-Cap
+AMCR,Amcor,USA,S&P 500,
+AEE,Ameren,USA,S&P 500,
+AEP,American Electric Power,USA,S&P 500,
+AXP,American Express,USA,S&P 500,
+AIG,American International Group,USA,S&P 500,
+AMT,American Tower,USA,S&P 500,H1 REITs
+AWK,American Water Works,USA,S&P 500,
+AMP,Ameriprise Financial,USA,S&P 500,
+AME,Ametek,USA,S&P 500,
+AMGN,Amgen,USA,S&P 500,F2 Biotech
+APH,Amphenol,USA,S&P 500,
+ADI,Analog Devices,USA,S&P 500,A1 Analog
+AON,Aon plc,USA,S&P 500,
+APA,APA Corporation,USA,S&P 500,
+APO,Apollo Global Management,USA,S&P 500,
+AAPL,Apple Inc.,USA,S&P 500,A3 Mega-Cap
+AMAT,Applied Materials,USA,S&P 500,A1 Semis Equipment
+APP,AppLovin,USA,S&P 500,A6 Internet
+APTV,Aptiv,USA,S&P 500,
+ACGL,Arch Capital Group,USA,S&P 500,
+ADM,Archer Daniels Midland,USA,S&P 500,C3 Agrar & Chemie
+ARES,Ares Management,USA,S&P 500,
+ANET,Arista Networks,USA,S&P 500,A2 AI-Infra
+AJG,Arthur J. Gallagher & Co.,USA,S&P 500,
+AIZ,Assurant,USA,S&P 500,
+T,AT&T,USA,S&P 500,J1 Telekom
+ATO,Atmos Energy,USA,S&P 500,
+ADSK,Autodesk,USA,S&P 500,
+ADP,Automatic Data Processing,USA,S&P 500,
+AZO,AutoZone,USA,S&P 500,
+AVY,Avery Dennison,USA,S&P 500,
+AXON,Axon Enterprise,USA,S&P 500,
+BKR,Baker Hughes,USA,S&P 500,B2 Öl & Gas
+BALL,Ball Corporation,USA,S&P 500,
+BAC,Bank of America,USA,S&P 500,E1 Banken
+BAX,Baxter International,USA,S&P 500,
+BDX,Becton Dickinson,USA,S&P 500,
+BRK-B,Berkshire Hathaway,USA,S&P 500,E3 Versicherer
+BBY,Best Buy,USA,S&P 500,
+TECH,Bio-Techne,USA,S&P 500,
+BIIB,Biogen,USA,S&P 500,
+BLK,BlackRock,USA,S&P 500,
+BX,Blackstone Inc.,USA,S&P 500,
+XYZ,"Block, Inc.",USA,S&P 500,E4 Fintech
+BE,Bloom Energy,USA,S&P 500,
+BNY,BNY Mellon,USA,S&P 500,
+BA,Boeing,USA,S&P 500,D2 Aerospace
+BKNG,Booking Holdings,USA,S&P 500,G1 Konsum zyklisch
+BSX,Boston Scientific,USA,S&P 500,
+BMY,Bristol Myers Squibb,USA,S&P 500,
+AVGO,Broadcom,USA,S&P 500,A1 Fabless
+BR,Broadridge Financial Solutions,USA,S&P 500,
+BRO,Brown & Brown,USA,S&P 500,
+BF-B,Brown–Forman,USA,S&P 500,
+BG,Bunge Global,USA,S&P 500,
+BXP,"BXP, Inc.",USA,S&P 500,
+CHRW,C.H. Robinson,USA,S&P 500,
+CDNS,Cadence Design Systems,USA,S&P 500,A1 EDA
+CPT,Camden Property Trust,USA,S&P 500,
+COF,Capital One,USA,S&P 500,
+CAH,Cardinal Health,USA,S&P 500,
+CCL,Carnival Corporation,USA,S&P 500,
+CARR,Carrier Global,USA,S&P 500,
+CVNA,Carvana,USA,S&P 500,
+CASY,Casey's,USA,S&P 500,
+CAT,Caterpillar Inc.,USA,S&P 500,D3 Maschinenbau
+CBOE,Cboe Global Markets,USA,S&P 500,
+CBRE,CBRE Group,USA,S&P 500,
+CDW,CDW Corporation,USA,S&P 500,
+COR,Cencora,USA,S&P 500,
+CNC,Centene Corporation,USA,S&P 500,
+CNP,CenterPoint Energy,USA,S&P 500,
+CF,CF Industries,USA,S&P 500,C3 Agrar & Chemie
+CRL,Charles River Laboratories,USA,S&P 500,
+SCHW,Charles Schwab Corporation,USA,S&P 500,E2 Börsen & Payments
+CHTR,Charter Communications,USA,S&P 500,
+CVX,Chevron Corporation,USA,S&P 500,B2 Öl & Gas
+CMG,Chipotle Mexican Grill,USA,S&P 500,G1 Konsum zyklisch
+CB,Chubb Limited,USA,S&P 500,
+CHD,Church & Dwight,USA,S&P 500,
+CIEN,Ciena,USA,S&P 500,A2 AI-Infra
+CI,Cigna,USA,S&P 500,
+CINF,Cincinnati Financial,USA,S&P 500,
+CTAS,Cintas,USA,S&P 500,
+CSCO,Cisco,USA,S&P 500,A2 AI-Infra
+C,Citigroup,USA,S&P 500,E1 Banken
+CFG,Citizens Financial Group,USA,S&P 500,
+CLX,Clorox,USA,S&P 500,
+CME,CME Group,USA,S&P 500,E2 Börsen & Payments
+CMS,CMS Energy,USA,S&P 500,
+KO,Coca-Cola Company (The),USA,S&P 500,G2 Staples
+CTSH,Cognizant,USA,S&P 500,
+COHR,Coherent Corp.,USA,S&P 500,A2 AI-Infra
+COIN,Coinbase,USA,S&P 500,I2 Krypto-Aktien
+CL,Colgate-Palmolive,USA,S&P 500,G2 Staples
+CMCSA,Comcast,USA,S&P 500,
+FIX,Comfort Systems USA,USA,S&P 500,
+COP,ConocoPhillips,USA,S&P 500,B2 Öl & Gas
+ED,Consolidated Edison,USA,S&P 500,
+STZ,Constellation Brands,USA,S&P 500,
+CEG,Constellation Energy,USA,S&P 500,B1 AI-Power
+COO,Cooper Companies (The),USA,S&P 500,
+CPRT,Copart,USA,S&P 500,
+GLW,Corning Inc.,USA,S&P 500,
+CPAY,Corpay,USA,S&P 500,
+CSGP,CoStar Group,USA,S&P 500,
+COST,Costco,USA,S&P 500,G2 Staples
+CRH,CRH plc,USA,S&P 500,
+CRWD,CrowdStrike,USA,S&P 500,A4 Cyber
+CCI,Crown Castle,USA,S&P 500,
+CSX,CSX Corporation,USA,S&P 500,D4 Transport
+CMI,Cummins,USA,S&P 500,
+CVS,CVS Health,USA,S&P 500,F4 Krankenversicherer
+DHR,Danaher Corporation,USA,S&P 500,
+DRI,Darden Restaurants,USA,S&P 500,
+DDOG,Datadog,USA,S&P 500,A4 Software
+DVA,DaVita,USA,S&P 500,
+DECK,Deckers Brands,USA,S&P 500,
+DE,Deere & Company,USA,S&P 500,D3 Maschinenbau
+DELL,Dell Technologies,USA,S&P 500,A2 AI-Infra
+DAL,Delta Air Lines,USA,S&P 500,D4 Transport
+DVN,Devon Energy,USA,S&P 500,B2 Öl & Gas
+DXCM,Dexcom,USA,S&P 500,
+FANG,Diamondback Energy,USA,S&P 500,
+DLR,Digital Realty,USA,S&P 500,H1 REITs
+DG,Dollar General,USA,S&P 500,
+DLTR,Dollar Tree,USA,S&P 500,
+D,Dominion Energy,USA,S&P 500,
+DPZ,Domino's,USA,S&P 500,
+DASH,DoorDash,USA,S&P 500,A6 Internet
+DOV,Dover Corporation,USA,S&P 500,
+DOW,Dow Inc.,USA,S&P 500,
+DHI,D. R. Horton,USA,S&P 500,D5 Bau
+DTE,DTE Energy,USA,S&P 500,
+DUK,Duke Energy,USA,S&P 500,B4 Utilities
+DD,DuPont,USA,S&P 500,
+ETN,Eaton Corporation,USA,S&P 500,A2 AI-Infra
+EBAY,eBay Inc.,USA,S&P 500,
+ECHO,EchoStar,USA,S&P 500,
+ECL,Ecolab,USA,S&P 500,
+EIX,Edison International,USA,S&P 500,
+EW,Edwards Lifesciences,USA,S&P 500,
+ELV,Elevance Health,USA,S&P 500,
+EME,Emcor,USA,S&P 500,
+EMR,Emerson Electric,USA,S&P 500,D3 Maschinenbau
+ETR,Entergy,USA,S&P 500,
+EOG,EOG Resources,USA,S&P 500,B2 Öl & Gas
+EQT,EQT Corporation,USA,S&P 500,B2 Öl & Gas
+EFX,Equifax,USA,S&P 500,
+EQIX,Equinix,USA,S&P 500,H1 REITs
+ERIE,Erie Indemnity,USA,S&P 500,
+ESS,Essex Property Trust,USA,S&P 500,
+EL,Estée Lauder Companies (The),USA,S&P 500,
+EG,Everest Group,USA,S&P 500,
+EVRG,Evergy,USA,S&P 500,
+P,Everpure,USA,S&P 500,
+ES,Eversource Energy,USA,S&P 500,
+EXC,Exelon,USA,S&P 500,
+EXE,Expand Energy,USA,S&P 500,
+EXPE,Expedia Group,USA,S&P 500,
+EXPD,Expeditors International,USA,S&P 500,
+EXR,Extra Space Storage,USA,S&P 500,
+XOM,ExxonMobil,USA,S&P 500,B2 Öl & Gas
+FFIV,"F5, Inc.",USA,S&P 500,
+FDS,FactSet,USA,S&P 500,
+FICO,Fair Isaac,USA,S&P 500,
+FAST,Fastenal,USA,S&P 500,
+FRT,Federal Realty Investment Trust,USA,S&P 500,
+FDX,FedEx,USA,S&P 500,D4 Transport
+FDXF,FedEx Freight,USA,S&P 500,
+FERG,Ferguson Enterprises,USA,S&P 500,
+FIS,Fidelity National Information Services,USA,S&P 500,
+FITB,Fifth Third Bancorp,USA,S&P 500,
+FSLR,First Solar,USA,S&P 500,B3 Renewables
+FE,FirstEnergy,USA,S&P 500,
+FISV,Fiserv,USA,S&P 500,
+FLEX,Flex Ltd.,USA,S&P 500,
+F,Ford Motor Company,USA,S&P 500,G1 Konsum zyklisch
+FTNT,Fortinet,USA,S&P 500,A4 Cyber
+FTV,Fortive,USA,S&P 500,
+FOXA,Fox Corporation (Class A),USA,S&P 500,
+FOX,Fox Corporation (Class B),USA,S&P 500,
+BEN,Franklin Resources,USA,S&P 500,
+FCX,Freeport-McMoRan,USA,S&P 500,C2 Industriemetalle
+GRMN,Garmin,USA,S&P 500,
+IT,Gartner,USA,S&P 500,
+GE,GE Aerospace,USA,S&P 500,D2 Aerospace
+GEHC,GE HealthCare,USA,S&P 500,
+GEV,GE Vernova,USA,S&P 500,B1 Grid
+GEN,Gen Digital,USA,S&P 500,
+GNRC,Generac,USA,S&P 500,
+GD,General Dynamics,USA,S&P 500,D1 Defense
+GIS,General Mills,USA,S&P 500,
+GM,General Motors,USA,S&P 500,G1 Konsum zyklisch
+GPC,Genuine Parts Company,USA,S&P 500,
+GILD,Gilead Sciences,USA,S&P 500,
+GPN,Global Payments,USA,S&P 500,
+GL,Globe Life,USA,S&P 500,
+GDDY,GoDaddy,USA,S&P 500,
+GS,Goldman Sachs,USA,S&P 500,E1 Banken
+HAL,Halliburton,USA,S&P 500,B2 Öl & Gas
+HIG,Hartford (The),USA,S&P 500,
+HAS,Hasbro,USA,S&P 500,
+HCA,HCA Healthcare,USA,S&P 500,F4 Krankenversicherer
+DOC,Healthpeak Properties,USA,S&P 500,
+HSIC,Henry Schein,USA,S&P 500,
+HSY,Hershey Company (The),USA,S&P 500,
+HPE,Hewlett Packard Enterprise,USA,S&P 500,A2 AI-Infra
+HLT,Hilton Worldwide,USA,S&P 500,G1 Konsum zyklisch
+HD,Home Depot (The),USA,S&P 500,
+HONA,Honeywell Aerospace,USA,S&P 500,
+HON,Honeywell Technologies,USA,S&P 500,
+HRL,Hormel Foods,USA,S&P 500,
+HST,Host Hotels & Resorts,USA,S&P 500,
+HWM,Howmet Aerospace,USA,S&P 500,
+HPQ,HP Inc.,USA,S&P 500,
+HUBB,Hubbell Incorporated,USA,S&P 500,B1 Grid
+HUM,Humana,USA,S&P 500,
+HBAN,Huntington Bancshares,USA,S&P 500,
+HII,Huntington Ingalls Industries,USA,S&P 500,D1 Defense
+IBM,IBM,USA,S&P 500,
+IEX,IDEX Corporation,USA,S&P 500,
+IDXX,Idexx Laboratories,USA,S&P 500,
+ITW,Illinois Tool Works,USA,S&P 500,
+ILMN,"Illumina, Inc.",USA,S&P 500,
+INCY,Incyte,USA,S&P 500,
+IR,Ingersoll Rand,USA,S&P 500,
+PODD,Insulet Corporation,USA,S&P 500,
+INTC,Intel,USA,S&P 500,A1 Foundry
+IBKR,Interactive Brokers,USA,S&P 500,E2 Börsen & Payments
+ICE,Intercontinental Exchange,USA,S&P 500,E2 Börsen & Payments
+IFF,International Flavors & Fragrances,USA,S&P 500,
+IP,International Paper,USA,S&P 500,
+INTU,Intuit,USA,S&P 500,A4 Software
+ISRG,Intuitive Surgical,USA,S&P 500,F3 Medtech
+IVZ,Invesco,USA,S&P 500,
+INVH,Invitation Homes,USA,S&P 500,
+IQV,IQVIA,USA,S&P 500,
+IRM,Iron Mountain,USA,S&P 500,
+JBHT,J.B. Hunt,USA,S&P 500,
+JBL,Jabil,USA,S&P 500,
+JKHY,Jack Henry & Associates,USA,S&P 500,
+J,Jacobs Solutions,USA,S&P 500,
+JNJ,Johnson & Johnson,USA,S&P 500,F1 Pharma
+JCI,Johnson Controls,USA,S&P 500,
+JPM,JPMorgan Chase,USA,S&P 500,E1 Banken
+KVUE,Kenvue,USA,S&P 500,
+KDP,Keurig Dr Pepper,USA,S&P 500,
+KEY,KeyCorp,USA,S&P 500,
+KEYS,Keysight Technologies,USA,S&P 500,
+KMB,Kimberly-Clark,USA,S&P 500,
+KIM,Kimco Realty,USA,S&P 500,
+KMI,Kinder Morgan,USA,S&P 500,
+KKR,KKR & Co.,USA,S&P 500,
+KLAC,KLA Corporation,USA,S&P 500,A1 Semis Equipment
+KHC,Kraft Heinz,USA,S&P 500,
+KR,Kroger,USA,S&P 500,
+LHX,L3Harris,USA,S&P 500,
+LH,Labcorp,USA,S&P 500,
+LRCX,Lam Research,USA,S&P 500,A1 Semis Equipment
+LVS,Las Vegas Sands,USA,S&P 500,
+LDOS,Leidos,USA,S&P 500,
+LEN,Lennar,USA,S&P 500,D5 Bau
+LII,Lennox International,USA,S&P 500,
+LLY,Lilly (Eli),USA,S&P 500,F1 Pharma
+LIN,Linde plc,USA,S&P 500,C3 Agrar & Chemie
+LYV,Live Nation Entertainment,USA,S&P 500,
+LMT,Lockheed Martin,USA,S&P 500,D1 Defense
+L,Loews Corporation,USA,S&P 500,
+LOW,Lowe's,USA,S&P 500,
+LULU,Lululemon Athletica,USA,S&P 500,G1 Konsum zyklisch
+LITE,Lumentum,USA,S&P 500,A2 AI-Infra
+LYB,LyondellBasell,USA,S&P 500,
+MTB,M&T Bank,USA,S&P 500,
+MPC,Marathon Petroleum,USA,S&P 500,B2 Öl & Gas
+MAR,Marriott International,USA,S&P 500,G1 Konsum zyklisch
+MRSH,Marsh McLennan,USA,S&P 500,
+MLM,Martin Marietta Materials,USA,S&P 500,D5 Bau
+MRVL,Marvell Technology,USA,S&P 500,A1 Fabless
+MAS,Masco,USA,S&P 500,
+MA,Mastercard,USA,S&P 500,E2 Börsen & Payments
+MKC,McCormick & Company,USA,S&P 500,
+MCD,McDonald's,USA,S&P 500,G1 Konsum zyklisch
+MCK,McKesson,USA,S&P 500,
+MDT,Medtronic,USA,S&P 500,F3 Medtech
+MRK,Merck & Co.,USA,S&P 500,F1 Pharma
+META,Meta Platforms,USA,S&P 500,A3 Mega-Cap
+MET,MetLife,USA,S&P 500,
+MTD,Mettler Toledo,USA,S&P 500,
+MGM,MGM Resorts,USA,S&P 500,
+MCHP,Microchip Technology,USA,S&P 500,A1 Analog
+MU,Micron Technology,USA,S&P 500,A1 Memory
+MSFT,Microsoft,USA,S&P 500,A3 Mega-Cap
+MAA,Mid-America Apartment Communities,USA,S&P 500,
+MRNA,Moderna,USA,S&P 500,
+MDLZ,Mondelez International,USA,S&P 500,G2 Staples
+MPWR,Monolithic Power Systems,USA,S&P 500,
+MNST,Monster Beverage,USA,S&P 500,
+MCO,Moody's Corporation,USA,S&P 500,
+MS,Morgan Stanley,USA,S&P 500,E1 Banken
+MOS,Mosaic Company (The),USA,S&P 500,C3 Agrar & Chemie
+MSI,Motorola Solutions,USA,S&P 500,
+MSCI,MSCI,USA,S&P 500,
+NDAQ,"Nasdaq, Inc.",USA,S&P 500,
+NTAP,NetApp,USA,S&P 500,
+NFLX,Netflix,USA,S&P 500,A6 Internet
+NEM,Newmont,USA,S&P 500,C1 Edelmetalle
+NWSA,News Corp (Class A),USA,S&P 500,
+NWS,News Corp (Class B),USA,S&P 500,
+NEE,NextEra Energy,USA,S&P 500,B4 Utilities
+NKE,"Nike, Inc.",USA,S&P 500,G1 Konsum zyklisch
+NI,NiSource,USA,S&P 500,
+NDSN,Nordson Corporation,USA,S&P 500,
+NSC,Norfolk Southern,USA,S&P 500,
+NTRS,Northern Trust,USA,S&P 500,
+NOC,Northrop Grumman,USA,S&P 500,D1 Defense
+NCLH,Norwegian Cruise Line Holdings,USA,S&P 500,
+NRG,NRG Energy,USA,S&P 500,B1 AI-Power
+NUE,Nucor,USA,S&P 500,C2 Industriemetalle
+NVDA,Nvidia,USA,S&P 500,A1 Fabless
+NVR,"NVR, Inc.",USA,S&P 500,
+NXPI,NXP Semiconductors,USA,S&P 500,A1 Analog
+ORLY,O'Reilly Automotive,USA,S&P 500,
+OXY,Occidental Petroleum,USA,S&P 500,B2 Öl & Gas
+ODFL,Old Dominion,USA,S&P 500,
+OMC,Omnicom Group,USA,S&P 500,
+ON,ON Semiconductor,USA,S&P 500,A1 Analog
+OKE,Oneok,USA,S&P 500,
+ORCL,Oracle Corporation,USA,S&P 500,A3 Mega-Cap
+OTIS,Otis Worldwide,USA,S&P 500,
+PCAR,Paccar,USA,S&P 500,
+PKG,Packaging Corporation of America,USA,S&P 500,
+PLTR,Palantir Technologies,USA,S&P 500,D1 Defense
+PANW,Palo Alto Networks,USA,S&P 500,A4 Cyber
+PH,Parker Hannifin,USA,S&P 500,D3 Maschinenbau
+PAYX,Paychex,USA,S&P 500,
+PYPL,PayPal,USA,S&P 500,E2 Börsen & Payments
+PNR,Pentair,USA,S&P 500,
+PEP,PepsiCo,USA,S&P 500,G2 Staples
+PFE,Pfizer,USA,S&P 500,F1 Pharma
+PCG,PG&E Corporation,USA,S&P 500,
+PM,Philip Morris International,USA,S&P 500,
+PSX,Phillips 66,USA,S&P 500,B2 Öl & Gas
+PNW,Pinnacle West Capital,USA,S&P 500,
+PNC,PNC Financial Services,USA,S&P 500,
+PPG,PPG Industries,USA,S&P 500,
+PPL,PPL Corporation,USA,S&P 500,
+PFG,Principal Financial Group,USA,S&P 500,
+PG,Procter & Gamble,USA,S&P 500,G2 Staples
+PGR,Progressive Corporation,USA,S&P 500,
+PLD,Prologis,USA,S&P 500,H1 REITs
+PRU,Prudential Financial,USA,S&P 500,
+PEG,Public Service Enterprise Group,USA,S&P 500,
+PTC,PTC Inc.,USA,S&P 500,
+PSA,Public Storage,USA,S&P 500,
+PHM,PulteGroup,USA,S&P 500,D5 Bau
+PWR,Quanta Services,USA,S&P 500,
+QCOM,Qualcomm,USA,S&P 500,A1 Fabless
+DGX,Quest Diagnostics,USA,S&P 500,
+Q,Qnity Electronics,USA,S&P 500,
+RL,Ralph Lauren Corporation,USA,S&P 500,
+RJF,Raymond James Financial,USA,S&P 500,
+RDDT,Reddit,USA,S&P 500,A6 Internet
+RTX,RTX Corporation,USA,S&P 500,D1 Defense
+O,Realty Income,USA,S&P 500,H1 REITs
+REG,Regency Centers,USA,S&P 500,
+REGN,Regeneron Pharmaceuticals,USA,S&P 500,F2 Biotech
+RF,Regions Financial Corporation,USA,S&P 500,
+RSG,Republic Services,USA,S&P 500,D6 Abfall & Wasser
+RMD,ResMed|,USA,S&P 500,
+RVTY,Revvity,USA,S&P 500,
+HOOD,Robinhood Markets,USA,S&P 500,E2 Börsen & Payments
+ROK,Rockwell Automation,USA,S&P 500,D3 Maschinenbau
+ROL,"Rollins, Inc.",USA,S&P 500,
+ROP,Roper Technologies,USA,S&P 500,
+ROST,Ross Stores,USA,S&P 500,
+RCL,Royal Caribbean Group,USA,S&P 500,G1 Konsum zyklisch
+SPGI,S&P Global,USA,S&P 500,
+CRM,Salesforce,USA,S&P 500,A4 Software
+SNDK,Sandisk,USA,S&P 500,
+SBAC,SBA Communications,USA,S&P 500,
+SLB,Schlumberger,USA,S&P 500,B2 Öl & Gas
+STX,Seagate Technology,USA,S&P 500,
+SRE,Sempra,USA,S&P 500,
+NOW,ServiceNow,USA,S&P 500,A4 Software
+SHW,Sherwin-Williams,USA,S&P 500,
+SPG,Simon Property Group,USA,S&P 500,H1 REITs
+SKYD,Skydance Corporation,USA,S&P 500,
+SWKS,Skyworks Solutions,USA,S&P 500,
+SJM,J.M. Smucker Company (The),USA,S&P 500,
+SW,Smurfit Westrock,USA,S&P 500,
+SNA,Snap-on,USA,S&P 500,
+SOLV,Solventum,USA,S&P 500,
+SO,Southern Company,USA,S&P 500,B4 Utilities
+LUV,Southwest Airlines,USA,S&P 500,
+SWK,Stanley Black & Decker,USA,S&P 500,
+SBUX,Starbucks,USA,S&P 500,G1 Konsum zyklisch
+STT,State Street Corporation,USA,S&P 500,
+STLD,Steel Dynamics,USA,S&P 500,C2 Industriemetalle
+STE,Steris,USA,S&P 500,
+SYK,Stryker Corporation,USA,S&P 500,F3 Medtech
+SMCI,Supermicro,USA,S&P 500,A2 AI-Infra
+SYF,Synchrony Financial,USA,S&P 500,
+SNPS,Synopsys,USA,S&P 500,A1 EDA
+SYY,Sysco,USA,S&P 500,
+TMUS,T-Mobile US,USA,S&P 500,
+TROW,T. Rowe Price,USA,S&P 500,
+TTWO,Take-Two Interactive,USA,S&P 500,A6 Gaming
+TPR,"Tapestry, Inc.",USA,S&P 500,
+TRGP,Targa Resources,USA,S&P 500,
+TGT,Target Corporation,USA,S&P 500,
+TEL,TE Connectivity,USA,S&P 500,
+TDY,Teledyne Technologies,USA,S&P 500,
+TER,Teradyne,USA,S&P 500,A1 Semis Equipment
+TSLA,"Tesla, Inc.",USA,S&P 500,A7 Robotik
+TXN,Texas Instruments,USA,S&P 500,A1 Analog
+TPL,Texas Pacific Land Corporation,USA,S&P 500,
+TXT,Textron,USA,S&P 500,
+TMO,Thermo Fisher Scientific,USA,S&P 500,
+TJX,TJX Companies,USA,S&P 500,
+TKO,TKO Group Holdings,USA,S&P 500,
+TSCO,Tractor Supply,USA,S&P 500,
+TT,Trane Technologies,USA,S&P 500,
+TDG,TransDigm Group,USA,S&P 500,
+TRV,Travelers Companies (The),USA,S&P 500,
+TRMB,Trimble Inc.,USA,S&P 500,
+TFC,Truist Financial,USA,S&P 500,
+TWLO,Twilio,USA,S&P 500,
+TYL,Tyler Technologies,USA,S&P 500,
+TSN,Tyson Foods,USA,S&P 500,
+USB,U.S. Bancorp,USA,S&P 500,
+UBER,Uber,USA,S&P 500,A6 Internet
+UDR,"UDR, Inc.",USA,S&P 500,
+ULTA,Ulta Beauty,USA,S&P 500,
+UNP,Union Pacific Corporation,USA,S&P 500,D4 Transport
+UAL,United Airlines Holdings,USA,S&P 500,
+UPS,United Parcel Service,USA,S&P 500,D4 Transport
+URI,United Rentals,USA,S&P 500,
+UNH,UnitedHealth Group,USA,S&P 500,F4 Krankenversicherer
+UHS,Universal Health Services,USA,S&P 500,
+VLO,Valero Energy,USA,S&P 500,B2 Öl & Gas
+VEEV,Veeva Systems,USA,S&P 500,
+VTR,Ventas,USA,S&P 500,
+VLTO,Veralto,USA,S&P 500,
+VRSN,Verisign,USA,S&P 500,
+VRSK,Verisk Analytics,USA,S&P 500,
+VZ,Verizon,USA,S&P 500,J1 Telekom
+VRTX,Vertex Pharmaceuticals,USA,S&P 500,F2 Biotech
+VRT,Vertiv,USA,S&P 500,A2 AI-Infra
+VTRS,Viatris,USA,S&P 500,
+VICI,Vici Properties,USA,S&P 500,
+V,Visa Inc.,USA,S&P 500,E2 Börsen & Payments
+VST,Vistra Corp.,USA,S&P 500,B1 AI-Power
+VMRK,Vivmark Residential,USA,S&P 500,
+VMC,Vulcan Materials Company,USA,S&P 500,D5 Bau
+VYLR,Vylor,USA,S&P 500,
+WRB,W. R. Berkley Corporation,USA,S&P 500,
+GWW,W. W. Grainger,USA,S&P 500,
+WAB,Wabtec,USA,S&P 500,
+WMT,Walmart,USA,S&P 500,G2 Staples
+DIS,Walt Disney Company (The),USA,S&P 500,A6 Internet
+WM,Waste Management,USA,S&P 500,D6 Abfall & Wasser
+WAT,Waters Corporation,USA,S&P 500,
+WEC,WEC Energy Group,USA,S&P 500,
+WFC,Wells Fargo,USA,S&P 500,E1 Banken
+WELL,Welltower,USA,S&P 500,H1 REITs
+WST,West Pharmaceutical Services,USA,S&P 500,
+WDC,Western Digital,USA,S&P 500,
+WY,Weyerhaeuser,USA,S&P 500,
+WSM,"Williams-Sonoma, Inc.",USA,S&P 500,
+WMB,Williams Companies,USA,S&P 500,
+WTW,Willis Towers Watson,USA,S&P 500,
+WDAY,"Workday, Inc.",USA,S&P 500,A4 Software
+WYNN,Wynn Resorts,USA,S&P 500,
+XEL,Xcel Energy,USA,S&P 500,
+XYL,Xylem Inc.,USA,S&P 500,D6 Abfall & Wasser
+YUM,Yum! Brands,USA,S&P 500,
+ZBRA,Zebra Technologies,USA,S&P 500,
+ZBH,Zimmer Biomet,USA,S&P 500,
+ZTS,Zoetis,USA,S&P 500,
+HUBS,HubSpot,USA,S&P 400,A4 Software
+AGNC,AGNC Investment,USA,S&P 400,
+CORT,Corcept Therapeutics,USA,S&P 400,
+EAT,Brinker International,USA,S&P 400,
+SUI,Sun Communities,USA,S&P 400,
+KRYS,Krystal Biotech,USA,S&P 400,
+MOH,Molina Healthcare,USA,S&P 400,
+BTSG,BrightSpring Health Services,USA,S&P 400,
+ALSN,Allison Transmission,USA,S&P 400,
+TOST,"Toast, Inc.",USA,S&P 400,
+IESC,IES Holdings,USA,S&P 400,
+ROKU,"Roku, Inc.",USA,S&P 400,
+CDE,Coeur Mining,USA,S&P 400,
+SMTC,Semtech,USA,S&P 400,
+SANM,Sanmina Corporation,USA,S&P 400,
+VIAV,Viavi Solutions,USA,S&P 400,
+SIRI,SiriusXM,USA,S&P 400,
+SN,SharkNinja,USA,S&P 400,
+DOCN,DigitalOcean,USA,S&P 400,
+SOLS,Solstice Advanced Materials,USA,S&P 400,
+SITM,SiTime,USA,S&P 400,
+MOG-A,Moog Inc.,USA,S&P 400,
+IDCC,InterDigital,USA,S&P 400,
+VICR,Vicor Corporation,USA,S&P 400,
+CTRE,CareTrust REIT,USA,S&P 400,
+ARWR,Arrowhead Pharmaceuticals,USA,S&P 400,
+BROS,Dutch Bros Inc.,USA,S&P 400,
+AEIS,Advanced Energy,USA,S&P 400,
+AHR,American Healthcare REIT,USA,S&P 400,
+TTMI,TTM Technologies,USA,S&P 400,
+SARO,StandardAero,USA,S&P 400,
+PATH,UiPath,USA,S&P 400,
+ULS,UL Solutions,USA,S&P 400,
+PINS,Pinterest,USA,S&P 400,A6 Internet
+BAH,Booz Allen Hamilton,USA,S&P 400,
+SPXC,SPX Technologies,USA,S&P 400,
+DY,Dycom Industries,USA,S&P 400,
+BWA,BorgWarner,USA,S&P 400,
+HL,Hecla Mining,USA,S&P 400,C1 Edelmetalle
+CRBG,Corebridge Financial,USA,S&P 400,
+STRL,Sterling Infrastructure,USA,S&P 400,
+BSY,Bentley Systems,USA,S&P 400,
+KTOS,Kratos Defense & Security Solutions,USA,S&P 400,D1 Defense
+MP,MP Materials,USA,S&P 400,C2 Industriemetalle
+TRU,TransUnion,USA,S&P 400,
+NTNX,Nutanix,USA,S&P 400,
+FTI,TechnipFMC,USA,S&P 400,
+ELAN,Elanco,USA,S&P 400,
+TLN,Talen Energy,USA,S&P 400,B1 AI-Power
+AVAV,AeroVironment,USA,S&P 400,D1 Defense
+APG,APi Group,USA,S&P 400,
+PEGA,Pegasystems,USA,S&P 400,
+OKTA,"Okta, Inc.",USA,S&P 400,A4 Cyber
+CAVA,Cava Group,USA,S&P 400,
+VFC,VF Corporation,USA,S&P 400,
+ALK,Alaska Air Group,USA,S&P 400,
+HIMS,Hims & Hers Health,USA,S&P 400,F4 Krankenversicherer
+BBWI,"Bath & Body Works, Inc.",USA,S&P 400,
+ATI,ATI Inc.,USA,S&P 400,
+SATS,EchoStar,USA,S&P 400,
+ACI,Albertsons,USA,S&P 400,
+ENTG,Entegris,USA,S&P 400,
+GWRE,Guidewire Software,USA,S&P 400,
+CART,Maplebear Inc.,USA,S&P 400,
+CMA,Comerica,USA,S&P 400,
+CRS,Carpenter Technology,USA,S&P 400,
+BILL,BILL Holdings,USA,S&P 400,
+MLI,Mueller Industries,USA,S&P 400,
+FOUR,Shift4,USA,S&P 400,
+CHWY,Chewy,USA,S&P 400,
+DOCU,Docusign,USA,S&P 400,
+ENSG,Ensign Group,USA,S&P 400,
+BIO,Bio-Rad Laboratories,USA,S&P 400,
+CNH,CNH Industrial,USA,S&P 400,
+WAL,Western Alliance Bancorporation,USA,S&P 400,
+PSN,Parsons Corporation,USA,S&P 400,
+HLNE,Hamilton Lane,USA,S&P 400,
+VNOM,Viper Energy,USA,S&P 400,
+FN,Fabrinet,USA,S&P 400,A2 AI-Infra
+AAL,American Airlines Group,USA,S&P 400,
+AVTR,Avantor,USA,S&P 400,
+ANF,Abercrombie & Fitch,USA,S&P 400,
+RYAN,Ryan Specialty,USA,S&P 400,
+BMRN,BioMarin Pharmaceutical,USA,S&P 400,
+WMG,Warner Music Group,USA,S&P 400,
+NXT,Nextracker,USA,S&P 400,
+ALTR,Altair Engineering,USA,S&P 400,
+RBA,RB Global,USA,S&P 400,
+SRPT,Sarepta Therapeutics,USA,S&P 400,
+AAON,AAON,USA,S&P 400,
+DUOL,Duolingo,USA,S&P 400,
+XRAY,Dentsply Sirona,USA,S&P 400,
+ROIV,Roivant Sciences,USA,S&P 400,
+APPF,AppFolio,USA,S&P 400,
+WHR,Whirlpool,USA,S&P 400,
+ZION,Zions Bancorporation,USA,S&P 400,
+CYTK,Cytokinetics,USA,S&P 400,
+AIT,Applied Industrial Technologies,USA,S&P 400,
+AMH,American Homes 4 Rent,USA,S&P 400,
+ELF,e.l.f. Beauty,USA,S&P 400,
+PSTG,Pure Storage,USA,S&P 400,
+ALTM,Arcadium Lithium,USA,S&P 400,
+RMBS,Rambus,USA,S&P 400,
+HLI,Houlihan Lokey,USA,S&P 400,
+EQH,Equitable Holdings,USA,S&P 400,
+CG,Carlyle Group,USA,S&P 400,
+WPC,W. P. Carey,USA,S&P 400,
+CNM,Core & Main,USA,S&P 400,
+BURL,Burlington Stores,USA,S&P 400,
+FND,Floor & Decor,USA,S&P 400,
+ONTO,Onto Innovation,USA,S&P 400,
+H,Hyatt,USA,S&P 400,
+VSTS,Vestis,USA,S&P 400,
+CIVI,Civitas Resources,USA,S&P 400,
+RBC,RBC Bearings,USA,S&P 400,
+FNF,Fidelity National Financial,USA,S&P 400,
+WFRD,Weatherford International,USA,S&P 400,
+ST,Sensata Technologies,USA,S&P 400,
+MTN,Vail Resorts,USA,S&P 400,
+ALLY,Ally Financial,USA,S&P 400,
+MORN,"Morningstar, Inc.",USA,S&P 400,
+GLPI,Gaming and Leisure Properties,USA,S&P 400,
+PR,Permian Resources,USA,S&P 400,
+DLB,Dolby,USA,S&P 400,
+CHK,Chesapeake Energy,USA,S&P 400,
+PAG,Penske Automotive,USA,S&P 400,
+ELS,Equity Lifestyle Properties,USA,S&P 400,
+WCC,WESCO International,USA,S&P 400,
+ZI,ZoomInfo,USA,S&P 400,
+OVV,Ovintiv,USA,S&P 400,
+GPK,Graphic Packaging,USA,S&P 400,
+DBX,Dropbox,USA,S&P 400,
+CCK,Crown Holdings,USA,S&P 400,
+PLNT,Planet Fitness,USA,S&P 400,
+BWXT,BWX Technologies,USA,S&P 400,
+BERY,Berry Global,USA,S&P 400,
+DOCS,Doximity,USA,S&P 400,
+KNF,Knife River Corporation,USA,S&P 400,
+STAG,STAG Industrial,USA,S&P 400,
+CR,Crane (new),USA,S&P 400,
+EXPO,Exponent,USA,S&P 400,
+AXTA,Axalta,USA,S&P 400,
+VAL,Valaris,USA,S&P 400,
+ALV,Autoliv,USA,S&P 400,
+STWD,Starwood Property Trust,USA,S&P 400,
+SSB,South State Bank,USA,S&P 400,
+CHRD,Chord Energy,USA,S&P 400,
+WMS,Advanced Drainage Systems,USA,S&P 400,
+HGV,Hilton Grand Vacations,USA,S&P 400,
+HTZ,Hertz,USA,S&P 400,
+ARMK,Aramark,USA,S&P 400,
+USFD,US Foods,USA,S&P 400,
+COLB,Columbia Banking System,USA,S&P 400,
+UFPI,UFP Industries,USA,S&P 400,
+ADC,Agree Realty,USA,S&P 400,
+VNO,Vornado Realty Trust,USA,S&P 400,
+FBIN,Fortune Brands Innovations,USA,S&P 400,
+ALGM,Allegro Microsystems,USA,S&P 400,
+CUBE,CubeSmart,USA,S&P 400,
+PBF,PBF Energy,USA,S&P 400,
+NXST,Nexstar Media Group,USA,S&P 400,
+RXO,RXO,USA,S&P 400,
+AR,Antero Resources,USA,S&P 400,B2 Öl & Gas
+WLK,Westlake,USA,S&P 400,
+LNTH,Lantheus Holdings,USA,S&P 400,
+FYBR,Frontier Communications,USA,S&P 400,
+EXLS,EXL Service,USA,S&P 400,
+PVH,PVH Corp.,USA,S&P 400,
+PENN,Penn Entertainment,USA,S&P 400,
+DT,Dynatrace,USA,S&P 400,
+NLY,Annaly Capital Management,USA,S&P 400,
+MTSI,MACOM Technology Solutions,USA,S&P 400,
+CELH,Celsius Holdings,USA,S&P 400,
+NOVT,Novanta,USA,S&P 400,
+HTA,Healthcare Trust of America,USA,S&P 400,
+COKE,Coca-Cola Consolidated,USA,S&P 400,
+ORA,Ormat Technologies,USA,S&P 400,
+SWN,Southwestern Energy,USA,S&P 400,
+OMCL,Omnicell,USA,S&P 400,
+POR,Portland General Electric,USA,S&P 400,
+UA/UAA,Under Armour,USA,S&P 400,
+IPGP,IPG Photonics,USA,S&P 400,
+SHC,Sotera Health,USA,S&P 400,
+SWAV,Shockwave Medical,USA,S&P 400,
+IRT,IRT Living,USA,S&P 400,
+NARI,Inari Medical,USA,S&P 400,
+ESAB,ESAB,USA,S&P 400,
+MTDR,Matador Resources,USA,S&P 400,
+GTLS,Chart Industries,USA,S&P 400,
+BRBR,BellRing Brands,USA,S&P 400,
+RRC,Range Resources,USA,S&P 400,
+ONB,Old National,USA,S&P 400,
+PDCE,PDC Energy,USA,S&P 400,
+GPS,Gap,USA,S&P 400,
+EEFT,Euronet Worldwide,USA,S&P 400,
+WTS,Watts Water Technologies,USA,S&P 400,
+CALX,Calix,USA,S&P 400,
+VOYA,Voya Financial,USA,S&P 400,
+AA,Alcoa,USA,S&P 400,C2 Industriemetalle
+LEG,Leggett & Platt,USA,S&P 400,
+HBI,Hanesbrands,USA,S&P 400,
+WU,Western Union,USA,S&P 400,
+M,Macy's,USA,S&P 400,
+POWI,Power Integrations,USA,S&P 400,
+BRKR,Bruker,USA,S&P 400,
+KD,Kyndryl,USA,S&P 400,
+KRG,Kite Realty Group Trust,USA,S&P 400,
+SPWR,SunPower,USA,S&P 400,
+UNM,Unum,USA,S&P 400,
+NOV,NOV Inc.,USA,S&P 400,
+PRGO,Perrigo,USA,S&P 400,
+TNDM,Tandem Diabetes Care,USA,S&P 400,
+APPS,Digital Turbine,USA,S&P 400,
+PFGC,Performance Food Group,USA,S&P 400,
+SAIA,Saia,USA,S&P 400,
+MIME,Mimecast,USA,S&P 400,
+OPCH,Option Care Health,USA,S&P 400,
+VSCO,Victoria's Secret,USA,S&P 400,
+GME,GameStop,USA,S&P 400,
+GXO,GXO Logistics,USA,S&P 400,
+CRNC,Cerence,USA,S&P 400,
+DTM,DT Midstream,USA,S&P 400,
+ELY,Callaway Golf,USA,S&P 400,
+ENV,Envestnet,USA,S&P 400,
+HFC,HollyFrontier,USA,S&P 400,
+CROX,Crocs,USA,S&P 400,
+AZPN,Aspen Technology,USA,S&P 400,
+NSA,National Storage Affiliates Trust,USA,S&P 400,
+RCM,R1 RCM,USA,S&P 400,
+G,Genpact,USA,S&P 400,
+LSCC,Lattice Semiconductor,USA,S&P 400,
+PGNY,Progyny Inc.,USA,S&P 400,
+NVST,Envista Holdings,USA,S&P 400,
+NBIX,Neurocrine Biosciences,USA,S&P 400,
+FLS,Flowserve,USA,S&P 400,
+SLG,SL Green Realty,USA,S&P 400,
+XRX,Xerox,USA,S&P 400,
+VNT,Vontier,USA,S&P 400,
+CLF,Cleveland-Cliffs,USA,S&P 400,
+AMKR,Amkor Technology,USA,S&P 400,
+IRDM,Iridium Communications,USA,S&P 400,
+STAA,STAAR Surgical,USA,S&P 400,
+YETI,Yeti Holdings,USA,S&P 400,
+CPRI,Capri Holdings,USA,S&P 400,
+BRKS,Brooks Automation,USA,S&P 400,
+KNSL,Kinsale Capital Group,USA,S&P 400,
+AIRC,Apartment Income REIT,USA,S&P 400,
+CNXC,Concentrix,USA,S&P 400,
+MTG,MGIC Investment Corporation,USA,S&P 400,
+HALO,Halozyme,USA,S&P 400,
+NEOG,Neogen,USA,S&P 400,
+SSD,Simpson Manufacturing,USA,S&P 400,
+SAIL,SailPoint Technologies,USA,S&P 400,
+HRB,H&R Block,USA,S&P 400,
+COTY,Coty,USA,S&P 400,
+KSS,Kohl's,USA,S&P 400,
+JAZZ,Jazz Pharmaceuticals,USA,S&P 400,
+WING,Wingstop,USA,S&P 400,
+MEDP,Medpace,USA,S&P 400,
+FOXF,Fox Factory,USA,S&P 400,
+LAD,Lithia Motors,USA,S&P 400,
+BLDR,Builders FirstSource,USA,S&P 400,
+RUN,Sunrun,USA,S&P 400,
+IAA,"IAA, Inc.",USA,S&P 400,
+REXR,Rexford Industrial Realty,USA,S&P 400,
+EBS,Emergent BioSolutions,USA,S&P 400,
+BLD,TopBuild Corp.,USA,S&P 400,
+GO,Grocery Outlet,USA,S&P 400,
+ADS,Alliance Data Systems,USA,S&P 400,
+JWN,Nordstrom,USA,S&P 400,
+HOG,Harley-Davidson,USA,S&P 400,
+MIDD,Middleby Corporation,USA,S&P 400,
+QDEL,Quidel Corp,USA,S&P 400,
+HXL,Hexcel,USA,S&P 400,
+UNVR,Univar Solutions,USA,S&P 400,
+STRA,Strategic Education,USA,S&P 400,
+QLYS,Qualys Inc,USA,S&P 400,
+GBCI,Glacier Bancorp,USA,S&P 400,
+HPP,Hudson Pacific Properties,USA,S&P 400,
+ESNT,Essent Group Ltd,USA,S&P 400,
+STOR,Store Capital,USA,S&P 400,
+ENPH,Enphase Energy,USA,S&P 400,B3 Renewables
+PCTY,Paylocity Holding,USA,S&P 400,
+LHCG,LHC Group,USA,S&P 400,
+XEC,Cimarex Energy,USA,S&P 400,
+TMHC,Taylor Morrison,USA,S&P 400,
+DAR,Darling Ingredients,USA,S&P 400,
+CIT,CIT Group,USA,S&P 400,
+RH,RH,USA,S&P 400,
+COLM,Columbia Sportswear,USA,S&P 400,
+AMG,Affiliated Managers Group,USA,S&P 400,
+TRIP,TripAdvisor,USA,S&P 400,
+MAC,Macerich Co.,USA,S&P 400,
+LOPE,Grand Canyon Education,USA,S&P 400,
+LEA,Lear Corp,USA,S&P 400,
+CHH,Choice Hotels,USA,S&P 400,
+CCMP,Cabot Microelectronics,USA,S&P 400,
+RLI,RLI Corp.,USA,S&P 400,
+CDAY,Ceridian,USA,S&P 400,
+BJ,BJ's Wholesale Club,USA,S&P 400,
+FCN,FTI Consulting,USA,S&P 400,
+SEDG,SolarEdge,USA,S&P 400,B3 Renewables
+MRCY,Mercury Systems,USA,S&P 400,
+NKTR,Nektar Therapeutics,USA,S&P 400,
+JEF,Jefferies Financial Group,USA,S&P 400,
+IIVI,II-VI,USA,S&P 400,
+PK,Park Hotels & Resorts,USA,S&P 400,
+SIGI,Selective Insurance Group Inc.,USA,S&P 400,
+RGEN,Repligen,USA,S&P 400,
+FCFS,FirstCash,USA,S&P 400,
+ETSY,Etsy,USA,S&P 400,
+PPC,Pilgrim's Pride,USA,S&P 400,
+KAR,KAR Auction Services,USA,S&P 400,
+AM,Antero Midstream,USA,S&P 400,
+OC,Owens Corning,USA,S&P 400,
+PEN,"Penumbra, Inc.",USA,S&P 400,
+GRUB,Grubhub,USA,S&P 400,
+FL,Foot Locker,USA,S&P 400,
+TTEK,Tetra Tech,USA,S&P 400,
+SRC,Spirit Realty,USA,S&P 400,
+AAXN,Axon Enterprise,USA,S&P 400,
+MAT,Mattel,USA,S&P 400,
+FLR,Fluor,USA,S&P 400,
+EGP,EastGroup Properties,USA,S&P 400,
+PSB,PS Business Parks,USA,S&P 400,
+BHF,Brighthouse Financial,USA,S&P 400,
+TREX,"Trex Company, Inc.",USA,S&P 400,
+FFIN,First Financial,USA,S&P 400,
+CFX,Colfax,USA,S&P 400,
+NGVT,Ingevity,USA,S&P 400,
+XPO,"XPO, Inc.",USA,S&P 400,
+GT,Goodyear Tire & Rubber,USA,S&P 400,
+AMED,Amedisys,USA,S&P 400,
+CVET,Covetrus,USA,S&P 400,
+BRX,Brixmor Property Group,USA,S&P 400,
+CZR,Caesars Entertainment,USA,S&P 400,
+GDOT,Green Dot,USA,S&P 400,
+YELP,Yelp,USA,S&P 400,
+OLED,Universal Display,USA,S&P 400,
+PEB,Pebblebrook Hotel Trust,USA,S&P 400,
+SRCL,Stericycle,USA,S&P 400,
+CACI,CACI International,USA,S&P 400,
+LGND,Ligand Pharmaceuticals,USA,S&P 400,
+ETRN,Equitrans Midstream,USA,S&P 400,
+MTZ,MasTec,USA,S&P 400,
+NSP,Insperity,USA,S&P 400,
+ASGN,ASGN Inc.,USA,S&P 400,
+RLGY,Realogy,USA,S&P 400,
+HQY,HealthEquity,USA,S&P 400,
+VAC,Marriott Vacations Worldwide,USA,S&P 400,
+ADNT,Adient,USA,S&P 400,
+ERI,Eldorado Resorts,USA,S&P 400,
+WWE,World Wrestling Entertainment,USA,S&P 400,
+VC,Visteon,USA,S&P 400,
+EXEL,Exelixis,USA,S&P 400,
+AYI,Acuity Brands,USA,S&P 400,
+CHE,Chemed Corp.,USA,S&P 400,
+HAE,Haemonetics,USA,S&P 400,
+OLLI,Ollie's Bargain Outlet,USA,S&P 400,
+NAVI,Navient Corp.,USA,S&P 400,
+IART,Integra LifeSciences,USA,S&P 400,
+WYND,Wyndham Destinations,USA,S&P 400,
+PRAH,PRA Health Sciences,USA,S&P 400,
+APY,Apergy Corp.,USA,S&P 400,
+MDR,McDermott International,USA,S&P 400,
+NVT,nVent Electric,USA,S&P 400,
+OAS,Oasis Petroleum,USA,S&P 400,
+FIVE,Five Below,USA,S&P 400,
+EVR,Evercore,USA,S&P 400,
+SIG,Signet Jewelers,USA,S&P 400,
+PDCO,Patterson Companies,USA,S&P 400,
+CMD,Cantel Medical,USA,S&P 400,
+ICUI,ICU Medical,USA,S&P 400,
+TREE,LendingTree,USA,S&P 400,
+ALE,ALLETE Inc.,USA,S&P 400,
+BYD,Boyd Gaming,USA,S&P 400,
+HCSG,Healthcare Services Group,USA,S&P 400,
+SGMS,Scientific Games,USA,S&P 400,
+EHC,Encompass Health Corp.,USA,S&P 400,
+DLPH,Delphi Technologies,USA,S&P 400,
+MKSI,MKS Instruments,USA,S&P 400,
+SIX,Six Flags,USA,S&P 400,
+STL,Sterling Bancorp,USA,S&P 400,
+SAFM,Sanderson Farms,USA,S&P 400,
+ILG,"ILG, Inc.",USA,S&P 400,
+BCO,Brink's,USA,S&P 400,
+CPE,Callon Petroleum,USA,S&P 400,
+SBRA,Sabra Health Care REIT,USA,S&P 400,
+AN,AutoNation,USA,S&P 400,
+MNK,Mallinckrodt,USA,S&P 400,
+MUR,Murphy Oil,USA,S&P 400,
+BBBY,Bed Bath & Beyond,USA,S&P 400,
+RIG,Transocean,USA,S&P 400,
+JBGS,JBG Smith,USA,S&P 400,
+KNX,Knight Transportation,USA,S&P 400,
+CLB,Core Laboratories,USA,S&P 400,
+BLKB,Blackbaud,USA,S&P 400,
+MDSO,Medidata Solutions,USA,S&P 400,
+PNFP,Pinnacle Financial Partners,USA,S&P 400,
+TDC,Teradata,USA,S&P 400,
+R,Ryder System,USA,S&P 400,
+CARS,Cars.com,USA,S&P 400,
+TGNA,"Tegna, Inc.",USA,S&P 400,
+HOMB,Home BancShares,USA,S&P 400,
+VVV,Valvoline Inc,USA,S&P 400,
+SABR,Sabre Corp,USA,S&P 400,
+UBSI,United Bankshares,USA,S&P 400,
+ACHC,Acadia Healthcare,USA,S&P 400,
+DNB,Dun & Bradstreet,USA,S&P 400,
+INCR,INC Research,USA,S&P 400,
+WTFC,Wintrust Financial,USA,S&P 400,
+TCBI,Texas Capital Bancshares,USA,S&P 400,
+MIK,The Michaels Companies,USA,S&P 400,
+URBN,Urban Outfitters,USA,S&P 400,
+FTR,Frontier Communications,USA,S&P 400,
+MASI,Masimo,USA,S&P 400,
+GEO,GEO Group,USA,S&P 400,
+ENDP,Endo International,USA,S&P 400,
+NUS,Nu Skin,USA,S&P 400,
+PBI,Pitney Bowes,USA,S&P 400,
+CONE,CyrusOne,USA,S&P 400,
+DDS,Dillard's,USA,S&P 400,
+CTB,Cooper Tire & Rubber,USA,S&P 400,
+BIVV,Bioverativ,USA,S&P 400,
+LOGM,LogMeIn,USA,S&P 400,
+CC,Chemours,USA,S&P 400,
+UMBF,UMB Financial,USA,S&P 400,
+GMED,Globus Medical,USA,S&P 400,
+OI,Owens-Illinois,USA,S&P 400,
+PZZA,Papa John's Intl,USA,S&P 400,
+LM,Legg Mason,USA,S&P 400,
+LFUS,Littelfuse,USA,S&P 400,
+LW,Lamb Weston Holdings,USA,S&P 400,
+HLS,HealthSouth,USA,S&P 400,
+QCP,Quality Care Properties,USA,S&P 400,
+CUZ,Cousins Properties,USA,S&P 400,
+VSM,Versum Materials,USA,S&P 400,
+DO,Diamond Offshore Drilling,USA,S&P 400,
+SBH,Sally Beauty,USA,S&P 400,
+NWE,NorthWestern,USA,S&P 400,
+NUVA,NuVasive,USA,S&P 400,
+CRUS,Cirrus Logic,USA,S&P 400,
+CAR,Avis Budget Group,USA,S&P 400,
+CHFC,Chemical Financial (later TCF Financial Corporation),USA,S&P 400,
+ENS,EnerSys,USA,S&P 400,
+MBFI,MB Financial,USA,S&P 400,
+SWX,Southwest Gas,USA,S&P 400,
+CHDN,Churchill Downs,USA,S&P 400,
+HELE,Helen of Troy,USA,S&P 400,
+BRCD,Brocade Communications,USA,S&P 400,
+EDR,Education Realty Trust,USA,S&P 400,
+MPW,Medical Properties Trust,USA,S&P 400,
+TXRH,Texas Roadhouse,USA,S&P 400,
+VSAT,ViaSat,USA,S&P 400,
+THC,Tenet Healthcare,USA,S&P 400,
+PBH,Prestige Brands,USA,S&P 400,
+WBMD,webMD Health,USA,S&P 400,
+DCT,DCT Industrial Trust,USA,S&P 400,
+ABMD,Abiomed,USA,S&P 400,
+ESV,Ensco plc,USA,S&P 400,
+FR,First Industrial Realty Trust,USA,S&P 400,
+NJR,New Jersey Resources,USA,S&P 400,
+HR,Healthcare Realty Trust,USA,S&P 400,
+CNX,Consol Energy,USA,S&P 400,
+PVTB,PrivateBancorp,USA,S&P 400,
+LNCE,Snyder's-Lance,USA,S&P 400,
+FNB,FNB Corporation,USA,S&P 400,
+SFM,Sprouts Farmers Market,USA,S&P 400,
+SCOR,comScore,USA,S&P 400,
+CW,Curtiss-Wright,USA,S&P 400,
+POOL,Pool Corporation,USA,S&P 400,
+MSCC,Microsemi,USA,S&P 400,
+EPR,EPR Properties,USA,S&P 400,
+FOSL,Fossil Group,USA,S&P 400,
+SNX,Synnex,USA,S&P 400,
+JCOM,j2 Global,USA,S&P 400,
+CSC,Computer Sciences Corp,USA,S&P 400,
+GNW,Genworth Financial,USA,S&P 400,
+MKTX,MarketAxess Holdings,USA,S&P 400,
+ENH,Endurance Specialty Holdings,USA,S&P 400,
+JACK,Jack in the Box,USA,S&P 400,
+CABO,Cable One,USA,S&P 400,
+EPC,Edgewell Personal Care,USA,S&P 400,
+WETF,WisdomTree Investments,USA,S&P 400,
+CBRL,Cracker Barrel,USA,S&P 400,
+MANH,Manhattan Associates Inc.,USA,S&P 400,
+OZRK,Bank of the Ozarks,USA,S&P 400,
+DNKN,Dunkin' Brands Group Inc,USA,S&P 400,
+CSAL,Communications Sales & Leasing,USA,S&P 400,
+CNO,CNO Financial Group,USA,S&P 400,
+KLXI,KLX,USA,S&P 400,
+THS,TreeHouse Foods,USA,S&P 400,
+BMS,Bemis,USA,S&P 400,
+CRC,California Resources,USA,S&P 400,
+WNR,Western Refining,USA,S&P 400,
+HYH,Halyard Health,USA,S&P 400,
+SKT,Tanger Factory Outlet Centers,USA,S&P 400,
+CDK,CDK Global Inc.,USA,S&P 400,
+GHC,Graham Holdings,USA,S&P 400,
+BTU,Peabody Energy,USA,S&P 400,
+CGNX,Cognex,USA,S&P 400,
+RDC,Rowan,USA,S&P 400,
+ULTI,The Ultimate Software Group,USA,S&P 400,
+X,United States Steel,USA,S&P 400,
+LHO,LaSalle Hotel Properties,USA,S&P 400,
+TMST,TimkenSteel,USA,S&P 400,
+BDC,Belden,USA,S&P 400,
+RYAM,Rayonier Advanced Materials,USA,S&P 400,
+IGT,International Game Technology,USA,S&P 400,
+ARRS,ARRIS Group,USA,S&P 400,
+TIME,Time Inc.,USA,S&P 400,
+DNOW,NOW,USA,S&P 400,
+CVEO,Civeo,USA,S&P 400,
+WPG,Washington Prime Group,USA,S&P 400,
+SLM,SLM,USA,S&P 400,
+POL,PolyOne,USA,S&P 400,
+UMPQ,Umpqua Holdings,USA,S&P 400,
+FEIC,FEI Company,USA,S&P 400,
+WPX,WPX Energy,USA,S&P 400,
+KATE,Kate Spade & Company,USA,S&P 400,
+KN,Knowles Corporation,USA,S&P 400,
+OGS,ONE Gas,USA,S&P 400,
+SIRO,Sirona Dental Systems,USA,S&P 400,
+RNR,RenaissanceRe Holdings,USA,S&P 400,
+HAIN,The Hain Celestial Group,USA,S&P 400,
+JDSU,JDS Uniphase,USA,S&P 400,
+BC,Brunswick,USA,S&P 400,
+SAIC,Science Applications International,USA,S&P 400,
+CBST,Cubist Pharmaceuticals,USA,S&P 400,
+SAI,SAIC,USA,S&P 400,
+MUSA,Murphy USA,USA,S&P 400,
+SLXP,Salix Pharmaceuticals,USA,S&P 400,
+APOL,Apollo Group,USA,S&P 400,
+FHN,First Horizon National,USA,S&P 400,
+DF,Dean Foods,USA,S&P 400,
+WWAV,WhiteWave Foods,USA,S&P 400,
+DDD,3D Systems,USA,S&P 400,
+CST,CST Brands,USA,S&P 400,
+EXP,Eagle Materials,USA,S&P 400,
+KRC,Kilroy Realty,USA,S&P 400,
+PRI,Primerica,USA,S&P 400,
+FII,Federated Investors,USA,S&P 400,
+UNFI,United Natural Foods,USA,S&P 400,
+RRD,R.R. Donnelley,USA,S&P 400,
+CAB,Cabela's,USA,S&P 400,
+ANR,Alpha Natural Resources,USA,S&P 400,
+GWR,Genesee & Wyoming,USA,S&P 400,
+LXK,Lexmark,USA,S&P 400,
+DV,DeVry,USA,S&P 400,
+JAH,Jarden,USA,S&P 400,
+SWI,SolarWinds,USA,S&P 400,
+ALEX,Alexander & Baldwin,USA,S&P 400,
+HSH,Hillshire Brands,USA,S&P 400,
+TPX,Tempur-Pedic International,USA,S&P 400,
+SVU,SUPERVALU,USA,S&P 400,
+WXS,Wright Express,USA,S&P 400,
+POST,Post Holdings,USA,S&P 400,
+CRI,Carter's,USA,S&P 400,
+ADS.DE,Adidas,Deutschland,DAX,
+AIR.PA,Airbus,Deutschland,DAX,D2 Aerospace
+ALV.DE,Allianz,Deutschland,DAX,E3 Versicherer
+BAS.DE,BASF,Deutschland,DAX,C3 Agrar & Chemie
+BAYN.DE,Bayer,Deutschland,DAX,F1 Pharma
+BEI.DE,Beiersdorf,Deutschland,DAX,
+BMW.DE,BMW,Deutschland,DAX,G1 Konsum zyklisch
+BNR.DE,Brenntag,Deutschland,DAX,
+CBK.DE,Commerzbank,Deutschland,DAX,
+CON.DE,Continental,Deutschland,DAX,
+DTG.DE,Daimler Truck,Deutschland,DAX,
+DBK.DE,Deutsche Bank,Deutschland,DAX,E1 Banken
+DB1.DE,Deutsche Börse,Deutschland,DAX,E2 Börsen & Payments
+DHL.DE,Deutsche Post,Deutschland,DAX,D4 Transport
+DTE.DE,Deutsche Telekom,Deutschland,DAX,J1 Telekom
+EOAN.DE,E.ON,Deutschland,DAX,B4 Utilities
+FRE.DE,Fresenius,Deutschland,DAX,
+FME.DE,Fresenius Medical Care,Deutschland,DAX,
+G1A.DE,GEA Group,Deutschland,DAX,
+HNR1.DE,Hannover Re,Deutschland,DAX,
+HEI.DE,Heidelberg Materials,Deutschland,DAX,D5 Bau
+HEN3.DE,Henkel,Deutschland,DAX,
+IFX.DE,Infineon Technologies,Deutschland,DAX,A1 Analog
+MBG.DE,Mercedes-Benz Group,Deutschland,DAX,G1 Konsum zyklisch
+MRK.DE,Merck,Deutschland,DAX,
+MTX.DE,MTU Aero Engines,Deutschland,DAX,D2 Aerospace
+MUV2.DE,Munich Re,Deutschland,DAX,E3 Versicherer
+PAH3.DE,Porsche SE,Deutschland,DAX,
+QIA.DE,Qiagen,Deutschland,DAX,
+RHM.DE,Rheinmetall,Deutschland,DAX,D1 Defense
+RWE.DE,RWE,Deutschland,DAX,B4 Utilities
+SAP.DE,SAP,Deutschland,DAX,A4 Software
+G24.DE,Scout24,Deutschland,DAX,L2 Nebenwerte DE
+SIE.DE,Siemens,Deutschland,DAX,D3 Maschinenbau
+ENR.DE,Siemens Energy,Deutschland,DAX,B1 Grid
+SHL.DE,Siemens Healthineers,Deutschland,DAX,F3 Medtech
+SY1.DE,Symrise,Deutschland,DAX,
+VOW3.DE,Volkswagen Group,Deutschland,DAX,G1 Konsum zyklisch
+VNA.DE,Vonovia,Deutschland,DAX,H1 REITs
+ZAL.DE,Zalando,Deutschland,DAX,G1 Konsum zyklisch
+AIXA.DE,Aixtron,Deutschland,MDAX,
+AT1.DE,Aroundtown,Deutschland,MDAX,
+NDA.DE,Aurubis,Deutschland,MDAX,
+BC8.DE,Bechtle,Deutschland,MDAX,
+BFSA.DE,Befesa,Deutschland,MDAX,
+GBF.DE,Bilfinger,Deutschland,MDAX,
+AFX.DE,Carl Zeiss Meditec,Deutschland,MDAX,
+EVD.DE,CTS Eventim,Deutschland,MDAX,
+DHER.DE,Delivery Hero,Deutschland,MDAX,
+LHA.DE,Lufthansa,Deutschland,MDAX,D4 Transport
+ECV.DE,Encavis,Deutschland,MDAX,
+EVK.DE,Evonik,Deutschland,MDAX,
+EVT.DE,Evotec,Deutschland,MDAX,
+FRA.DE,Fraport,Deutschland,MDAX,
+FNTN.DE,Freenet,Deutschland,MDAX,
+FPE3.DE,Fuchs Petrolub,Deutschland,MDAX,
+GXI.DE,Gerresheimer,Deutschland,MDAX,L2 Nebenwerte DE
+HLE.DE,Hella,Deutschland,MDAX,
+HFG.DE,HelloFresh,Deutschland,MDAX,
+HAG.DE,Hensoldt,Deutschland,MDAX,D1 Defense
+HOT.DE,Hochtief,Deutschland,MDAX,D5 Bau
+BOSS.DE,Hugo Boss,Deutschland,MDAX,
+JEN.DE,Jenoptik,Deutschland,MDAX,
+JUN3.DE,Jungheinrich,Deutschland,MDAX,
+SDF.DE,K+S,Deutschland,MDAX,
+KGX.DE,KION Group,Deutschland,MDAX,A7 Robotik
+KBX.DE,Knorr-Bremse,Deutschland,MDAX,
+KRN.DE,Krones,Deutschland,MDAX,
+LXS.DE,Lanxess,Deutschland,MDAX,
+LEG.DE,LEG Immobilien,Deutschland,MDAX,
+NEM.DE,Nemetschek,Deutschland,MDAX,L2 Nebenwerte DE
+NDX1.DE,Nordex,Deutschland,MDAX,
+PUM.DE,Puma,Deutschland,MDAX,
+RAA.DE,Rational,Deutschland,MDAX,L2 Nebenwerte DE
+RDC.DE,Redcare Pharmacy,Deutschland,MDAX,
+RRTL.DE,RTL Group,Deutschland,MDAX,
+WAF.DE,Siltronic,Deutschland,MDAX,
+STM.DE,Stabilus,Deutschland,MDAX,
+SAX.DE,Ströer,Deutschland,MDAX,
+TEG.DE,TAG Tegernsee Immobilien und Beteiligung,Deutschland,MDAX,
+TLX.DE,Talanx,Deutschland,MDAX,
+TMV.DE,TeamViewer,Deutschland,MDAX,
+TKA.DE,ThyssenKrupp,Deutschland,MDAX,
+8TRA.DE,Traton,Deutschland,MDAX,
+TUI1.DE,TUI,Deutschland,MDAX,
+UTDI.DE,United Internet,Deutschland,MDAX,
+WCH.DE,Wacker Chemie,Deutschland,MDAX,
+III.L,3i,UK,FTSE 100,
+ABDN.L,Aberdeen Group,UK,FTSE 100,
+ADM.L,Admiral Group,UK,FTSE 100,
+AAF.L,Airtel Africa,UK,FTSE 100,
+ALW.L,Alliance Witan,UK,FTSE 100,
+AAL.L,Anglo American plc,UK,FTSE 100,
+ANTO.L,Antofagasta plc,UK,FTSE 100,
+ABF.L,Associated British Foods,UK,FTSE 100,
+AZN.L,AstraZeneca,UK,FTSE 100,
+AUTO.L,Autotrader Group,UK,FTSE 100,
+AV.L,Aviva,UK,FTSE 100,
+BAB.L,Babcock International,UK,FTSE 100,
+BA.L,BAE Systems,UK,FTSE 100,D1 Defense
+BBY.L,Balfour Beatty,UK,FTSE 100,
+BARC.L,Barclays,UK,FTSE 100,
+BTRW.L,Barratt Redrow,UK,FTSE 100,
+BP.L,BP,UK,FTSE 100,
+BATS.L,British American Tobacco,UK,FTSE 100,
+BLND.L,British Land,UK,FTSE 100,
+BT.A,BT Group,UK,FTSE 100,
+BNZL.L,Bunzl,UK,FTSE 100,
+BRBY.L,Burberry Group,UK,FTSE 100,
+CNA.L,Centrica,UK,FTSE 100,
+CCEP.L,Coca-Cola Europacific Partners,UK,FTSE 100,
+CCH.L,Coca-Cola HBC,UK,FTSE 100,
+CPG.L,Compass Group,UK,FTSE 100,
+CCC.L,Computacenter,UK,FTSE 100,
+CTEC.L,Convatec,UK,FTSE 100,
+CRDA.L,Croda International,UK,FTSE 100,
+DCC.L,DCC Energy,UK,FTSE 100,
+DGE.L,Diageo,UK,FTSE 100,
+DPLM.L,Diploma,UK,FTSE 100,
+EZJ.L,EasyJet,UK,FTSE 100,
+EDV.L,Endeavour Mining,UK,FTSE 100,
+EXPN.L,Experian,UK,FTSE 100,
+FCIT.L,F & C Investment Trust,UK,FTSE 100,
+FRES.L,Fresnillo plc,UK,FTSE 100,
+GAW.L,Games Workshop,UK,FTSE 100,
+GLEN.L,Glencore,UK,FTSE 100,C2 Industriemetalle
+GSK.L,GSK plc,UK,FTSE 100,
+HLN.L,Haleon,UK,FTSE 100,
+HLMA.L,Halma plc,UK,FTSE 100,
+HSX.L,Hiscox,UK,FTSE 100,
+HWDN.L,Howdens Joinery,UK,FTSE 100,
+HSBA.L,HSBC,UK,FTSE 100,
+ICG.L,ICG,UK,FTSE 100,
+IGG.L,IG Group,UK,FTSE 100,
+IHG.L,IHG Hotels & Resorts,UK,FTSE 100,
+IMI.L,IMI,UK,FTSE 100,
+IMB.L,Imperial Brands,UK,FTSE 100,
+INF.L,Informa,UK,FTSE 100,
+IAG.L,International Airlines Group,UK,FTSE 100,
+ITRK.L,Intertek,UK,FTSE 100,
+INVP.L,Investec,UK,FTSE 100,
+ITH.L,Ithaca Energy,UK,FTSE 100,
+JD.L,JD Sports,UK,FTSE 100,
+BGEO.L,Lion Finance Group,UK,FTSE 100,
+KGF.L,Kingfisher plc,UK,FTSE 100,
+LAND.L,Land Securities,UK,FTSE 100,
+LGEN.L,Legal & General,UK,FTSE 100,
+LLOY.L,Lloyds Banking Group,UK,FTSE 100,
+LMP.L,LondonMetric Property,UK,FTSE 100,
+LSEG.L,London Stock Exchange Group,UK,FTSE 100,
+MNG.L,M&G,UK,FTSE 100,
+MKS.L,Marks & Spencer,UK,FTSE 100,
+MRO.L,Melrose Industries,UK,FTSE 100,
+MTLN.L,Metlen Energy & Metals,UK,FTSE 100,
+NG.L,National Grid plc,UK,FTSE 100,
+NWG.L,NatWest Group,UK,FTSE 100,
+NXT.L,Next plc,UK,FTSE 100,
+PSON.L,Pearson plc,UK,FTSE 100,
+PSH.L,Pershing Square Holdings,UK,FTSE 100,
+PCT.L,Polar Capital Technology Trust,UK,FTSE 100,
+PRU.L,Prudential plc,UK,FTSE 100,
+RKT.L,Reckitt,UK,FTSE 100,
+REL.L,RELX,UK,FTSE 100,
+RTO.L,Rentokil Initial,UK,FTSE 100,
+RIO.L,Rio Tinto,UK,FTSE 100,
+RR.L,Rolls-Royce Holdings,UK,FTSE 100,D2 Aerospace
+SGE.L,Sage Group,UK,FTSE 100,
+SBRY.L,Sainsbury's,UK,FTSE 100,
+SMT.L,Scottish Mortgage Investment Trust,UK,FTSE 100,
+SGRO.L,Segro,UK,FTSE 100,
+SVT.L,Severn Trent,UK,FTSE 100,
+SHEL.L,Shell plc,UK,FTSE 100,
+SMIN.L,Smiths Group,UK,FTSE 100,
+SN.L,Smith & Nephew,UK,FTSE 100,
+SPX.L,Spirax Group,UK,FTSE 100,
+SSE.L,SSE plc,UK,FTSE 100,
+STAN.L,Standard Chartered,UK,FTSE 100,
+SDLF.L,Standard Life,UK,FTSE 100,
+STJ.L,St. James's Place,UK,FTSE 100,
+TSCO.L,Tesco,UK,FTSE 100,
+BBOX.L,Tritax Big Box REIT,UK,FTSE 100,
+ULVR.L,Unilever,UK,FTSE 100,
+UU.L,United Utilities,UK,FTSE 100,
+VOD.L,Vodafone Group,UK,FTSE 100,J1 Telekom
+WEIR.L,Weir,UK,FTSE 100,
+WTB.L,Whitbread,UK,FTSE 100,
+WPP.L,WPP,UK,FTSE 100,
+AC.PA,Accor,Frankreich,CAC 40,
+AI.PA,Air Liquide,Frankreich,CAC 40,
+MT.AS,ArcelorMittal,Frankreich,CAC 40,
+CS.PA,Axa,Frankreich,CAC 40,
+BNP.PA,BNP Paribas,Frankreich,CAC 40,E1 Banken
+EN.PA,Bouygues,Frankreich,CAC 40,
+BVI.PA,Bureau Veritas,Frankreich,CAC 40,
+CAP.PA,Capgemini,Frankreich,CAC 40,
+CA.PA,Carrefour,Frankreich,CAC 40,
+ACA.PA,Crédit Agricole,Frankreich,CAC 40,
+BN.PA,Danone,Frankreich,CAC 40,
+DSY.PA,Dassault Systèmes,Frankreich,CAC 40,
+FGR.PA,Eiffage,Frankreich,CAC 40,
+ENGI.PA,Engie,Frankreich,CAC 40,
+EL.PA,EssilorLuxottica,Frankreich,CAC 40,
+ERF.PA,Eurofins Scientific,Frankreich,CAC 40,
+ENX.PA,Euronext,Frankreich,CAC 40,
+RMS.PA,Hermès,Frankreich,CAC 40,G1 Konsum zyklisch
+KER.PA,Kering,Frankreich,CAC 40,
+OR.PA,L'Oréal,Frankreich,CAC 40,
+LR.PA,Legrand,Frankreich,CAC 40,
+MC.PA,LVMH,Frankreich,CAC 40,G1 Konsum zyklisch
+ML.PA,Michelin,Frankreich,CAC 40,
+ORA.PA,Orange,Frankreich,CAC 40,
+RI.PA,Pernod Ricard,Frankreich,CAC 40,
+PUB.PA,Publicis,Frankreich,CAC 40,
+RNO.PA,Renault,Frankreich,CAC 40,
+SAF.PA,Safran,Frankreich,CAC 40,
+SGO.PA,Saint-Gobain,Frankreich,CAC 40,
+SAN.PA,Sanofi,Frankreich,CAC 40,
+SU.PA,Schneider Electric,Frankreich,CAC 40,
+GLE.PA,Société Générale,Frankreich,CAC 40,
+STLAP.PA,Stellantis,Frankreich,CAC 40,
+STMPA.PA,STMicroelectronics,Frankreich,CAC 40,
+HO.PA,Thales,Frankreich,CAC 40,D1 Defense
+TTE.PA,TotalEnergies,Frankreich,CAC 40,
+URW.PA,Unibail-Rodamco-Westfield,Frankreich,CAC 40,
+VIE.PA,Veolia,Frankreich,CAC 40,D6 Abfall & Wasser
+DG.PA,Vinci,Frankreich,CAC 40,D5 Bau
+NOVN.SW,Novartis International AG,Schweiz,SMI,F1 Pharma
+ROP.SW,Roche Holding AG,Schweiz,SMI,
+NESN.SW,Nestlé SA,Schweiz,SMI,G2 Staples
+ABBN.SW,ABB Ltd,Schweiz,SMI,B1 Grid
+UBSG.SW,UBS Group AG,Schweiz,SMI,E1 Banken
+CFR.SW,Compagnie Financière Richemont SA,Schweiz,SMI,G1 Konsum zyklisch
+ZURN.SW,Zurich Insurance Group AG,Schweiz,SMI,
+HOLN.SW,Holcim Limited,Schweiz,SMI,
+SREN.SW,Swiss Reinsurance Company Ltd,Schweiz,SMI,
+LONN.SW,Lonza Group AG,Schweiz,SMI,
+SDZ.SW,Sandoz,Schweiz,SMI,
+GIVN.SW,Givaudan SA,Schweiz,SMI,
+ALC.SW,Alcon Inc,Schweiz,SMI,
+SIKA.SW,Sika AG,Schweiz,SMI,
+AMRZ.SW,Amrize AG,Schweiz,SMI,
+SLHN.SW,Swiss Life Holding AG,Schweiz,SMI,
+GALD.SW,Galderma,Schweiz,SMI,
+GEBN.SW,Geberit AG,Schweiz,SMI,
+PGHN.SW,Partners Group Holding AG,Schweiz,SMI,
+LOGN.SW,Logitech International SA,Schweiz,SMI,
+ABN.AS,ABN AMRO,Niederlande,AEX,
+ADYEN.AS,Adyen,Niederlande,AEX,E4 Fintech
+AGN.AS,Aegon,Niederlande,AEX,
+AD.AS,Ahold Delhaize,Niederlande,AEX,
+AKZA.AS,AkzoNobel,Niederlande,AEX,
+ASM.AS,ASM International,Niederlande,AEX,
+ASML.AS,ASML Holding,Niederlande,AEX,
+ASRNL.AS,ASR Nederland,Niederlande,AEX,
+BESI.AS,BE Semiconductors,Niederlande,AEX,
+DSFIR.AS,DSM Firmenich AG,Niederlande,AEX,
+EXO.AS,Exor,Niederlande,AEX,
+HEIA.AS,Heineken,Niederlande,AEX,
+IMCD.AS,IMCD,Niederlande,AEX,
+INGA.AS,ING Group,Niederlande,AEX,
+KPN.AS,KPN,Niederlande,AEX,
+NN.AS,NN Group,Niederlande,AEX,
+PHIA.AS,Philips,Niederlande,AEX,
+PRX.AS,Prosus,Niederlande,AEX,
+RAND.AS,Randstad,Niederlande,AEX,
+REN.AS,RELX,Niederlande,AEX,
+SHELL.AS,Shell plc,Niederlande,AEX,
+UMG.AS,Universal Music Group,Niederlande,AEX,
+UNA.AS,Unilever,Niederlande,AEX,
+WKL.AS,Wolters Kluwer,Niederlande,AEX,
+ACS.MC,ACS,Spanien,IBEX 35,
+ACX.MC,Acerinox,Spanien,IBEX 35,
+AMS.MC,Amadeus IT Group,Spanien,IBEX 35,
+ANA.MC,Acciona,Spanien,IBEX 35,
+ANE.MC,Acciona Energía,Spanien,IBEX 35,
+BBVA.MC,BBVA,Spanien,IBEX 35,
+BKT.MC,Bankinter,Spanien,IBEX 35,
+CABK.MC,CaixaBank,Spanien,IBEX 35,
+CLNX.MC,Cellnex Telecom,Spanien,IBEX 35,
+COL.MC,Inmobiliaria Colonial,Spanien,IBEX 35,
+AENA.MC,AENA,Spanien,IBEX 35,
+ELE.MC,Endesa,Spanien,IBEX 35,
+ENG.MC,Enagás,Spanien,IBEX 35,
+FDR.MC,Fluidra,Spanien,IBEX 35,
+FER.MC,Ferrovial,Spanien,IBEX 35,
+GRF.MC,Grifols,Spanien,IBEX 35,
+IAG.MC,International Airlines Group,Spanien,IBEX 35,
+IBE.MC,Iberdrola,Spanien,IBEX 35,B4 Utilities
+IDR.MC,Indra,Spanien,IBEX 35,
+ITX.MC,Inditex,Spanien,IBEX 35,G1 Konsum zyklisch
+LOG.MC,Logista,Spanien,IBEX 35,
+MAP.MC,Mapfre,Spanien,IBEX 35,
+MRL.MC,Merlin Properties,Spanien,IBEX 35,
+MTS.MC,ArcelorMittal,Spanien,IBEX 35,
+NTGY.MC,Naturgy,Spanien,IBEX 35,
+PUIG.MC,Puig,Spanien,IBEX 35,
+RED.MC,Redeia Corporación,Spanien,IBEX 35,
+REP.MC,Repsol,Spanien,IBEX 35,
+ROVI.MC,Laboratorios Rovi [es],Spanien,IBEX 35,
+SAB.MC,Banco Sabadell,Spanien,IBEX 35,
+SAN.MC,Santander,Spanien,IBEX 35,E1 Banken
+SCYR.MC,Sacyr,Spanien,IBEX 35,
+SLR.MC,Solaria,Spanien,IBEX 35,
+TEF.MC,Telefónica,Spanien,IBEX 35,
+UNI.MC,Unicaja,Spanien,IBEX 35,
+A2A.MI,A2A,Italien,FTSE MIB,
+AMP.MI,Amplifon,Italien,FTSE MIB,
+AVIO.MI,Avio,Italien,FTSE MIB,
+AZM.MI,Azimut,Italien,FTSE MIB,
+BMED.MI,Banca Mediolanum,Italien,FTSE MIB,
+BMPS.MI,Banca Monte dei Paschi di Siena,Italien,FTSE MIB,
+BAMI.MI,Banco BPM,Italien,FTSE MIB,
+BPE.MI,BPER Banca,Italien,FTSE MIB,
+BC.MI,Brunello Cucinelli,Italien,FTSE MIB,
+BZU.MI,Buzzi,Italien,FTSE MIB,
+CPR.MI,Campari,Italien,FTSE MIB,
+DIA.MI,Diasorin,Italien,FTSE MIB,
+ENEL.MI,Enel,Italien,FTSE MIB,B4 Utilities
+ENI.MI,Eni,Italien,FTSE MIB,
+RACE.MI,Ferrari,Italien,FTSE MIB,
+FCT.MI,Fincantieri,Italien,FTSE MIB,
+FBK.MI,FinecoBank,Italien,FTSE MIB,
+G.MI,Generali,Italien,FTSE MIB,
+HER.MI,Hera,Italien,FTSE MIB,
+ISP.MI,Intesa Sanpaolo,Italien,FTSE MIB,E1 Banken
+INW.MI,INWIT,Italien,FTSE MIB,
+IG.MI,Italgas,Italien,FTSE MIB,
+IVG.MI,Iveco,Italien,FTSE MIB,
+LDO.MI,Leonardo,Italien,FTSE MIB,D1 Defense
+LTMC.MI,Lottomatica Group,Italien,FTSE MIB,
+MB.MI,Mediobanca,Italien,FTSE MIB,
+MONC.MI,Moncler,Italien,FTSE MIB,
+NEXI.MI,Nexi,Italien,FTSE MIB,
+PST.MI,Poste italiane,Italien,FTSE MIB,
+PRY.MI,Prysmian,Italien,FTSE MIB,
+REC.MI,Recordati,Italien,FTSE MIB,
+SPM.MI,Saipem,Italien,FTSE MIB,
+SRG.MI,Snam,Italien,FTSE MIB,
+STLAM.MI,Stellantis,Italien,FTSE MIB,
+STMMI.MI,STMicroelectronics,Italien,FTSE MIB,
+TIT.MI,Telecom Italia,Italien,FTSE MIB,
+TEN.MI,Tenaris,Italien,FTSE MIB,
+TRN.MI,Terna,Italien,FTSE MIB,
+UCG.MI,UniCredit,Italien,FTSE MIB,E1 Banken
+UNI.MI,Unipol,Italien,FTSE MIB,
+ABB.ST,ABB Ltd,Schweden,OMXS30,
+ADDT-B.ST,Addtech B,Schweden,OMXS30,
+ALFA.ST,Alfa Laval,Schweden,OMXS30,
+ASSA-B.ST,Assa Abloy B,Schweden,OMXS30,
+AZN.ST,AstraZeneca,Schweden,OMXS30,
+ATCO-A.ST,Atlas Copco A,Schweden,OMXS30,
+BOL.ST,Boliden,Schweden,OMXS30,
+EPI-A.ST,Epiroc A,Schweden,OMXS30,
+EQT.ST,EQT,Schweden,OMXS30,
+ERIC-B.ST,Ericsson B,Schweden,OMXS30,
+ESSITY-B.ST,Essity B,Schweden,OMXS30,
+EVO.ST,Evolution,Schweden,OMXS30,
+SHB-A.ST,Handelsbanken A,Schweden,OMXS30,
+HM-B.ST,Hennes & Mauritz B,Schweden,OMXS30,
+HEXA-B.ST,Hexagon B,Schweden,OMXS30,
+INDU-C.ST,Industrivärden C,Schweden,OMXS30,
+INVE-B.ST,Investor B,Schweden,OMXS30,
+LIFCO-B.ST,Lifco B,Schweden,OMXS30,
+NIBE-B.ST,Nibe Industrier B,Schweden,OMXS30,
+NDA-SE.ST,Nordea Bank Abp,Schweden,OMXS30,
+SAAB-B.ST,Saab B,Schweden,OMXS30,D1 Defense
+SAND.ST,Sandvik,Schweden,OMXS30,
+SCA-B.ST,SCA B,Schweden,OMXS30,
+SEB-A.ST,SEB A,Schweden,OMXS30,
+SKA-B.ST,Skanska B,Schweden,OMXS30,
+SKF-B.ST,SKF B,Schweden,OMXS30,
+SWED-A.ST,Swedbank A,Schweden,OMXS30,
+TEL2-B.ST,Tele2 B,Schweden,OMXS30,
+TELIA.ST,Telia Company,Schweden,OMXS30,
+VOLV-B.ST,Volvo B,Schweden,OMXS30,
+0005.HK,HSBC Holdings plc,Hongkong,Hang Seng,
+0388.HK,HKEx Limited,Hongkong,Hang Seng,
+0939.HK,China Construction Bank,Hongkong,Hang Seng,
+1299.HK,AIA Group Limited,Hongkong,Hang Seng,
+1398.HK,Industrial and Commercial Bank of China,Hongkong,Hang Seng,
+2318.HK,Ping An Insurance,Hongkong,Hang Seng,
+2388.HK,BOC Hong Kong (Holdings) Ltd,Hongkong,Hang Seng,
+2628.HK,China Life,Hongkong,Hang Seng,
+3968.HK,China Merchants Bank,Hongkong,Hang Seng,
+3988.HK,Bank of China Ltd,Hongkong,Hang Seng,
+0002.HK,CLP Holdings Limited,Hongkong,Hang Seng,
+0003.HK,Hong Kong and China Gas Company Limited,Hongkong,Hang Seng,
+0006.HK,Power Assets Holdings Limited,Hongkong,Hang Seng,
+0836.HK,China Resources Power,Hongkong,Hang Seng,
+1038.HK,Cheung Kong Infrastructure Holdings Limited,Hongkong,Hang Seng,
+2688.HK,ENN Energy,Hongkong,Hang Seng,
+0012.HK,Henderson Land Development Company Limited,Hongkong,Hang Seng,
+0016.HK,Sun Hung Kai Properties Limited,Hongkong,Hang Seng,
+0101.HK,Hang Lung Properties Limited,Hongkong,Hang Seng,
+0688.HK,China Overseas Land & Investment Limited,Hongkong,Hang Seng,
+0823.HK,Link REIT,Hongkong,Hang Seng,
+0960.HK,Longfor Properties,Hongkong,Hang Seng,
+1109.HK,China Resources Land Limited,Hongkong,Hang Seng,
+1113.HK,CK Asset Holdings,Hongkong,Hang Seng,
+1209.HK,China Resources Mixc Lifestyle,Hongkong,Hang Seng,
+1997.HK,Wharf Real Estate Investment Company Limited,Hongkong,Hang Seng,
+0001.HK,CK Hutchison Holdings Limited,Hongkong,Hang Seng,
+0027.HK,Galaxy Entertainment Group Ltd.,Hongkong,Hang Seng,
+0066.HK,MTR Corporation Ltd,Hongkong,Hang Seng,
+0175.HK,Geely Auto,Hongkong,Hang Seng,
+0241.HK,Alibaba Health,Hongkong,Hang Seng,
+0267.HK,CITIC Limited,Hongkong,Hang Seng,
+0285.HK,BYD Electronics,Hongkong,Hang Seng,
+0288.HK,WH Group,Hongkong,Hang Seng,
+0291.HK,China Resources Beer,Hongkong,Hang Seng,
+0300.HK,Midea Group,Hongkong,Hang Seng,
+0316.HK,Orient Overseas (International) Limited,Hongkong,Hang Seng,
+0322.HK,Tingyi,Hongkong,Hang Seng,
+0386.HK,Sinopec Corp,Hongkong,Hang Seng,
+0669.HK,Techtronic Industries,Hongkong,Hang Seng,
+0700.HK,Tencent Holdings Limited,Hongkong,Hang Seng,
+0762.HK,China Unicom,Hongkong,Hang Seng,
+0857.HK,PetroChina Company Limited,Hongkong,Hang Seng,
+0868.HK,Xinyi Glass,Hongkong,Hang Seng,
+0881.HK,Zhongsheng Group,Hongkong,Hang Seng,
+0883.HK,CNOOC Limited,Hongkong,Hang Seng,
+0941.HK,China Mobile Ltd,Hongkong,Hang Seng,
+0968.HK,Xinyi Solar,Hongkong,Hang Seng,
+0981.HK,Semiconductor Manufacturing International Corporation,Hongkong,Hang Seng,
+0992.HK,Lenovo,Hongkong,Hang Seng,
+1024.HK,Kuaishou,Hongkong,Hang Seng,
+1044.HK,Hengan International Group Co. Ltd,Hongkong,Hang Seng,
+1088.HK,China Shenhua Energy,Hongkong,Hang Seng,
+1093.HK,CSPC Pharmaceutical Group,Hongkong,Hang Seng,
+1099.HK,Sinopharm Group,Hongkong,Hang Seng,
+1177.HK,Sino Biopharm,Hongkong,Hang Seng,
+1211.HK,BYD Company,Hongkong,Hang Seng,G1 Konsum zyklisch
+1378.HK,China Hongqiao Group,Hongkong,Hang Seng,
+1810.HK,Xiaomi,Hongkong,Hang Seng,K1 China Tech
+1876.HK,Budweiser Brewing Company APAC,Hongkong,Hang Seng,
+1928.HK,Sands China,Hongkong,Hang Seng,
+1929.HK,Chow Tai Fook,Hongkong,Hang Seng,
+2015.HK,Li Auto,Hongkong,Hang Seng,
+2020.HK,Anta Sports,Hongkong,Hang Seng,
+2057.HK,ZTO Express,Hongkong,Hang Seng,
+2269.HK,WuXi Biologics,Hongkong,Hang Seng,
+2313.HK,Shenzhou International,Hongkong,Hang Seng,
+2319.HK,Mengniu Dairy,Hongkong,Hang Seng,
+2331.HK,Li-Ning,Hongkong,Hang Seng,
+2359.HK,WuXi AppTec,Hongkong,Hang Seng,
+2382.HK,Sunny Optical,Hongkong,Hang Seng,
+2618.HK,JD Logistics,Hongkong,Hang Seng,
+2899.HK,Zijin Mining,Hongkong,Hang Seng,
+3690.HK,Meituan,Hongkong,Hang Seng,
+3692.HK,Hansoh Pharmaceutical Group,Hongkong,Hang Seng,
+6618.HK,JD Health,Hongkong,Hang Seng,
+6690.HK,Haier,Hongkong,Hang Seng,
+6862.HK,Haidilao,Hongkong,Hang Seng,
+9618.HK,JD.com,Hongkong,Hang Seng,
+9633.HK,Nongfu Spring,Hongkong,Hang Seng,
+9888.HK,Baidu,Hongkong,Hang Seng,
+9961.HK,Trip.com Group,Hongkong,Hang Seng,
+9988.HK,Alibaba Group,Hongkong,Hang Seng,
+9992.HK,Pop Mart,Hongkong,Hang Seng,
+9999.HK,NetEase,Hongkong,Hang Seng,
+ADANIENT.NS,Adani Enterprises,Indien,NIFTY 50,
+ADANIPORTS.NS,Adani Ports & SEZ,Indien,NIFTY 50,
+APOLLOHOSP.NS,Apollo Hospitals,Indien,NIFTY 50,
+ASIANPAINT.NS,Asian Paints,Indien,NIFTY 50,
+AXISBANK.NS,Axis Bank,Indien,NIFTY 50,
+BAJAJ-AUTO.NS,Bajaj Auto,Indien,NIFTY 50,
+BAJFINANCE.NS,Bajaj Finance,Indien,NIFTY 50,
+BAJAJFINSV.NS,Bajaj Finserv,Indien,NIFTY 50,
+BEL.NS,Bharat Electronics,Indien,NIFTY 50,
+BHARTIARTL.NS,Bharti Airtel,Indien,NIFTY 50,
+BSE.NS,BSE,Indien,NIFTY 50,
+CIPLA.NS,Cipla,Indien,NIFTY 50,
+COALINDIA.NS,Coal India,Indien,NIFTY 50,
+DRREDDY.NS,Dr. Reddy's Laboratories,Indien,NIFTY 50,
+EICHERMOT.NS,Eicher Motors,Indien,NIFTY 50,
+ETERNAL.NS,Eternal,Indien,NIFTY 50,
+GRASIM.NS,Grasim Industries,Indien,NIFTY 50,
+HCLTECH.NS,HCLTech,Indien,NIFTY 50,
+HDFCBANK.NS,HDFC Bank,Indien,NIFTY 50,
+HDFCLIFE.NS,HDFC Life,Indien,NIFTY 50,
+HINDALCO.NS,Hindalco Industries,Indien,NIFTY 50,
+HINDUNILVR.NS,Hindustan Unilever,Indien,NIFTY 50,
+ICICIBANK.NS,ICICI Bank,Indien,NIFTY 50,
+INDIGO.NS,IndiGo,Indien,NIFTY 50,
+INFY.NS,Infosys,Indien,NIFTY 50,
+ITC.NS,ITC,Indien,NIFTY 50,
+JIOFIN.NS,Jio Financial Services,Indien,NIFTY 50,
+JSWSTEEL.NS,JSW Steel,Indien,NIFTY 50,
+KOTAKBANK.NS,Kotak Mahindra Bank,Indien,NIFTY 50,
+LT.NS,Larsen & Toubro,Indien,NIFTY 50,
+M&M.NS,Mahindra & Mahindra,Indien,NIFTY 50,
+MARUTI.NS,Maruti Suzuki,Indien,NIFTY 50,
+MAXHEALTH.NS,Max Healthcare,Indien,NIFTY 50,
+NESTLEIND.NS,Nestlé India,Indien,NIFTY 50,
+NTPC.NS,NTPC,Indien,NIFTY 50,
+ONGC.NS,Oil and Natural Gas Corporation,Indien,NIFTY 50,
+POWERGRID.NS,Power Grid,Indien,NIFTY 50,
+RELIANCE.NS,Reliance Industries,Indien,NIFTY 50,
+SBILIFE.NS,SBI Life Insurance Company,Indien,NIFTY 50,
+SHRIRAMFIN.NS,Shriram Finance,Indien,NIFTY 50,
+SBIN.NS,State Bank of India,Indien,NIFTY 50,
+SUNPHARMA.NS,Sun Pharma,Indien,NIFTY 50,
+TCS.NS,Tata Consultancy Services,Indien,NIFTY 50,
+TATACONSUM.NS,Tata Consumer Products,Indien,NIFTY 50,
+TMPV.NS,Tata Motors Passenger Vehicles,Indien,NIFTY 50,
+TATASTEEL.NS,Tata Steel,Indien,NIFTY 50,
+TECHM.NS,Tech Mahindra,Indien,NIFTY 50,
+TITAN.NS,Titan Company,Indien,NIFTY 50,
+TRENT.NS,Trent,Indien,NIFTY 50,
+ULTRACEMCO.NS,UltraTech Cement,Indien,NIFTY 50,
+AEM.TO,Agnico Eagle Mines Limited,Kanada,S&P/TSX 60,
+ATD.TO,Alimentation Couche-Tard Inc.,Kanada,S&P/TSX 60,
+BMO.TO,Bank of Montreal,Kanada,S&P/TSX 60,
+BNS.TO,Bank of Nova Scotia,Kanada,S&P/TSX 60,
+ABX.TO,Barrick Mining Corporation,Kanada,S&P/TSX 60,
+BCE.TO,BCE Inc.,Kanada,S&P/TSX 60,
+BAM.TO,Brookfield Asset Management Ltd.,Kanada,S&P/TSX 60,
+BN.TO,Brookfield Corporation,Kanada,S&P/TSX 60,
+BIP-UN.TO,Brookfield Infrastructure Partners L.P.,Kanada,S&P/TSX 60,
+CAE.TO,CAE Inc.,Kanada,S&P/TSX 60,
+CCO.TO,Cameco Corporation,Kanada,S&P/TSX 60,
+CM.TO,Canadian Imperial Bank of Commerce,Kanada,S&P/TSX 60,
+CNR.TO,Canadian National Railway Company,Kanada,S&P/TSX 60,
+CNQ.TO,Canadian Natural Resources Limited,Kanada,S&P/TSX 60,
+CP.TO,Canadian Pacific Kansas City Limited,Kanada,S&P/TSX 60,
+CTC-A.TO,Canadian Tire Corporation Limited,Kanada,S&P/TSX 60,
+CCL-B.TO,CCL Industries Inc.,Kanada,S&P/TSX 60,
+CLS.TO,Celestica Inc.,Kanada,S&P/TSX 60,
+CVE.TO,Cenovus Energy Inc.,Kanada,S&P/TSX 60,
+GIB-A.TO,CGI Inc.,Kanada,S&P/TSX 60,
+CSU.TO,Constellation Software Inc.,Kanada,S&P/TSX 60,
+DOL.TO,Dollarama Inc.,Kanada,S&P/TSX 60,
+EMA.TO,Emera Incorporated,Kanada,S&P/TSX 60,
+ENB.TO,Enbridge Inc.,Kanada,S&P/TSX 60,
+FFH.TO,Fairfax Financial Holdings Limited,Kanada,S&P/TSX 60,
+FM.TO,First Quantum Minerals Ltd.,Kanada,S&P/TSX 60,
+FSV.TO,FirstService Corporation,Kanada,S&P/TSX 60,
+FTS.TO,Fortis Inc.,Kanada,S&P/TSX 60,
+FNV.TO,Franco-Nevada Corporation,Kanada,S&P/TSX 60,
+WN.TO,George Weston Limited,Kanada,S&P/TSX 60,
+GIL.TO,Gildan Activewear Inc.,Kanada,S&P/TSX 60,
+H.TO,Hydro One Limited,Kanada,S&P/TSX 60,
+IMO.TO,Imperial Oil Limited,Kanada,S&P/TSX 60,
+IFC.TO,Intact Financial Corporation,Kanada,S&P/TSX 60,
+K.TO,Kinross Gold Corporation,Kanada,S&P/TSX 60,
+L.TO,Loblaw Companies Limited,Kanada,S&P/TSX 60,
+MG.TO,Magna International Inc.,Kanada,S&P/TSX 60,
+MFC.TO,Manulife Financial Corporation,Kanada,S&P/TSX 60,
+MRU.TO,Metro Inc.,Kanada,S&P/TSX 60,
+NTR.TO,Nutrien Ltd.,Kanada,S&P/TSX 60,
+OTEX.TO,Open Text Corporation,Kanada,S&P/TSX 60,
+PPL.TO,Pembina Pipeline Corporation,Kanada,S&P/TSX 60,
+POW.TO,Power Corporation of Canada,Kanada,S&P/TSX 60,
+QSR.TO,Restaurant Brands International Inc.,Kanada,S&P/TSX 60,
+RCI-B.TO,Rogers Communications Inc.,Kanada,S&P/TSX 60,
+RY.TO,Royal Bank of Canada,Kanada,S&P/TSX 60,
+SAP.TO,Saputo Inc.,Kanada,S&P/TSX 60,
+SHOP.TO,Shopify Inc.,Kanada,S&P/TSX 60,
+SLF.TO,Sun Life Financial Inc.,Kanada,S&P/TSX 60,
+SU.TO,Suncor Energy Inc.,Kanada,S&P/TSX 60,
+TRP.TO,TC Energy Corporation,Kanada,S&P/TSX 60,
+TECK-B.TO,Teck Resources Limited,Kanada,S&P/TSX 60,
+T.TO,Telus Corporation,Kanada,S&P/TSX 60,
+TRI.TO,Thomson Reuters Corporation,Kanada,S&P/TSX 60,
+TD.TO,Toronto-Dominion Bank,Kanada,S&P/TSX 60,
+TOU.TO,Tourmaline Oil Corp.,Kanada,S&P/TSX 60,
+WCN.TO,Waste Connections Inc.,Kanada,S&P/TSX 60,
+WPM.TO,Wheaton Precious Metals Corp.,Kanada,S&P/TSX 60,
+WSP.TO,WSP Global Inc.,Kanada,S&P/TSX 60,
+7203.T,Toyota,Japan,Asien statisch,
+6758.T,Sony,Japan,Asien statisch,
+8306.T,Mitsubishi UFJ,Japan,Asien statisch,
+6861.T,Keyence,Japan,Asien statisch,
+9984.T,SoftBank Group,Japan,Asien statisch,
+8035.T,Tokyo Electron,Japan,Asien statisch,
+6501.T,Hitachi,Japan,Asien statisch,
+9983.T,Fast Retailing,Japan,Asien statisch,
+4063.T,Shin-Etsu Chemical,Japan,Asien statisch,
+6098.T,Recruit,Japan,Asien statisch,
+8058.T,Mitsubishi Corp,Japan,Asien statisch,
+8001.T,Itochu,Japan,Asien statisch,
+8031.T,Mitsui & Co,Japan,Asien statisch,
+6367.T,Daikin,Japan,Asien statisch,
+7974.T,Nintendo,Japan,Asien statisch,
+4519.T,Chugai Pharma,Japan,Asien statisch,
+6857.T,Advantest,Japan,Asien statisch,
+6146.T,Disco,Japan,Asien statisch,
+6723.T,Renesas,Japan,Asien statisch,
+6920.T,Lasertec,Japan,Asien statisch,
+7011.T,Mitsubishi Heavy,Japan,Asien statisch,
+7012.T,Kawasaki Heavy,Japan,Asien statisch,
+7013.T,IHI,Japan,Asien statisch,
+6506.T,Yaskawa,Japan,Asien statisch,
+8316.T,Sumitomo Mitsui FG,Japan,Asien statisch,
+8411.T,Mizuho,Japan,Asien statisch,
+8766.T,Tokio Marine,Japan,Asien statisch,
+9432.T,NTT,Japan,Asien statisch,
+9433.T,KDDI,Japan,Asien statisch,
+4502.T,Takeda,Japan,Asien statisch,
+4568.T,Daiichi Sankyo,Japan,Asien statisch,
+6981.T,Murata,Japan,Asien statisch,
+6594.T,Nidec,Japan,Asien statisch,
+6702.T,Fujitsu,Japan,Asien statisch,
+6752.T,Panasonic,Japan,Asien statisch,
+7267.T,Honda,Japan,Asien statisch,
+7741.T,Hoya,Japan,Asien statisch,
+5108.T,Bridgestone,Japan,Asien statisch,
+5401.T,Nippon Steel,Japan,Asien statisch,
+8002.T,Marubeni,Japan,Asien statisch,
+005930.KS,Samsung Electronics,Korea,Asien statisch,
+000660.KS,SK Hynix,Korea,Asien statisch,
+373220.KS,LG Energy Solution,Korea,Asien statisch,
+207940.KS,Samsung Biologics,Korea,Asien statisch,
+005380.KS,Hyundai Motor,Korea,Asien statisch,
+000270.KS,Kia,Korea,Asien statisch,
+005490.KS,POSCO,Korea,Asien statisch,
+035420.KS,Naver,Korea,Asien statisch,
+035720.KS,Kakao,Korea,Asien statisch,
+012450.KS,Hanwha Aerospace,Korea,Asien statisch,
+329180.KS,HD Hyundai Heavy,Korea,Asien statisch,
+034020.KS,Doosan Enerbility,Korea,Asien statisch,
+105560.KS,KB Financial,Korea,Asien statisch,
+051910.KS,LG Chem,Korea,Asien statisch,
+006400.KS,Samsung SDI,Korea,Asien statisch,
+2330.TW,TSMC,Taiwan,Asien statisch,
+2317.TW,Hon Hai (Foxconn),Taiwan,Asien statisch,
+2454.TW,MediaTek,Taiwan,Asien statisch,
+2308.TW,Delta Electronics,Taiwan,Asien statisch,
+2382.TW,Quanta Computer,Taiwan,Asien statisch,
+3711.TW,ASE Technology,Taiwan,Asien statisch,
+2303.TW,UMC,Taiwan,Asien statisch,
+3231.TW,Wistron,Taiwan,Asien statisch,
+2345.TW,Accton,Taiwan,Asien statisch,
+3017.TW,Asia Vital Components,Taiwan,Asien statisch,
+2881.TW,Fubon Financial,Taiwan,Asien statisch,
+BHP.AX,BHP,Australien,Asien statisch,
+CBA.AX,Commonwealth Bank,Australien,Asien statisch,
+CSL.AX,CSL,Australien,Asien statisch,
+NAB.AX,NAB,Australien,Asien statisch,
+WBC.AX,Westpac,Australien,Asien statisch,
+ANZ.AX,ANZ,Australien,Asien statisch,
+WES.AX,Wesfarmers,Australien,Asien statisch,
+MQG.AX,Macquarie,Australien,Asien statisch,
+FMG.AX,Fortescue,Australien,Asien statisch,
+RIO.AX,Rio Tinto,Australien,Asien statisch,
+WDS.AX,Woodside,Australien,Asien statisch,
+NST.AX,Northern Star,Australien,Asien statisch,
+PLS.AX,Pilbara Minerals,Australien,Asien statisch,
+PDN.AX,Paladin Energy,Australien,Asien statisch,
+XRO.AX,Xero,Australien,Asien statisch,
+WTC.AX,WiseTech,Australien,Asien statisch,
+LYC.AX,Lynas,Australien,Asien statisch,
+D05.SI,DBS,Singapur,Asien statisch,
+O39.SI,OCBC,Singapur,Asien statisch,
+U11.SI,UOB,Singapur,Asien statisch,
+ASML,ASML,A1 Semis Equipment,Marktlandkarte,A1 Semis Equipment
+TSM,TSMC,A1 Foundry,Marktlandkarte,A1 Foundry
+GFS,GlobalFoundries,A1 Foundry,Marktlandkarte,A1 Foundry
+ARM,Arm,A1 Fabless,Marktlandkarte,A1 Fabless
+STM,STMicro,A1 Analog,Marktlandkarte,A1 Analog
+CRDO,Credo,A2 AI-Infra,Marktlandkarte,A2 AI-Infra
+ALAB,Astera Labs,A2 AI-Infra,Marktlandkarte,A2 AI-Infra
+IREN,IREN,A2 Miner-Pivot,Marktlandkarte,A2 Miner-Pivot
+CLSK,CleanSpark,A2 Miner-Pivot,Marktlandkarte,A2 Miner-Pivot
+APLD,Applied Digital,A2 Miner-Pivot,Marktlandkarte,A2 Miner-Pivot
+CORZ,Core Scientific,A2 Miner-Pivot,Marktlandkarte,A2 Miner-Pivot
+TEAM,Atlassian,A4 Software,Marktlandkarte,A4 Software
+SNOW,Snowflake,A4 Software,Marktlandkarte,A4 Software
+MDB,MongoDB,A4 Software,Marktlandkarte,A4 Software
+NET,Cloudflare,A4 Software,Marktlandkarte,A4 Software
+ZS,Zscaler,A4 Cyber,Marktlandkarte,A4 Cyber
+QBTS,D-Wave,A5 Quantum,Marktlandkarte,A5 Quantum
+RGTI,Rigetti,A5 Quantum,Marktlandkarte,A5 Quantum
+IONQ,IonQ,A5 Quantum,Marktlandkarte,A5 Quantum
+QUBT,Quantum Computing,A5 Quantum,Marktlandkarte,A5 Quantum
+ARQQ,Arqit,A5 Quantum,Marktlandkarte,A5 Quantum
+SPOT,Spotify,A6 Internet,Marktlandkarte,A6 Internet
+SHOP,Shopify,A6 Internet,Marktlandkarte,A6 Internet
+TTD,Trade Desk,A6 Internet,Marktlandkarte,A6 Internet
+SNAP,Snap,A6 Internet,Marktlandkarte,A6 Internet
+RBLX,Roblox,A6 Gaming,Marktlandkarte,A6 Gaming
+EA,Electronic Arts,A6 Gaming,Marktlandkarte,A6 Gaming
+NTDOY,Nintendo,A6 Gaming,Marktlandkarte,A6 Gaming
+MBLY,Mobileye,A7 Robotik,Marktlandkarte,A7 Robotik
+SYM,Symbotic,A7 Robotik,Marktlandkarte,A7 Robotik
+6954.T,Fanuc,A7 Robotik,Marktlandkarte,A7 Robotik
+OKLO,Oklo,B1 Nuklear,Marktlandkarte,B1 Nuklear
+SMR,NuScale,B1 Nuklear,Marktlandkarte,B1 Nuklear
+NNE,Nano Nuclear,B1 Nuklear,Marktlandkarte,B1 Nuklear
+LEU,Centrus,B1 Nuklear,Marktlandkarte,B1 Nuklear
+CCJ,Cameco,B1 Uran,Marktlandkarte,B1 Uran
+UEC,Uranium Energy,B1 Uran,Marktlandkarte,B1 Uran
+NXE,NexGen,B1 Uran,Marktlandkarte,B1 Uran
+SHEL,Shell,B2 Öl & Gas,Marktlandkarte,B2 Öl & Gas
+TTE,TotalEnergies,B2 Öl & Gas,Marktlandkarte,B2 Öl & Gas
+BP,BP,B2 Öl & Gas,Marktlandkarte,B2 Öl & Gas
+LNG,Cheniere,B2 Öl & Gas,Marktlandkarte,B2 Öl & Gas
+VWS.CO,Vestas,B3 Renewables,Marktlandkarte,B3 Renewables
+ORSTED.CO,Orsted,B3 Renewables,Marktlandkarte,B3 Renewables
+PLUG,Plug Power,B3 Renewables,Marktlandkarte,B3 Renewables
+NEL.OL,Nel,B3 Renewables,Marktlandkarte,B3 Renewables
+FLNC,Fluence,B3 Renewables,Marktlandkarte,B3 Renewables
+GC=F,Gold,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+SI=F,Silber,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+PL=F,Platin,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+AEM,Agnico Eagle,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+B,Barrick,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+WPM,Wheaton,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+PAAS,Pan American Silver,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+AG,First Majestic,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+SBSW,Sibanye,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+IMPUY,Impala,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+FNV,Franco-Nevada,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+RGLD,Royal Gold,C1 Edelmetalle,Marktlandkarte,C1 Edelmetalle
+HG=F,Kupfer,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+SCCO,Southern Copper,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+IVN.TO,Ivanhoe,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+BHP,BHP,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+RIO,Rio Tinto,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+VALE,Vale,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+SQM,SQM,C2 Industriemetalle,Marktlandkarte,C2 Industriemetalle
+NTR,Nutrien,C3 Agrar & Chemie,Marktlandkarte,C3 Agrar & Chemie
+CTVA,Corteva,C3 Agrar & Chemie,Marktlandkarte,C3 Agrar & Chemie
+R3NK.DE,Renk,D1 Defense,Marktlandkarte,D1 Defense
+DRS,Leonardo DRS,D1 Defense,Marktlandkarte,D1 Defense
+RKLB,Rocket Lab,D2 Space,Marktlandkarte,D2 Space
+ASTS,AST SpaceMobile,D2 Space,Marktlandkarte,D2 Space
+LUNR,Intuitive Machines,D2 Space,Marktlandkarte,D2 Space
+ZIM,ZIM,D4 Transport,Marktlandkarte,D4 Transport
+MAERSK-B.CO,Maersk,D4 Transport,Marktlandkarte,D4 Transport
+SOFI,SoFi,E4 Fintech,Marktlandkarte,E4 Fintech
+NU,Nubank,E4 Fintech,Marktlandkarte,E4 Fintech
+AFRM,Affirm,E4 Fintech,Marktlandkarte,E4 Fintech
+WISE.L,Wise,E4 Fintech,Marktlandkarte,E4 Fintech
+NVO,Novo Nordisk,F1 Pharma,Marktlandkarte,F1 Pharma
+AZN,AstraZeneca,F1 Pharma,Marktlandkarte,F1 Pharma
+GSK,GSK,F1 Pharma,Marktlandkarte,F1 Pharma
+SNY,Sanofi,F1 Pharma,Marktlandkarte,F1 Pharma
+ROG.SW,Roche,F1 Pharma,Marktlandkarte,F1 Pharma
+XBI,Biotech-ETF,F2 Biotech,Marktlandkarte,F2 Biotech
+RIVN,Rivian,G1 Konsum zyklisch,Marktlandkarte,G1 Konsum zyklisch
+P911.DE,Porsche,G1 Konsum zyklisch,Marktlandkarte,G1 Konsum zyklisch
+RACE,Ferrari,G1 Konsum zyklisch,Marktlandkarte,G1 Konsum zyklisch
+BTC-USD,Bitcoin,I1 Krypto,Marktlandkarte,I1 Krypto
+ETH-USD,Ethereum,I1 Krypto,Marktlandkarte,I1 Krypto
+SOL-USD,Solana,I1 Krypto,Marktlandkarte,I1 Krypto
+XRP-USD,XRP,I1 Krypto,Marktlandkarte,I1 Krypto
+DOGE-USD,Dogecoin,I1 Krypto,Marktlandkarte,I1 Krypto
+LINK-USD,Chainlink,I1 Krypto,Marktlandkarte,I1 Krypto
+ADA-USD,Cardano,I1 Krypto,Marktlandkarte,I1 Krypto
+AVAX-USD,Avalanche,I1 Krypto,Marktlandkarte,I1 Krypto
+HBAR-USD,Hedera,I1 Krypto,Marktlandkarte,I1 Krypto
+XLM-USD,Stellar,I1 Krypto,Marktlandkarte,I1 Krypto
+GLXY,Galaxy Digital,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+MSTR,Strategy,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+MARA,MARA,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+RIOT,Riot,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+HUT,Hut 8,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+BITF,Bitfarms,I2 Krypto-Aktien,Marktlandkarte,I2 Krypto-Aktien
+BABA,Alibaba,K1 China Tech,Marktlandkarte,K1 China Tech
+PDD,PDD,K1 China Tech,Marktlandkarte,K1 China Tech
+BIDU,Baidu,K1 China Tech,Marktlandkarte,K1 China Tech
+TCEHY,Tencent,K1 China Tech,Marktlandkarte,K1 China Tech
+JD,JD.com,K1 China Tech,Marktlandkarte,K1 China Tech
+SE,Sea,K1 China Tech,Marktlandkarte,K1 China Tech
+MELI,MercadoLibre,K1 China Tech,Marktlandkarte,K1 China Tech
+EEM,EM-ETF,K2 EM,Marktlandkarte,K2 EM
+INDA,Indien-ETF,K2 EM,Marktlandkarte,K2 EM
+EWZ,Brasilien-ETF,K2 EM,Marktlandkarte,K2 EM
+IWM,Russell 2000,L1 Small Caps,Marktlandkarte,L1 Small Caps
+IWN,Russell 2000 Value,L1 Small Caps,Marktlandkarte,L1 Small Caps
+SMH,Semis-ETF,ETF,Marktlandkarte,ETF
+SOXX,Semis-ETF,ETF,Marktlandkarte,ETF
+QQQ,Nasdaq-100-ETF,ETF,Marktlandkarte,ETF
+IGV,Software-ETF,ETF,Marktlandkarte,ETF
+URA,Uran-ETF,ETF,Marktlandkarte,ETF
+XLE,Energie-ETF,ETF,Marktlandkarte,ETF
+GDX,Goldminer-ETF,ETF,Marktlandkarte,ETF
+COPX,Kupferminer-ETF,ETF,Marktlandkarte,ETF
+ITA,Defense-ETF,ETF,Marktlandkarte,ETF
+XLF,Financials-ETF,ETF,Marktlandkarte,ETF
+XLV,Healthcare-ETF,ETF,Marktlandkarte,ETF
+XLU,Utilities-ETF,ETF,Marktlandkarte,ETF
+XLP,Staples-ETF,ETF,Marktlandkarte,ETF
+XHB,Homebuilder-ETF,ETF,Marktlandkarte,ETF
+KWEB,China-Internet-ETF,ETF,Marktlandkarte,ETF
+IBIT,Bitcoin-ETF,ETF,Marktlandkarte,ETF
+^GSPC,S&P 500,Kompass,Marktlandkarte,Kompass
+^NDX,Nasdaq 100,Kompass,Marktlandkarte,Kompass
+^GDAXI,DAX,Kompass,Marktlandkarte,Kompass
+^ATX,ATX,Kompass,Marktlandkarte,Kompass
+^VIX,VIX,Kompass,Marktlandkarte,Kompass
+DX-Y.NYB,Dollar-Index,Kompass,Marktlandkarte,Kompass
+^TNX,US10Y,Kompass,Marktlandkarte,Kompass
+HYG,High-Yield-Anleihen,Kompass,Marktlandkarte,Kompass
+EURUSD=X,EUR/USD,Kompass,Marktlandkarte,Kompass
+CL=F,WTI-Öl,Kompass,Marktlandkarte,Kompass
