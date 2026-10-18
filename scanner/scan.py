@@ -177,6 +177,8 @@ def daily_watchlist(uni):
     frames = [pd.read_csv(f).assign(weekly_date=os.path.basename(f)[:-4]) for f in files]
     frames = [f for f in frames if not f.empty]
     wk = pd.concat(frames) if frames else pd.DataFrame(columns=["ticker", "dot", "strength", "weekly_date"])
+    if not wk.empty:  # nur starke Weekly-Signale + Marktlandkarte-Namen beobachten
+        wk = wk[(wk["strength"] == "stark") | (wk["cluster"].fillna("").astype(str) != "")]
     wk = wk.sort_values("weekly_date").drop_duplicates("ticker", keep="last")
     wk = wk.rename(columns={"dot": "weekly_dot", "strength": "weekly_strength"})[
         ["ticker", "weekly_dot", "weekly_strength", "weekly_date"]]
@@ -211,6 +213,20 @@ def daily():
     sig.to_csv(os.path.join(RES, "daily", f"{TODAY}.csv"), index=False)
     sig.to_csv(os.path.join(RES, "daily_latest.csv"), index=False)
     md = to_markdown(sig, f"Cipher B · Daily-Check ({len(wl)} Werte auf der Watchlist)", missing)
+    if not sig.empty:
+        ok = sig[sig["passt_zu_weekly"] == True]  # noqa: E712
+        head = ["## ✅ Bestätigt: Daily-Punkt in Richtung des Weekly-Punkts (" + str(len(ok)) + ")"]
+        if ok.empty:
+            head += ["_keine_", ""]
+        else:
+            head += ["| Ticker | Name | Daily | wt2 daily | Weekly (Datum) | Kurs |", "|---|---|---|---|---|---|"]
+            for _, r in ok.iterrows():
+                d = ("🟢" if r["dot"] == "green" else "🔴") + (" stark" if r["strength"] == "stark" else "")
+                w = ("🟢" if r["weekly_dot"] == "green" else "🔴") + (" stark" if r["weekly_strength"] == "stark" else "") + f" ({r['weekly_date']})"
+                head.append(f"| {r['ticker']} | {str(r['name'])[:28]} | {d} | {r['wt2']} | {w} | {r['close']} |")
+            head.append("")
+        parts = md.split("\n## ", 1)
+        md = parts[0] + "\n" + "\n".join(head) + "\n## " + parts[1] if len(parts) == 2 else md + "\n".join(head)
     with open(os.path.join(RES, "daily_latest.md"), "w") as f:
         f.write(md)
 
