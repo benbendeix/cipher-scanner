@@ -45,7 +45,7 @@ jobs:
 
       - name: Universum aktualisieren
         if: steps.m.outputs.mode == 'weekly' || steps.m.outputs.mode == 'universe'
-        run: python scanner/build_universe.py
+        run: mkdir -p results && python scanner/build_universe.py 2>&1 | tee results/universe_log.txt
 
       - name: Weekly-Scan
         if: steps.m.outputs.mode == 'weekly'
@@ -57,10 +57,10 @@ jobs:
 
       - name: Abgleich mit TradingView
         if: steps.m.outputs.mode == 'validate'
-        run: python scanner/scan.py validate ${{ inputs.tickers }}
+        run: mkdir -p results && python scanner/scan.py validate ${{ inputs.tickers }} 2>&1 | tee results/validate.txt
 
       - name: Ergebnisse speichern
-        if: steps.m.outputs.mode != 'validate'
+        if: always()
         run: |
           git config user.name "cipher-bot"
           git config user.email "actions@users.noreply.github.com"
