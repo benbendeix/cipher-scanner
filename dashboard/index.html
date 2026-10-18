@@ -114,6 +114,7 @@ details.grp > summary .c { font: 12px var(--mono); color: var(--muted); }
 .pill.strong.red { color: var(--bg); background: var(--red); }
 svg.spark { width: 88px; height: 34px; display: block; }
 .empty { padding: 16px 4px; color: var(--muted); }
+.chip.more { justify-self: start; margin: 6px 0 4px; }
 
 /* Setup-Karten */
 .setups { display: grid; gap: 8px; }
@@ -264,13 +265,16 @@ footer a { color: var(--blue); }
   var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
   var fmt = function (v, d) { if (v == null || v !== v) return "–"; return Number(v).toLocaleString("de-AT", { minimumFractionDigits: d || 0, maximumFractionDigits: d || 0 }); };
   var pct = function (a, b) { return b ? Math.round(a / b * 100) : 0; };
-  var state = { f: "all", map: false, sector: "", cont: "", sort: "ext", q: "" };
+  var state = { f: "all", map: false, sector: "", cont: "", sort: "ext", q: "", more: {} };
 
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
   /* ---------- Tabs ---------- */
   var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+  var rendered = {};
+  var renderers = {};
   function show(id) {
+    if (D && renderers[id] && !rendered[id]) { renderers[id](); rendered[id] = true; }
     tabs.forEach(function (t) {
       var on = t.getAttribute("aria-controls") === id;
       t.setAttribute("aria-selected", on ? "true" : "false");
@@ -391,15 +395,20 @@ footer a { color: var(--blue); }
     var names = Object.keys(groups).sort(function (a, b) { return groups[b].length - groups[a].length; });
     var ng = list.filter(function (r) { return r.dot === "green"; }).length;
     $("resinfo").textContent = list.length + " Signale · " + ng + " grün · " + (list.length - ng) + " rot · " + names.length + " Branchen";
+    rendered.signals = true;
     if (!list.length) { $("siglist").innerHTML = '<div class="empty">Keine Signale für diese Filter. Filter lockern oder „Alle“ wählen.</div>'; return; }
     var open = names.length <= 3 || state.sector || q;
     $("siglist").innerHTML = names.map(function (n, i) {
       var g = groups[n], gg = g.filter(function (r) { return r.dot === "green"; }).length;
-      var shown = g.slice(0, 60);
+      var lim = (state.more && state.more[n]) || 20;
+      var shown = g.slice(0, lim);
       return '<details class="grp"' + (open || i === 0 ? " open" : "") + '><summary><span class="h">' + esc(n) + '</span><span class="c"><span class="g">' + gg + ' grün</span> · <span class="r">' + (g.length - gg) + " rot</span></span></summary>" +
         '<div class="rows">' + shown.map(function (r) { return row(r); }).join("") +
-        (g.length > shown.length ? '<div class="empty">+ ' + (g.length - shown.length) + " weitere. Filter oder Suche eingrenzen.</div>" : "") + "</div></details>";
+        (g.length > shown.length ? '<button class="chip more" data-g="' + esc(n) + '">+ ' + (g.length - shown.length) + " weitere anzeigen</button>" : "") + "</div></details>";
     }).join("");
+    $("siglist").querySelectorAll(".more").forEach(function (b) {
+      b.addEventListener("click", function () { state.more = state.more || {}; state.more[b.dataset.g] = ((state.more[b.dataset.g]) || 20) + 40; renderSignals(); });
+    });
   }
   function initFilters() {
     var sectors = D.by_sector.map(function (s) { return s.name; }).sort();
@@ -464,7 +473,8 @@ footer a { color: var(--blue); }
     $("asof").textContent = "Weekly-Scan " + D.asof.split("-").reverse().join(".") + " · " + fmt(D.scanned) + " Werte";
     $("foot").innerHTML = "Daten: Yahoo Finance über yfinance, berechnet mit VuManChu-Cipher-B-Einstellungen (9 / 12 / hlc3 / 3). Nur abgeschlossene Kerzen. Erzeugt " + esc(D.generated) +
       '. Quelle: <a href="https://github.com/benbendeix/cipher-scanner" target="_blank" rel="noopener">github.com/benbendeix/cipher-scanner</a>';
-    renderOverview(); initFilters(); renderSignals(); renderSectors(); renderDaily(); renderSetups();
+    renderers = { signals: renderSignals, sectors: renderSectors, daily: renderDaily, setups: renderSetups };
+    renderOverview(); initFilters();
     var want = (location.hash || "").replace("#", "") || store("cbr-tab");
     if (want && $(want) && $(want).getAttribute("role") === "tabpanel") show(want);
   }
