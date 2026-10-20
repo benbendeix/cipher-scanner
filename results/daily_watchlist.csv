@@ -1,250 +1,250 @@
-ticker,weekly_dot,weekly_strength,weekly_date,name,region,cluster
-HYG,green,stark,2026-10-18,High-Yield-Anleihen,Kompass,Kompass
-COP,green,normal,2026-10-18,ConocoPhillips,USA,B2 Öl & Gas
-DHL.DE,green,normal,2026-10-18,Deutsche Post,Deutschland,D4 Transport
-KO,green,normal,2026-10-18,Coca-Cola Company (The),USA,G2 Staples
-PFE,green,normal,2026-10-18,Pfizer,USA,F1 Pharma
-XLV,green,normal,2026-10-18,Healthcare-ETF,ETF,ETF
-CVX,green,normal,2026-10-18,Chevron Corporation,USA,B2 Öl & Gas
-XLE,green,normal,2026-10-18,Energie-ETF,ETF,ETF
-NOW,green,normal,2026-10-18,ServiceNow,USA,A4 Software
-AAPL,green,normal,2026-10-18,Apple Inc.,USA,A3 Mega-Cap
-TEAM,green,normal,2026-10-18,Atlassian,A4 Software,A4 Software
-PSX,green,normal,2026-10-18,Phillips 66,USA,B2 Öl & Gas
-VLO,green,normal,2026-10-18,Valero Energy,USA,B2 Öl & Gas
-AMGN,green,normal,2026-10-18,Amgen,USA,F2 Biotech
-RVTY,red,stark,2026-10-18,Revvity,USA,
-ILMN,red,stark,2026-10-18,"Illumina, Inc.",USA,
-P,red,stark,2026-10-18,Everpure,USA,
-OKTA,red,stark,2026-10-18,"Okta, Inc.",USA,A4 Cyber
-^TNX,red,stark,2026-10-18,US10Y,Kompass,Kompass
-TWLO,red,stark,2026-10-18,Twilio,USA,
-CRWD,red,stark,2026-10-18,CrowdStrike,USA,A4 Cyber
-HPE,red,stark,2026-10-18,Hewlett Packard Enterprise,USA,A2 AI-Infra
-NET,red,stark,2026-10-18,Cloudflare,A4 Software,A4 Software
-NTAP,red,stark,2026-10-18,NetApp,USA,
-LINK-USD,red,stark,2026-10-18,Chainlink,I1 Krypto,I1 Krypto
-NDSN,red,stark,2026-10-18,Nordson Corporation,USA,
-WAT,red,stark,2026-10-18,Waters Corporation,USA,
-MRNA,red,stark,2026-10-18,Moderna,USA,
-BRK-B,green,normal,2026-10-18,Berkshire Hathaway,USA,E3 Versicherer
-DVN,green,normal,2026-10-18,Devon Energy,USA,B2 Öl & Gas
-MA,green,normal,2026-10-18,Mastercard,USA,E2 Börsen & Payments
-NOVN.SW,green,normal,2026-10-18,Novartis International AG,Schweiz,F1 Pharma
-STLD,green,normal,2026-10-18,Steel Dynamics,USA,C2 Industriemetalle
-ITX.MC,green,normal,2026-10-18,Inditex,Spanien,G1 Konsum zyklisch
-CSX,green,normal,2026-10-18,CSX Corporation,USA,D4 Transport
-G24.DE,green,normal,2026-10-18,Scout24,Deutschland,L2 Nebenwerte DE
-ADYEN.AS,green,normal,2026-10-18,Adyen,Niederlande,E4 Fintech
-HAG.DE,green,normal,2026-10-18,Hensoldt,Deutschland,D1 Defense
-UNP,green,normal,2026-10-18,Union Pacific Corporation,USA,D4 Transport
-GM,green,normal,2026-10-18,General Motors,USA,G1 Konsum zyklisch
-AR,green,normal,2026-10-18,Antero Resources,USA,B2 Öl & Gas
-MELI,green,normal,2026-10-18,MercadoLibre,K1 China Tech,K1 China Tech
-HUBS,green,normal,2026-10-18,HubSpot,USA,A4 Software
-NUE,green,normal,2026-10-18,Nucor,USA,C2 Industriemetalle
-RSG,green,normal,2026-10-18,Republic Services,USA,D6 Abfall & Wasser
-PYPL,green,normal,2026-10-18,PayPal,USA,E2 Börsen & Payments
-NTDOY,green,normal,2026-10-18,Nintendo,A6 Gaming,A6 Gaming
-BAS.DE,green,normal,2026-10-18,BASF,Deutschland,C3 Agrar & Chemie
-ICE,green,normal,2026-10-18,Intercontinental Exchange,USA,E2 Börsen & Payments
-SAAB-B.ST,green,normal,2026-10-18,Saab B,Schweden,D1 Defense
-SPOT,green,normal,2026-10-18,Spotify,A6 Internet,A6 Internet
-GLEN.L,green,normal,2026-10-18,Glencore,UK,C2 Industriemetalle
-OXY,green,normal,2026-10-18,Occidental Petroleum,USA,B2 Öl & Gas
-MDT,green,normal,2026-10-18,Medtronic,USA,F3 Medtech
-EOG,green,normal,2026-10-18,EOG Resources,USA,B2 Öl & Gas
-SHL.DE,green,normal,2026-10-18,Siemens Healthineers,Deutschland,F3 Medtech
-LNG,green,normal,2026-10-18,Cheniere,B2 Öl & Gas,B2 Öl & Gas
-CL=F,green,normal,2026-10-18,WTI-Öl,Kompass,Kompass
-AVT,red,stark,2026-10-18,Avnet,USA,
-SOL-USD,red,stark,2026-10-18,Solana,I1 Krypto,I1 Krypto
-FTNT,red,stark,2026-10-18,Fortinet,USA,A4 Cyber
-ZBRA,red,stark,2026-10-18,Zebra Technologies,USA,
-MTX.DE,red,normal,2026-10-18,MTU Aero Engines,Deutschland,D2 Aerospace
-ASML,red,normal,2026-10-18,ASML,A1 Semis Equipment,A1 Semis Equipment
-ALAB,red,normal,2026-10-18,Astera Labs,A2 AI-Infra,A2 AI-Infra
-ARM,red,normal,2026-10-18,Arm,A1 Fabless,A1 Fabless
-LRCX,red,normal,2026-10-18,Lam Research,USA,A1 Semis Equipment
-DAL,red,normal,2026-10-18,Delta Air Lines,USA,D4 Transport
-HIMS,red,normal,2026-10-18,Hims & Hers Health,USA,F4 Krankenversicherer
-COHR,red,normal,2026-10-18,Coherent Corp.,USA,A2 AI-Infra
-ABBN.SW,red,normal,2026-10-18,ABB Ltd,Schweiz,B1 Grid
-AMAT,red,normal,2026-10-18,Applied Materials,USA,A1 Semis Equipment
-SYM,red,normal,2026-10-18,Symbotic,A7 Robotik,A7 Robotik
-CRDO,red,normal,2026-10-18,Credo,A2 AI-Infra,A2 AI-Infra
-IONQ,red,normal,2026-10-18,IonQ,A5 Quantum,A5 Quantum
-KLAC,red,normal,2026-10-18,KLA Corporation,USA,A1 Semis Equipment
-GEV,red,normal,2026-10-18,GE Vernova,USA,B1 Grid
-STM,red,normal,2026-10-18,STMicro,A1 Analog,A1 Analog
-ROK,red,normal,2026-10-18,Rockwell Automation,USA,D3 Maschinenbau
-IFX.DE,red,normal,2026-10-18,Infineon Technologies,Deutschland,A1 Analog
-ON,red,normal,2026-10-18,ON Semiconductor,USA,A1 Analog
-MCHP,red,normal,2026-10-18,Microchip Technology,USA,A1 Analog
-NXPI,red,normal,2026-10-18,NXP Semiconductors,USA,A1 Analog
-RKLB,red,normal,2026-10-18,Rocket Lab,D2 Space,D2 Space
-CAT,red,normal,2026-10-18,Caterpillar Inc.,USA,D3 Maschinenbau
-AVGO,red,normal,2026-10-18,Broadcom,USA,A1 Fabless
-ENR.DE,red,normal,2026-10-18,Siemens Energy,Deutschland,B1 Grid
-FLNC,red,normal,2026-10-18,Fluence,B3 Renewables,B3 Renewables
-DRS,red,normal,2026-10-18,Leonardo DRS,D1 Defense,D1 Defense
-INTC,red,normal,2026-10-18,Intel,USA,A1 Foundry
-MDLZ,green,normal,2026-10-18,Mondelez International,USA,G2 Staples
-SOXX,red,normal,2026-10-18,Semis-ETF,ETF,ETF
-ETN,red,normal,2026-10-18,Eaton Corporation,USA,A2 AI-Infra
-NTNX,red,stark,2026-10-18,Nutanix,USA,
-2269.HK,red,stark,2026-10-18,WuXi Biologics,Hongkong,
-ANET,red,stark,2026-10-18,Arista Networks,USA,A2 AI-Infra
-2330.TW,red,stark,2026-10-18,TSMC,Taiwan,
-SMTC,red,stark,2026-10-18,Semtech,USA,
-CRL,red,stark,2026-10-18,Charles River Laboratories,USA,
-ETH-USD,red,stark,2026-10-18,Ethereum,I1 Krypto,I1 Krypto
-IGV,red,stark,2026-10-18,Software-ETF,ETF,ETF
-ARW,red,stark,2026-10-18,Arrow Electronics,USA,
-ATS.VI,red,stark,2026-10-18,AT&S,Österreich,
-PANW,red,stark,2026-10-18,Palo Alto Networks,USA,A4 Cyber
-TSM,red,stark,2026-10-18,TSMC,A1 Foundry,A1 Foundry
-AMD,red,stark,2026-10-18,Advanced Micro Devices,USA,A1 Fabless
-SLAB,red,stark,2026-10-18,Silicon Labs,USA,
-NVDA,red,stark,2026-10-18,Nvidia,USA,A1 Fabless
-LITE,red,normal,2026-10-18,Lumentum,USA,A2 AI-Infra
-IBIT,red,normal,2026-10-18,Bitcoin-ETF,ETF,ETF
-^NDX,red,normal,2026-10-18,Nasdaq 100,Kompass,Kompass
-QQQ,red,normal,2026-10-18,Nasdaq-100-ETF,ETF,ETF
-SNOW,red,normal,2026-10-18,Snowflake,A4 Software,A4 Software
-MRVL,red,normal,2026-10-18,Marvell Technology,USA,A1 Fabless
-SMCI,red,normal,2026-10-18,Supermicro,USA,A2 AI-Infra
-^GSPC,red,normal,2026-10-18,S&P 500,Kompass,Kompass
-SCCO,red,normal,2026-10-18,Southern Copper,C2 Industriemetalle,C2 Industriemetalle
-MU,red,normal,2026-10-18,Micron Technology,USA,A1 Memory
-MSTR,red,normal,2026-10-18,Strategy,I2 Krypto-Aktien,I2 Krypto-Aktien
-SMH,red,normal,2026-10-18,Semis-ETF,ETF,ETF
-TER,red,normal,2026-10-18,Teradyne,USA,A1 Semis Equipment
-EQT,green,normal,2026-10-18,EQT Corporation,USA,B2 Öl & Gas
-INTU,green,normal,2026-10-18,Intuit,USA,A4 Software
-XLP,green,normal,2026-10-18,Staples-ETF,ETF,ETF
-SPXC,green,stark,2026-10-18,SPX Technologies,USA,
-TATACONSUM.NS,green,stark,2026-10-18,Tata Consumer Products,Indien,
-O,green,stark,2026-10-18,Realty Income,USA,H1 REITs
-FIS,green,stark,2026-10-18,Fidelity National Information Services,USA,
-COL.MC,green,stark,2026-10-18,Inmobiliaria Colonial,Spanien,
-OGS,green,stark,2026-10-18,One Gas,USA,
-0868.HK,green,stark,2026-10-18,Xinyi Glass,Hongkong,
-CLNX.MC,green,stark,2026-10-18,Cellnex Telecom,Spanien,
-SUI,green,stark,2026-10-18,Sun Communities,USA,
-0175.HK,green,stark,2026-10-18,Geely Auto,Hongkong,
-DG.PA,green,stark,2026-10-18,Vinci,Frankreich,D5 Bau
-HGV,green,stark,2026-10-18,Hilton Grand Vacations,USA,
-6862.HK,green,stark,2026-10-18,Haidilao,Hongkong,
-LXS.DE,green,stark,2026-10-18,Lanxess,Deutschland,
-FISV,green,stark,2026-10-18,Fiserv,USA,
-RYN,green,stark,2026-10-18,Rayonier,USA,
-4519.T,green,stark,2026-10-18,Chugai Pharma,Japan,
-0881.HK,green,stark,2026-10-18,Zhongsheng Group,Hongkong,
-POST,green,stark,2026-10-18,Post Holdings,USA,
-TMPV.NS,green,stark,2026-10-18,Tata Motors Passenger Vehicles,Indien,
-ALGN,green,stark,2026-10-18,Align Technology,USA,
-GSK,green,stark,2026-10-18,GSK,F1 Pharma,F1 Pharma
-CNM,green,stark,2026-10-18,Core & Main,USA,
-LULU,green,stark,2026-10-18,Lululemon Athletica,USA,G1 Konsum zyklisch
-SCYR.MC,green,stark,2026-10-18,Sacyr,Spanien,
-ADC,green,stark,2026-10-18,Agree Realty,USA,
-FCN,green,stark,2026-10-18,FTI Consulting,USA,
-LOW,green,stark,2026-10-18,Lowe's,USA,
-STLAP.PA,green,stark,2026-10-18,Stellantis,Frankreich,
-PEP,green,stark,2026-10-18,PepsiCo,USA,G2 Staples
-MAA,green,stark,2026-10-18,Mid-America Apartment Communities,USA,
-VICI,green,stark,2026-10-18,Vici Properties,USA,
-RELIANCE.NS,green,stark,2026-10-18,Reliance Industries,Indien,
-TEG.DE,green,stark,2026-10-18,TAG Tegernsee Immobilien und Beteiligung,Deutschland,
-RMS.PA,green,stark,2026-10-18,Hermès,Frankreich,G1 Konsum zyklisch
-LVS,green,stark,2026-10-18,Las Vegas Sands,USA,
-VNA.DE,green,stark,2026-10-18,Vonovia,Deutschland,H1 REITs
-GLPI,green,stark,2026-10-18,Gaming and Leisure Properties,USA,
-MCD,green,stark,2026-10-18,McDonald's,USA,G1 Konsum zyklisch
-GBF.DE,green,stark,2026-10-18,Bilfinger,Deutschland,
-MC.PA,green,stark,2026-10-18,LVMH,Frankreich,G1 Konsum zyklisch
-WIE.VI,green,stark,2026-10-18,Wienerberger,Österreich,
-EN.PA,green,stark,2026-10-18,Bouygues,Frankreich,
-HINDUNILVR.NS,green,stark,2026-10-18,Hindustan Unilever,Indien,
-FGR.PA,green,stark,2026-10-18,Eiffage,Frankreich,
-FICO,green,stark,2026-10-18,Fair Isaac,USA,
-ORA.PA,green,stark,2026-10-18,Orange,Frankreich,
-BC,green,stark,2026-10-18,Brunswick,USA,
-WY,green,stark,2026-10-18,Weyerhaeuser,USA,
-GIL.TO,green,stark,2026-10-18,Gildan Activewear Inc.,Kanada,
-NEE,green,stark,2026-10-18,NextEra Energy,USA,B4 Utilities
-TXT,green,stark,2026-10-18,Textron,USA,
-BYD,green,stark,2026-10-18,Boyd Gaming,USA,
-CRH,green,stark,2026-10-18,CRH plc,USA,
-OTIS,green,stark,2026-10-18,Otis Worldwide,USA,
-T.TO,green,stark,2026-10-18,Telus Corporation,Kanada,
-NKE,green,stark,2026-10-18,"Nike, Inc.",USA,G1 Konsum zyklisch
-HEI.DE,green,stark,2026-10-18,Heidelberg Materials,Deutschland,D5 Bau
-HER.MI,green,stark,2026-10-18,Hera,Italien,
-VRT,red,normal,2026-10-18,Vertiv,USA,A2 AI-Infra
-STLAM.MI,green,stark,2026-10-18,Stellantis,Italien,
-CPT,green,stark,2026-10-18,Camden Property Trust,USA,
-MZTI,green,stark,2026-10-18,The Marzetti Company,USA,
-SGI,green,stark,2026-10-18,Somnigroup International,USA,
-2015.HK,green,stark,2026-10-18,Li Auto,Hongkong,
-BROS,green,stark,2026-10-18,Dutch Bros Inc.,USA,
-FE,green,stark,2026-10-18,FirstEnergy,USA,
-ENB.TO,green,stark,2026-10-18,Enbridge Inc.,Kanada,
-0016.HK,green,stark,2026-10-18,Sun Hung Kai Properties Limited,Hongkong,
-HRL,green,stark,2026-10-18,Hormel Foods,USA,
-PODD,green,stark,2026-10-18,Insulet Corporation,USA,
-FOUR,green,stark,2026-10-18,Shift4,USA,
-WM,green,normal,2026-10-18,Waste Management,USA,D6 Abfall & Wasser
-UPS,green,normal,2026-10-18,United Parcel Service,USA,D4 Transport
-VIE.PA,green,normal,2026-10-18,Veolia,Frankreich,D6 Abfall & Wasser
-NOC,green,normal,2026-10-18,Northrop Grumman,USA,D1 Defense
-KWEB,green,normal,2026-10-18,China-Internet-ETF,ETF,ETF
-RHM.DE,green,normal,2026-10-18,Rheinmetall,Deutschland,D1 Defense
-SYK,green,normal,2026-10-18,Stryker Corporation,USA,F3 Medtech
-NESN.SW,green,normal,2026-10-18,Nestlé SA,Schweiz,G2 Staples
-EOAN.DE,green,normal,2026-10-18,E.ON,Deutschland,B4 Utilities
-AZN,green,normal,2026-10-18,AstraZeneca,F1 Pharma,F1 Pharma
-CL,green,normal,2026-10-18,Colgate-Palmolive,USA,G2 Staples
-JD,green,normal,2026-10-18,JD.com,K1 China Tech,K1 China Tech
-CVS,green,normal,2026-10-18,CVS Health,USA,F4 Krankenversicherer
-1810.HK,green,normal,2026-10-18,Xiaomi,Hongkong,K1 China Tech
-NEL.OL,green,normal,2026-10-18,Nel,B3 Renewables,B3 Renewables
-UNH,green,normal,2026-10-18,UnitedHealth Group,USA,F4 Krankenversicherer
-LMT,green,normal,2026-10-18,Lockheed Martin,USA,D1 Defense
-XYL,green,stark,2026-10-18,Xylem Inc.,USA,D6 Abfall & Wasser
-IRT,green,stark,2026-10-18,Independence Realty Trust,USA,
-PPG,green,stark,2026-10-18,PPG Industries,USA,
-SWX,green,stark,2026-10-18,Southwest Gas Corp,USA,
-TTD,green,stark,2026-10-18,Trade Desk,A6 Internet,A6 Internet
-TRN.MI,green,stark,2026-10-18,Terna,Italien,
-DTM,green,stark,2026-10-18,DT Midstream,USA,
-9961.HK,green,stark,2026-10-18,Trip.com Group,Hongkong,
-HD,green,stark,2026-10-18,Home Depot (The),USA,
-PGHN.SW,green,stark,2026-10-18,Partners Group Holding AG,Schweiz,
-PLNT,green,stark,2026-10-18,Planet Fitness,USA,
-CAR,green,stark,2026-10-18,Avis Budget Group,USA,
-SMG,green,stark,2026-10-18,Scotts Miracle-Gro Company,USA,
-TDG,green,stark,2026-10-18,TransDigm Group,USA,
-BN.PA,green,stark,2026-10-18,Danone,Frankreich,
-0241.HK,green,stark,2026-10-18,Alibaba Health,Hongkong,
-DHI,green,stark,2026-10-18,D. R. Horton,USA,D5 Bau
-NXST,green,stark,2026-10-18,Nexstar Media Group,USA,
-ES,green,stark,2026-10-18,Eversource Energy,USA,
-UDR,green,stark,2026-10-18,"UDR, Inc.",USA,
-KPN.AS,green,stark,2026-10-18,KPN,Niederlande,
-HSY,green,stark,2026-10-18,Hershey Company (The),USA,
-1876.HK,green,stark,2026-10-18,Budweiser Brewing Company APAC,Hongkong,
-PRX.AS,green,stark,2026-10-18,Prosus,Niederlande,
-HLE.DE,green,stark,2026-10-18,Hella,Deutschland,
-ENEL.MI,green,stark,2026-10-18,Enel,Italien,B4 Utilities
-PCG,green,stark,2026-10-18,PG&E Corporation,USA,
-ELS,green,stark,2026-10-18,Equity Lifestyle Properties,USA,
-PSN,green,stark,2026-10-18,Parsons Corporation,USA,
-SLGN,green,stark,2026-10-18,Silgan Holdings,USA,
-EIX,green,stark,2026-10-18,Edison International,USA,
-2057.HK,green,stark,2026-10-18,ZTO Express,Hongkong,
-BIDU,red,normal,2026-10-18,Baidu,K1 China Tech,K1 China Tech
-CLSK,manuell,,,CleanSpark,A2 Miner-Pivot,A2 Miner-Pivot
-IREN,manuell,,,IREN,A2 Miner-Pivot,A2 Miner-Pivot
-PL=F,manuell,,,Platin,C1 Edelmetalle,C1 Edelmetalle
+ticker,weekly_dot,weekly_strength,weekly_date,name,region,cluster,sector,continent
+HYG,green,stark,2026-10-18,High-Yield-Anleihen,USA,Kompass,ETFs & Indizes,Nordamerika
+COP,green,normal,2026-10-18,ConocoPhillips,USA,B2 Öl & Gas,Energie,Nordamerika
+DHL.DE,green,normal,2026-10-18,Deutsche Post,Deutschland,D4 Transport,Industrie & Defense,Europa
+KO,green,normal,2026-10-18,Coca-Cola Company (The),USA,G2 Staples,Konsum defensiv,Nordamerika
+PFE,green,normal,2026-10-18,Pfizer,USA,F1 Pharma,Gesundheit,Nordamerika
+XLV,green,normal,2026-10-18,Healthcare-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+CVX,green,normal,2026-10-18,Chevron Corporation,USA,B2 Öl & Gas,Energie,Nordamerika
+XLE,green,normal,2026-10-18,Energie-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+NOW,green,normal,2026-10-18,ServiceNow,USA,A4 Software,Technologie,Nordamerika
+AAPL,green,normal,2026-10-18,Apple Inc.,USA,A3 Mega-Cap,Technologie,Nordamerika
+TEAM,green,normal,2026-10-18,Atlassian,USA,A4 Software,Technologie,Nordamerika
+PSX,green,normal,2026-10-18,Phillips 66,USA,B2 Öl & Gas,Energie,Nordamerika
+VLO,green,normal,2026-10-18,Valero Energy,USA,B2 Öl & Gas,Energie,Nordamerika
+AMGN,green,normal,2026-10-18,Amgen,USA,F2 Biotech,Gesundheit,Nordamerika
+RVTY,red,stark,2026-10-18,Revvity,USA,,Gesundheit,Nordamerika
+ILMN,red,stark,2026-10-18,"Illumina, Inc.",USA,,Gesundheit,Nordamerika
+P,red,stark,2026-10-18,Everpure,USA,,Technologie,Nordamerika
+OKTA,red,stark,2026-10-18,"Okta, Inc.",USA,A4 Cyber,Technologie,Nordamerika
+^TNX,red,stark,2026-10-18,US10Y,Global,Kompass,ETFs & Indizes,Global
+TWLO,red,stark,2026-10-18,Twilio,USA,,Technologie,Nordamerika
+CRWD,red,stark,2026-10-18,CrowdStrike,USA,A4 Cyber,Technologie,Nordamerika
+HPE,red,stark,2026-10-18,Hewlett Packard Enterprise,USA,A2 AI-Infra,Technologie,Nordamerika
+NET,red,stark,2026-10-18,Cloudflare,USA,A4 Software,Technologie,Nordamerika
+NTAP,red,stark,2026-10-18,NetApp,USA,,Technologie,Nordamerika
+LINK-USD,red,stark,2026-10-18,Chainlink,Krypto,I1 Krypto,Krypto,Krypto
+NDSN,red,stark,2026-10-18,Nordson Corporation,USA,,Industrie & Defense,Nordamerika
+WAT,red,stark,2026-10-18,Waters Corporation,USA,,Gesundheit,Nordamerika
+MRNA,red,stark,2026-10-18,Moderna,USA,,Gesundheit,Nordamerika
+BRK-B,green,normal,2026-10-18,Berkshire Hathaway,USA,E3 Versicherer,Finanzen,Nordamerika
+DVN,green,normal,2026-10-18,Devon Energy,USA,B2 Öl & Gas,Energie,Nordamerika
+MA,green,normal,2026-10-18,Mastercard,USA,E2 Börsen & Payments,Finanzen,Nordamerika
+NOVN.SW,green,normal,2026-10-18,Novartis International AG,Schweiz,F1 Pharma,Gesundheit,Europa
+STLD,green,normal,2026-10-18,Steel Dynamics,USA,C2 Industriemetalle,Rohstoffe & Materialien,Nordamerika
+ITX.MC,green,normal,2026-10-18,Inditex,Spanien,G1 Konsum zyklisch,Konsum zyklisch,Europa
+CSX,green,normal,2026-10-18,CSX Corporation,USA,D4 Transport,Industrie & Defense,Nordamerika
+G24.DE,green,normal,2026-10-18,Scout24,Deutschland,L2 Nebenwerte DE,Kommunikation & Medien,Europa
+ADYEN.AS,green,normal,2026-10-18,Adyen,Niederlande,E4 Fintech,Finanzen,Europa
+HAG.DE,green,normal,2026-10-18,Hensoldt,Deutschland,D1 Defense,Industrie & Defense,Europa
+UNP,green,normal,2026-10-18,Union Pacific Corporation,USA,D4 Transport,Industrie & Defense,Nordamerika
+GM,green,normal,2026-10-18,General Motors,USA,G1 Konsum zyklisch,Konsum zyklisch,Nordamerika
+AR,green,normal,2026-10-18,Antero Resources,USA,B2 Öl & Gas,Energie,Nordamerika
+MELI,green,normal,2026-10-18,MercadoLibre,USA,K1 China Tech,Konsum zyklisch,Nordamerika
+HUBS,green,normal,2026-10-18,HubSpot,USA,A4 Software,Technologie,Nordamerika
+NUE,green,normal,2026-10-18,Nucor,USA,C2 Industriemetalle,Rohstoffe & Materialien,Nordamerika
+RSG,green,normal,2026-10-18,Republic Services,USA,D6 Abfall & Wasser,Industrie & Defense,Nordamerika
+PYPL,green,normal,2026-10-18,PayPal,USA,E2 Börsen & Payments,Finanzen,Nordamerika
+NTDOY,green,normal,2026-10-18,Nintendo,USA,A6 Gaming,Kommunikation & Medien,Nordamerika
+BAS.DE,green,normal,2026-10-18,BASF,Deutschland,C3 Agrar & Chemie,Rohstoffe & Materialien,Europa
+ICE,green,normal,2026-10-18,Intercontinental Exchange,USA,E2 Börsen & Payments,Finanzen,Nordamerika
+SAAB-B.ST,green,normal,2026-10-18,Saab B,Schweden,D1 Defense,Industrie & Defense,Europa
+SPOT,green,normal,2026-10-18,Spotify,USA,A6 Internet,Kommunikation & Medien,Nordamerika
+GLEN.L,green,normal,2026-10-18,Glencore,UK,C2 Industriemetalle,Rohstoffe & Materialien,Europa
+OXY,green,normal,2026-10-18,Occidental Petroleum,USA,B2 Öl & Gas,Energie,Nordamerika
+MDT,green,normal,2026-10-18,Medtronic,USA,F3 Medtech,Gesundheit,Nordamerika
+EOG,green,normal,2026-10-18,EOG Resources,USA,B2 Öl & Gas,Energie,Nordamerika
+SHL.DE,green,normal,2026-10-18,Siemens Healthineers,Deutschland,F3 Medtech,Gesundheit,Europa
+LNG,green,normal,2026-10-18,Cheniere,USA,B2 Öl & Gas,Energie,Nordamerika
+CL=F,green,normal,2026-10-18,WTI-Öl,Global,Kompass,ETFs & Indizes,Global
+AVT,red,stark,2026-10-18,Avnet,USA,,Technologie,Nordamerika
+SOL-USD,red,stark,2026-10-18,Solana,Krypto,I1 Krypto,Krypto,Krypto
+FTNT,red,stark,2026-10-18,Fortinet,USA,A4 Cyber,Technologie,Nordamerika
+ZBRA,red,stark,2026-10-18,Zebra Technologies,USA,,Technologie,Nordamerika
+MTX.DE,red,normal,2026-10-18,MTU Aero Engines,Deutschland,D2 Aerospace,Industrie & Defense,Europa
+ASML,red,normal,2026-10-18,ASML,USA,A1 Semis Equipment,Technologie,Nordamerika
+ALAB,red,normal,2026-10-18,Astera Labs,USA,A2 AI-Infra,Technologie,Nordamerika
+ARM,red,normal,2026-10-18,Arm,USA,A1 Fabless,Technologie,Nordamerika
+LRCX,red,normal,2026-10-18,Lam Research,USA,A1 Semis Equipment,Technologie,Nordamerika
+DAL,red,normal,2026-10-18,Delta Air Lines,USA,D4 Transport,Industrie & Defense,Nordamerika
+HIMS,red,normal,2026-10-18,Hims & Hers Health,USA,F4 Krankenversicherer,Gesundheit,Nordamerika
+COHR,red,normal,2026-10-18,Coherent Corp.,USA,A2 AI-Infra,Technologie,Nordamerika
+ABBN.SW,red,normal,2026-10-18,ABB Ltd,Schweiz,B1 Grid,Versorger,Europa
+AMAT,red,normal,2026-10-18,Applied Materials,USA,A1 Semis Equipment,Technologie,Nordamerika
+SYM,red,normal,2026-10-18,Symbotic,USA,A7 Robotik,Technologie,Nordamerika
+CRDO,red,normal,2026-10-18,Credo,USA,A2 AI-Infra,Technologie,Nordamerika
+IONQ,red,normal,2026-10-18,IonQ,USA,A5 Quantum,Technologie,Nordamerika
+KLAC,red,normal,2026-10-18,KLA Corporation,USA,A1 Semis Equipment,Technologie,Nordamerika
+GEV,red,normal,2026-10-18,GE Vernova,USA,B1 Grid,Versorger,Nordamerika
+STM,red,normal,2026-10-18,STMicro,USA,A1 Analog,Technologie,Nordamerika
+ROK,red,normal,2026-10-18,Rockwell Automation,USA,D3 Maschinenbau,Industrie & Defense,Nordamerika
+IFX.DE,red,normal,2026-10-18,Infineon Technologies,Deutschland,A1 Analog,Technologie,Europa
+ON,red,normal,2026-10-18,ON Semiconductor,USA,A1 Analog,Technologie,Nordamerika
+MCHP,red,normal,2026-10-18,Microchip Technology,USA,A1 Analog,Technologie,Nordamerika
+NXPI,red,normal,2026-10-18,NXP Semiconductors,USA,A1 Analog,Technologie,Nordamerika
+RKLB,red,normal,2026-10-18,Rocket Lab,USA,D2 Space,Industrie & Defense,Nordamerika
+CAT,red,normal,2026-10-18,Caterpillar Inc.,USA,D3 Maschinenbau,Industrie & Defense,Nordamerika
+AVGO,red,normal,2026-10-18,Broadcom,USA,A1 Fabless,Technologie,Nordamerika
+ENR.DE,red,normal,2026-10-18,Siemens Energy,Deutschland,B1 Grid,Versorger,Europa
+FLNC,red,normal,2026-10-18,Fluence,USA,B3 Renewables,Energie,Nordamerika
+DRS,red,normal,2026-10-18,Leonardo DRS,USA,D1 Defense,Industrie & Defense,Nordamerika
+INTC,red,normal,2026-10-18,Intel,USA,A1 Foundry,Technologie,Nordamerika
+MDLZ,green,normal,2026-10-18,Mondelez International,USA,G2 Staples,Konsum defensiv,Nordamerika
+SOXX,red,normal,2026-10-18,Semis-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+ETN,red,normal,2026-10-18,Eaton Corporation,USA,A2 AI-Infra,Industrie & Defense,Nordamerika
+NTNX,red,stark,2026-10-18,Nutanix,USA,,Technologie,Nordamerika
+2269.HK,red,stark,2026-10-18,WuXi Biologics,Hongkong,,Gesundheit,Asien-Pazifik
+ANET,red,stark,2026-10-18,Arista Networks,USA,A2 AI-Infra,Technologie,Nordamerika
+2330.TW,red,stark,2026-10-18,TSMC,Taiwan,,Technologie,Asien-Pazifik
+SMTC,red,stark,2026-10-18,Semtech,USA,,Technologie,Nordamerika
+CRL,red,stark,2026-10-18,Charles River Laboratories,USA,,Gesundheit,Nordamerika
+ETH-USD,red,stark,2026-10-18,Ethereum,Krypto,I1 Krypto,Krypto,Krypto
+IGV,red,stark,2026-10-18,Software-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+ARW,red,stark,2026-10-18,Arrow Electronics,USA,,Technologie,Nordamerika
+ATS.VI,red,stark,2026-10-18,AT&S,Österreich,,Technologie,Europa
+PANW,red,stark,2026-10-18,Palo Alto Networks,USA,A4 Cyber,Technologie,Nordamerika
+TSM,red,stark,2026-10-18,TSMC,USA,A1 Foundry,Technologie,Nordamerika
+AMD,red,stark,2026-10-18,Advanced Micro Devices,USA,A1 Fabless,Technologie,Nordamerika
+SLAB,red,stark,2026-10-18,Silicon Labs,USA,,Technologie,Nordamerika
+NVDA,red,stark,2026-10-18,Nvidia,USA,A1 Fabless,Technologie,Nordamerika
+LITE,red,normal,2026-10-18,Lumentum,USA,A2 AI-Infra,Technologie,Nordamerika
+IBIT,red,normal,2026-10-18,Bitcoin-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+^NDX,red,normal,2026-10-18,Nasdaq 100,Global,Kompass,ETFs & Indizes,Global
+QQQ,red,normal,2026-10-18,Nasdaq-100-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+SNOW,red,normal,2026-10-18,Snowflake,USA,A4 Software,Technologie,Nordamerika
+MRVL,red,normal,2026-10-18,Marvell Technology,USA,A1 Fabless,Technologie,Nordamerika
+SMCI,red,normal,2026-10-18,Supermicro,USA,A2 AI-Infra,Technologie,Nordamerika
+^GSPC,red,normal,2026-10-18,S&P 500,Global,Kompass,ETFs & Indizes,Global
+SCCO,red,normal,2026-10-18,Southern Copper,USA,C2 Industriemetalle,Rohstoffe & Materialien,Nordamerika
+MU,red,normal,2026-10-18,Micron Technology,USA,A1 Memory,Technologie,Nordamerika
+MSTR,red,normal,2026-10-18,Strategy,USA,I2 Krypto-Aktien,Finanzen,Nordamerika
+SMH,red,normal,2026-10-18,Semis-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+TER,red,normal,2026-10-18,Teradyne,USA,A1 Semis Equipment,Technologie,Nordamerika
+EQT,green,normal,2026-10-18,EQT Corporation,USA,B2 Öl & Gas,Energie,Nordamerika
+INTU,green,normal,2026-10-18,Intuit,USA,A4 Software,Technologie,Nordamerika
+XLP,green,normal,2026-10-18,Staples-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+SPXC,green,stark,2026-10-18,SPX Technologies,USA,,Industrie & Defense,Nordamerika
+TATACONSUM.NS,green,stark,2026-10-18,Tata Consumer Products,Indien,,Konsum zyklisch,Asien-Pazifik
+O,green,stark,2026-10-18,Realty Income,USA,H1 REITs,Immobilien,Nordamerika
+FIS,green,stark,2026-10-18,Fidelity National Information Services,USA,,Finanzen,Nordamerika
+COL.MC,green,stark,2026-10-18,Inmobiliaria Colonial,Spanien,,Immobilien,Europa
+OGS,green,stark,2026-10-18,One Gas,USA,,Versorger,Nordamerika
+0868.HK,green,stark,2026-10-18,Xinyi Glass,Hongkong,,Rohstoffe & Materialien,Asien-Pazifik
+CLNX.MC,green,stark,2026-10-18,Cellnex Telecom,Spanien,,Kommunikation & Medien,Europa
+SUI,green,stark,2026-10-18,Sun Communities,USA,,Immobilien,Nordamerika
+0175.HK,green,stark,2026-10-18,Geely Auto,Hongkong,,Konsum zyklisch,Asien-Pazifik
+DG.PA,green,stark,2026-10-18,Vinci,Frankreich,D5 Bau,Industrie & Defense,Europa
+HGV,green,stark,2026-10-18,Hilton Grand Vacations,USA,,Konsum zyklisch,Nordamerika
+6862.HK,green,stark,2026-10-18,Haidilao,Hongkong,,Konsum zyklisch,Asien-Pazifik
+LXS.DE,green,stark,2026-10-18,Lanxess,Deutschland,,Rohstoffe & Materialien,Europa
+FISV,green,stark,2026-10-18,Fiserv,USA,,Finanzen,Nordamerika
+RYN,green,stark,2026-10-18,Rayonier,USA,,Immobilien,Nordamerika
+4519.T,green,stark,2026-10-18,Chugai Pharma,Japan,,Gesundheit,Asien-Pazifik
+0881.HK,green,stark,2026-10-18,Zhongsheng Group,Hongkong,,Konsum zyklisch,Asien-Pazifik
+POST,green,stark,2026-10-18,Post Holdings,USA,,Konsum defensiv,Nordamerika
+TMPV.NS,green,stark,2026-10-18,Tata Motors Passenger Vehicles,Indien,,Konsum zyklisch,Asien-Pazifik
+ALGN,green,stark,2026-10-18,Align Technology,USA,,Gesundheit,Nordamerika
+GSK,green,stark,2026-10-18,GSK,USA,F1 Pharma,Gesundheit,Nordamerika
+CNM,green,stark,2026-10-18,Core & Main,USA,,Industrie & Defense,Nordamerika
+LULU,green,stark,2026-10-18,Lululemon Athletica,USA,G1 Konsum zyklisch,Konsum zyklisch,Nordamerika
+SCYR.MC,green,stark,2026-10-18,Sacyr,Spanien,,Industrie & Defense,Europa
+ADC,green,stark,2026-10-18,Agree Realty,USA,,Immobilien,Nordamerika
+FCN,green,stark,2026-10-18,FTI Consulting,USA,,Industrie & Defense,Nordamerika
+LOW,green,stark,2026-10-18,Lowe's,USA,,Konsum zyklisch,Nordamerika
+STLAP.PA,green,stark,2026-10-18,Stellantis,Frankreich,,Konsum zyklisch,Europa
+PEP,green,stark,2026-10-18,PepsiCo,USA,G2 Staples,Konsum defensiv,Nordamerika
+MAA,green,stark,2026-10-18,Mid-America Apartment Communities,USA,,Immobilien,Nordamerika
+VICI,green,stark,2026-10-18,Vici Properties,USA,,Immobilien,Nordamerika
+RELIANCE.NS,green,stark,2026-10-18,Reliance Industries,Indien,,Energie,Asien-Pazifik
+TEG.DE,green,stark,2026-10-18,TAG Tegernsee Immobilien und Beteiligung,Deutschland,,Immobilien,Europa
+RMS.PA,green,stark,2026-10-18,Hermès,Frankreich,G1 Konsum zyklisch,Konsum zyklisch,Europa
+LVS,green,stark,2026-10-18,Las Vegas Sands,USA,,Konsum zyklisch,Nordamerika
+VNA.DE,green,stark,2026-10-18,Vonovia,Deutschland,H1 REITs,Immobilien,Europa
+GLPI,green,stark,2026-10-18,Gaming and Leisure Properties,USA,,Immobilien,Nordamerika
+MCD,green,stark,2026-10-18,McDonald's,USA,G1 Konsum zyklisch,Konsum zyklisch,Nordamerika
+GBF.DE,green,stark,2026-10-18,Bilfinger,Deutschland,,Industrie & Defense,Europa
+MC.PA,green,stark,2026-10-18,LVMH,Frankreich,G1 Konsum zyklisch,Konsum zyklisch,Europa
+WIE.VI,green,stark,2026-10-18,Wienerberger,Österreich,,Rohstoffe & Materialien,Europa
+EN.PA,green,stark,2026-10-18,Bouygues,Frankreich,,Industrie & Defense,Europa
+HINDUNILVR.NS,green,stark,2026-10-18,Hindustan Unilever,Indien,,Konsum zyklisch,Asien-Pazifik
+FGR.PA,green,stark,2026-10-18,Eiffage,Frankreich,,Industrie & Defense,Europa
+FICO,green,stark,2026-10-18,Fair Isaac,USA,,Technologie,Nordamerika
+ORA.PA,green,stark,2026-10-18,Orange,Frankreich,,Kommunikation & Medien,Europa
+BC,green,stark,2026-10-18,Brunswick,USA,,Konsum zyklisch,Nordamerika
+WY,green,stark,2026-10-18,Weyerhaeuser,USA,,Immobilien,Nordamerika
+GIL.TO,green,stark,2026-10-18,Gildan Activewear Inc.,Kanada,,Konsum zyklisch,Nordamerika
+NEE,green,stark,2026-10-18,NextEra Energy,USA,B4 Utilities,Versorger,Nordamerika
+TXT,green,stark,2026-10-18,Textron,USA,,Industrie & Defense,Nordamerika
+BYD,green,stark,2026-10-18,Boyd Gaming,USA,,Konsum zyklisch,Nordamerika
+CRH,green,stark,2026-10-18,CRH plc,USA,,Rohstoffe & Materialien,Nordamerika
+OTIS,green,stark,2026-10-18,Otis Worldwide,USA,,Industrie & Defense,Nordamerika
+T.TO,green,stark,2026-10-18,Telus Corporation,Kanada,,Kommunikation & Medien,Nordamerika
+NKE,green,stark,2026-10-18,"Nike, Inc.",USA,G1 Konsum zyklisch,Konsum zyklisch,Nordamerika
+HEI.DE,green,stark,2026-10-18,Heidelberg Materials,Deutschland,D5 Bau,Industrie & Defense,Europa
+HER.MI,green,stark,2026-10-18,Hera,Italien,,Versorger,Europa
+VRT,red,normal,2026-10-18,Vertiv,USA,A2 AI-Infra,Technologie,Nordamerika
+STLAM.MI,green,stark,2026-10-18,Stellantis,Italien,,Konsum zyklisch,Europa
+CPT,green,stark,2026-10-18,Camden Property Trust,USA,,Immobilien,Nordamerika
+MZTI,green,stark,2026-10-18,The Marzetti Company,USA,,Konsum defensiv,Nordamerika
+SGI,green,stark,2026-10-18,Somnigroup International,USA,,Konsum zyklisch,Nordamerika
+2015.HK,green,stark,2026-10-18,Li Auto,Hongkong,,Konsum zyklisch,Asien-Pazifik
+BROS,green,stark,2026-10-18,Dutch Bros Inc.,USA,,Konsum zyklisch,Nordamerika
+FE,green,stark,2026-10-18,FirstEnergy,USA,,Versorger,Nordamerika
+ENB.TO,green,stark,2026-10-18,Enbridge Inc.,Kanada,,Energie,Nordamerika
+0016.HK,green,stark,2026-10-18,Sun Hung Kai Properties Limited,Hongkong,,Immobilien,Asien-Pazifik
+HRL,green,stark,2026-10-18,Hormel Foods,USA,,Konsum defensiv,Nordamerika
+PODD,green,stark,2026-10-18,Insulet Corporation,USA,,Gesundheit,Nordamerika
+FOUR,green,stark,2026-10-18,Shift4,USA,,Finanzen,Nordamerika
+WM,green,normal,2026-10-18,Waste Management,USA,D6 Abfall & Wasser,Industrie & Defense,Nordamerika
+UPS,green,normal,2026-10-18,United Parcel Service,USA,D4 Transport,Industrie & Defense,Nordamerika
+VIE.PA,green,normal,2026-10-18,Veolia,Frankreich,D6 Abfall & Wasser,Industrie & Defense,Europa
+NOC,green,normal,2026-10-18,Northrop Grumman,USA,D1 Defense,Industrie & Defense,Nordamerika
+KWEB,green,normal,2026-10-18,China-Internet-ETF,USA,ETF,ETFs & Indizes,Nordamerika
+RHM.DE,green,normal,2026-10-18,Rheinmetall,Deutschland,D1 Defense,Industrie & Defense,Europa
+SYK,green,normal,2026-10-18,Stryker Corporation,USA,F3 Medtech,Gesundheit,Nordamerika
+NESN.SW,green,normal,2026-10-18,Nestlé SA,Schweiz,G2 Staples,Konsum defensiv,Europa
+EOAN.DE,green,normal,2026-10-18,E.ON,Deutschland,B4 Utilities,Versorger,Europa
+AZN,green,normal,2026-10-18,AstraZeneca,USA,F1 Pharma,Gesundheit,Nordamerika
+CL,green,normal,2026-10-18,Colgate-Palmolive,USA,G2 Staples,Konsum defensiv,Nordamerika
+JD,green,normal,2026-10-18,JD.com,USA,K1 China Tech,Konsum zyklisch,Nordamerika
+CVS,green,normal,2026-10-18,CVS Health,USA,F4 Krankenversicherer,Gesundheit,Nordamerika
+1810.HK,green,normal,2026-10-18,Xiaomi,Hongkong,K1 China Tech,Technologie,Asien-Pazifik
+NEL.OL,green,normal,2026-10-18,Nel,Norwegen,B3 Renewables,Energie,Europa
+UNH,green,normal,2026-10-18,UnitedHealth Group,USA,F4 Krankenversicherer,Gesundheit,Nordamerika
+LMT,green,normal,2026-10-18,Lockheed Martin,USA,D1 Defense,Industrie & Defense,Nordamerika
+XYL,green,stark,2026-10-18,Xylem Inc.,USA,D6 Abfall & Wasser,Industrie & Defense,Nordamerika
+IRT,green,stark,2026-10-18,Independence Realty Trust,USA,,Immobilien,Nordamerika
+PPG,green,stark,2026-10-18,PPG Industries,USA,,Rohstoffe & Materialien,Nordamerika
+SWX,green,stark,2026-10-18,Southwest Gas Corp,USA,,Versorger,Nordamerika
+TTD,green,stark,2026-10-18,Trade Desk,USA,A6 Internet,Kommunikation & Medien,Nordamerika
+TRN.MI,green,stark,2026-10-18,Terna,Italien,,Versorger,Europa
+DTM,green,stark,2026-10-18,DT Midstream,USA,,Energie,Nordamerika
+9961.HK,green,stark,2026-10-18,Trip.com Group,Hongkong,,Konsum zyklisch,Asien-Pazifik
+HD,green,stark,2026-10-18,Home Depot (The),USA,,Konsum zyklisch,Nordamerika
+PGHN.SW,green,stark,2026-10-18,Partners Group Holding AG,Schweiz,,Finanzen,Europa
+PLNT,green,stark,2026-10-18,Planet Fitness,USA,,Konsum zyklisch,Nordamerika
+CAR,green,stark,2026-10-18,Avis Budget Group,USA,,Industrie & Defense,Nordamerika
+SMG,green,stark,2026-10-18,Scotts Miracle-Gro Company,USA,,Rohstoffe & Materialien,Nordamerika
+TDG,green,stark,2026-10-18,TransDigm Group,USA,,Industrie & Defense,Nordamerika
+BN.PA,green,stark,2026-10-18,Danone,Frankreich,,Konsum defensiv,Europa
+0241.HK,green,stark,2026-10-18,Alibaba Health,Hongkong,,Konsum zyklisch,Asien-Pazifik
+DHI,green,stark,2026-10-18,D. R. Horton,USA,D5 Bau,Industrie & Defense,Nordamerika
+NXST,green,stark,2026-10-18,Nexstar Media Group,USA,,Kommunikation & Medien,Nordamerika
+ES,green,stark,2026-10-18,Eversource Energy,USA,,Versorger,Nordamerika
+UDR,green,stark,2026-10-18,"UDR, Inc.",USA,,Immobilien,Nordamerika
+KPN.AS,green,stark,2026-10-18,KPN,Niederlande,,Kommunikation & Medien,Europa
+HSY,green,stark,2026-10-18,Hershey Company (The),USA,,Konsum defensiv,Nordamerika
+1876.HK,green,stark,2026-10-18,Budweiser Brewing Company APAC,Hongkong,,Konsum defensiv,Asien-Pazifik
+PRX.AS,green,stark,2026-10-18,Prosus,Niederlande,,Technologie,Europa
+HLE.DE,green,stark,2026-10-18,Hella,Deutschland,,Konsum zyklisch,Europa
+ENEL.MI,green,stark,2026-10-18,Enel,Italien,B4 Utilities,Versorger,Europa
+PCG,green,stark,2026-10-18,PG&E Corporation,USA,,Versorger,Nordamerika
+ELS,green,stark,2026-10-18,Equity Lifestyle Properties,USA,,Immobilien,Nordamerika
+PSN,green,stark,2026-10-18,Parsons Corporation,USA,,Industrie & Defense,Nordamerika
+SLGN,green,stark,2026-10-18,Silgan Holdings,USA,,Rohstoffe & Materialien,Nordamerika
+EIX,green,stark,2026-10-18,Edison International,USA,,Versorger,Nordamerika
+2057.HK,green,stark,2026-10-18,ZTO Express,Hongkong,,Industrie & Defense,Asien-Pazifik
+BIDU,red,normal,2026-10-18,Baidu,USA,K1 China Tech,Kommunikation & Medien,Nordamerika
+CLSK,manuell,,,CleanSpark,USA,A2 Miner-Pivot,Technologie,Nordamerika
+IREN,manuell,,,IREN,USA,A2 Miner-Pivot,Technologie,Nordamerika
+PL=F,manuell,,,Platin,Global,C1 Edelmetalle,Rohstoffe & Materialien,Global
