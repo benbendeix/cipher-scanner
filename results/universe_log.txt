@@ -1,3 +1,6 @@
+/home/runner/work/cipher-scanner/cipher-scanner/scanner/build_universe.py:149: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.drop(columns=["sector_raw"], errors="ignore", inplace=True)
 [ok]   S&P 500       503 Ticker  z.B. ['MMM', 'AOS', 'ABT', 'ABBV']
 [ok]   S&P 400       400 Ticker  z.B. ['AA', 'AAL', 'AAON', 'ACI']
 [ok]   DAX            40 Ticker  z.B. ['ADS.DE', 'AIR.PA', 'ALV.DE', 'BAS.DE']
@@ -13,11 +16,7 @@
 [ok]   NIFTY 50       50 Ticker  z.B. ['ADANIENT.NS', 'ADANIPORTS.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
 [ok]   S&P/TSX 60     59 Ticker  z.B. ['AEM.TO', 'ATD.TO', 'BMO.TO', 'BNS.TO']
 
-Branchen: 1482 zugeordnet, 239 per yfinance nachschlagen ...
-  50/239
-  100/239
-  150/239
-  200/239
+Branchen: 1721 zugeordnet, 0 per yfinance nachschlagen ...
 
 Universum: 1721 eindeutige Ticker -> /home/runner/work/cipher-scanner/cipher-scanner/universe/universe.csv
 source
