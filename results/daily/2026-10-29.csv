@@ -1,0 +1,75 @@
+ticker,name,region,cluster,sector,continent,dot,strength,wt1,wt2,date,close,chg_pct,vol_ratio,vs_52hi_pct,above_ma50,above_ma200,weekly_dot,weekly_strength,weekly_date,passt_zu_weekly
+PL=F,Platin,Global,C1 Edelmetalle,Rohstoffe & Materialien,Global,green,stark,-71.51,-74.52,2026-10-28,1547.9,0.8,1.3,-19.2,False,False,manuell,,,False
+TMPV.NS,Tata Motors Passenger Vehicles,Indien,,Konsum zyklisch,Asien-Pazifik,green,stark,-72.11,-72.92,2026-10-28,263.6,0.9,0.8,-25.0,False,False,green,stark,2026-10-18,True
+ENR.DE,Siemens Energy,Deutschland,B1 Grid,Versorger,Europa,green,stark,-63.85,-69.39,2026-10-27,128.58,4.4,1.1,-22.1,False,False,red,normal,2026-10-18,False
+STLAP.PA,Stellantis,Frankreich,,Konsum zyklisch,Europa,green,stark,-67.07,-69.0,2026-10-27,3.71,0.5,1.0,-23.8,False,False,green,stark,2026-10-18,True
+STLAM.MI,Stellantis,Italien,,Konsum zyklisch,Europa,green,stark,-66.97,-68.77,2026-10-27,3.71,0.5,1.1,-23.9,False,False,green,stark,2026-10-18,True
+MTX.DE,MTU Aero Engines,Deutschland,D2 Aerospace,Industrie & Defense,Europa,green,stark,-68.34,-68.44,2026-10-27,329.7,0.8,0.8,-14.5,False,False,red,normal,2026-10-18,False
+GOOGL,Alphabet Inc. (Class A),USA,A3 Mega-Cap,Kommunikation & Medien,Nordamerika,green,stark,-60.93,-63.88,2026-10-28,324.89,1.3,2.5,-10.8,False,False,red,normal,2026-10-24,False
+0175.HK,Geely Auto,Hongkong,,Konsum zyklisch,Asien-Pazifik,green,stark,-62.81,-62.95,2026-10-28,14.19,1.9,0.6,-25.8,False,False,green,stark,2026-10-18,True
+ADA-USD,Cardano,Krypto,I1 Krypto,Krypto,Krypto,green,stark,-61.94,-62.64,2026-10-27,0.21,-0.2,0.5,-26.8,False,False,red,normal,2026-10-24,False
+LINK-USD,Chainlink,Krypto,I1 Krypto,Krypto,Krypto,green,stark,-61.27,-61.39,2026-10-27,11.57,1.7,0.9,-26.5,False,True,red,stark,2026-10-18,False
+XLM-USD,Stellar,Krypto,I1 Krypto,Krypto,Krypto,green,stark,-58.36,-59.16,2026-10-27,0.17,0.8,0.8,-28.0,False,False,red,normal,2026-10-24,False
+JD,JD.com,USA,K1 China Tech,Konsum zyklisch,Nordamerika,green,stark,-58.15,-58.76,2026-10-28,25.45,-0.5,0.8,-14.0,False,False,red,normal,2026-10-24,False
+2269.HK,WuXi Biologics,Hongkong,,Gesundheit,Asien-Pazifik,green,stark,-55.31,-56.75,2026-10-28,46.32,3.7,0.9,-20.1,False,True,red,stark,2026-10-18,False
+HINDUNILVR.NS,Hindustan Unilever,Indien,,Konsum zyklisch,Asien-Pazifik,green,stark,-55.93,-56.6,2026-10-28,1815.8,-0.1,2.1,-13.2,False,False,green,stark,2026-10-18,True
+^TNX,US10Y,Global,Kompass,ETFs & Indizes,Global,green,stark,-51.56,-55.3,2026-10-28,5.05,1.0,,-5.9,True,True,red,stark,2026-10-18,False
+DOGE-USD,Dogecoin,Krypto,I1 Krypto,Krypto,Krypto,green,stark,-49.98,-53.6,2026-10-27,0.08,1.8,0.6,-25.0,False,False,red,normal,2026-10-24,False
+IFX.DE,Infineon Technologies,Deutschland,A1 Analog,Technologie,Europa,green,normal,-46.68,-51.78,2026-10-27,52.59,4.8,0.7,-19.1,False,False,red,normal,2026-10-18,False
+000270.KS,Kia,Korea,,Konsum zyklisch,Asien-Pazifik,green,normal,-41.15,-43.62,2026-10-28,107900.0,1.3,0.7,-24.2,False,False,green,stark,2026-10-24,True
+SMT.L,Scottish Mortgage Investment Trust,UK,,Finanzen,Europa,green,normal,-41.46,-42.81,2026-10-27,1550.0,1.8,1.1,-6.2,True,True,red,stark,2026-10-24,False
+2330.TW,TSMC,Taiwan,,Technologie,Asien-Pazifik,green,normal,-37.68,-41.84,2026-10-28,2425.0,1.0,0.9,-6.4,False,True,red,stark,2026-10-18,False
+IBIT,Bitcoin-ETF,USA,ETF,ETFs & Indizes,Nordamerika,green,normal,-38.11,-38.29,2026-10-28,46.14,1.0,0.6,-6.6,True,True,red,normal,2026-10-18,False
+HIMS,Hims & Hers Health,USA,F4 Krankenversicherer,Gesundheit,Nordamerika,green,normal,-25.69,-34.16,2026-10-28,29.32,5.0,1.2,-14.9,True,True,red,normal,2026-10-18,False
+MSM,MSC Industrial Direct,USA,,Industrie & Defense,Nordamerika,green,normal,-30.09,-31.02,2026-10-28,122.59,3.6,1.0,-8.5,False,True,red,stark,2026-10-24,False
+AFRM,Affirm,USA,E4 Fintech,Finanzen,Nordamerika,green,normal,-24.36,-30.11,2026-10-28,73.32,0.9,0.6,-18.9,True,True,red,normal,2026-10-24,False
+TATACONSUM.NS,Tata Consumer Products,Indien,,Konsum zyklisch,Asien-Pazifik,green,normal,-17.87,-25.95,2026-10-27,1000.0,6.8,5.4,-8.7,False,False,green,stark,2026-10-18,True
+3711.TW,ASE Technology,Taiwan,,Technologie,Asien-Pazifik,green,normal,-20.66,-25.53,2026-10-28,695.0,6.8,1.3,-9.2,True,True,red,stark,2026-10-24,False
+MC.PA,LVMH,Frankreich,G1 Konsum zyklisch,Konsum zyklisch,Europa,green,normal,-20.91,-22.03,2026-10-27,388.25,0.7,1.2,-15.8,False,False,green,stark,2026-10-18,True
+AMZN,Amazon,USA,A3 Mega-Cap,Konsum zyklisch,Nordamerika,green,normal,-10.07,-11.18,2026-10-28,254.6,0.6,1.0,-4.8,False,True,red,normal,2026-10-24,False
+HLE.DE,Hella,Deutschland,,Konsum zyklisch,Europa,green,normal,-5.58,-7.09,2026-10-27,70.2,0.1,0.3,-3.6,True,False,green,stark,2026-10-18,True
+R3NK.DE,Renk,Deutschland,D1 Defense,Industrie & Defense,Europa,green,normal,1.97,-0.23,2026-10-27,36.99,0.5,0.5,-29.3,False,False,green,stark,2026-10-24,True
+PCG,PG&E Corporation,USA,,Versorger,Nordamerika,green,normal,9.49,2.91,2026-10-28,13.15,1.5,1.1,-28.6,False,False,green,stark,2026-10-18,True
+STLD,Steel Dynamics,USA,C2 Industriemetalle,Rohstoffe & Materialien,Nordamerika,green,normal,35.51,27.56,2026-10-28,249.99,1.3,1.2,-3.5,True,True,green,normal,2026-10-18,True
+TDG,TransDigm Group,USA,,Industrie & Defense,Nordamerika,green,normal,34.1,27.71,2026-10-28,1136.53,0.6,0.7,-9.6,True,False,green,stark,2026-10-18,True
+BROS,Dutch Bros Inc.,USA,,Konsum zyklisch,Nordamerika,green,normal,43.08,38.59,2026-10-28,42.93,3.1,1.2,-18.3,True,False,green,stark,2026-10-18,True
+HAG.DE,Hensoldt,Deutschland,D1 Defense,Industrie & Defense,Europa,green,normal,46.17,43.64,2026-10-27,86.22,-0.2,0.8,-10.5,True,True,green,normal,2026-10-18,True
+FE,FirstEnergy,USA,,Versorger,Nordamerika,green,normal,55.57,53.22,2026-10-28,46.4,0.3,1.4,-3.9,True,False,green,stark,2026-10-18,True
+LMT,Lockheed Martin,USA,D1 Defense,Industrie & Defense,Nordamerika,red,stark,79.51,80.33,2026-10-28,629.75,1.1,1.2,-1.1,True,True,green,normal,2026-10-18,False
+PSN,Parsons Corporation,USA,,Industrie & Defense,Nordamerika,red,stark,77.54,78.09,2026-10-28,50.52,-0.4,1.7,-0.6,True,False,green,stark,2026-10-18,False
+SWX,Southwest Gas Corp,USA,,Versorger,Nordamerika,red,stark,75.31,76.31,2026-10-28,92.49,-0.4,1.6,-1.2,True,True,green,stark,2026-10-18,False
+EOAN.DE,E.ON,Deutschland,B4 Utilities,Versorger,Europa,red,stark,73.14,74.36,2026-10-27,18.57,0.5,0.6,-0.6,True,True,green,normal,2026-10-18,False
+PODD,Insulet Corporation,USA,,Gesundheit,Nordamerika,red,stark,69.14,71.15,2026-10-28,148.93,-0.6,0.6,-4.0,True,False,green,stark,2026-10-18,False
+NEE,NextEra Energy,USA,B4 Utilities,Versorger,Nordamerika,red,stark,67.56,70.85,2026-10-28,81.02,-1.7,0.7,-7.4,True,False,green,stark,2026-10-18,False
+ITX.MC,Inditex,Spanien,G1 Konsum zyklisch,Konsum zyklisch,Europa,red,stark,68.77,69.78,2026-10-27,57.0,-0.4,0.6,-3.2,True,True,green,normal,2026-10-18,False
+OGS,One Gas,USA,,Versorger,Nordamerika,red,stark,66.27,69.35,2026-10-28,77.46,-1.2,0.8,-6.0,True,False,green,stark,2026-10-18,False
+NOC,Northrop Grumman,USA,D1 Defense,Industrie & Defense,Nordamerika,red,stark,58.54,61.52,2026-10-28,552.77,0.3,0.6,-7.0,True,False,green,normal,2026-10-18,False
+SPG,Simon Property Group,USA,H1 REITs,Immobilien,Nordamerika,red,stark,60.79,61.45,2026-10-28,211.24,-0.5,0.8,-5.6,True,True,green,normal,2026-10-24,False
+BN.PA,Danone,Frankreich,,Konsum defensiv,Europa,red,stark,53.96,55.93,2026-10-27,61.62,-0.6,0.9,-7.8,False,False,green,stark,2026-10-18,False
+4519.T,Chugai Pharma,Japan,,Gesundheit,Asien-Pazifik,red,stark,52.86,55.02,2026-10-28,6614.0,-1.1,1.0,-8.5,True,False,green,stark,2026-10-18,False
+DHI,D. R. Horton,USA,D5 Bau,Industrie & Defense,Nordamerika,red,stark,51.33,54.73,2026-10-28,143.0,-2.7,1.9,-7.4,True,False,green,stark,2026-10-18,False
+O,Realty Income,USA,H1 REITs,Immobilien,Nordamerika,red,normal,42.33,48.17,2026-10-28,56.23,-1.0,0.8,-11.5,False,False,green,stark,2026-10-18,False
+RRTL.DE,RTL Group,Deutschland,,Kommunikation & Medien,Europa,red,normal,47.44,48.0,2026-10-27,31.2,0.2,0.9,-4.9,True,False,green,stark,2026-10-24,False
+ES,Eversource Energy,USA,,Versorger,Nordamerika,red,normal,46.38,47.62,2026-10-28,66.9,-1.3,0.9,-8.4,False,False,green,stark,2026-10-18,False
+VICI,Vici Properties,USA,,Immobilien,Nordamerika,red,normal,39.52,46.82,2026-10-28,23.52,-0.8,1.0,-13.4,False,False,green,stark,2026-10-18,False
+HBAN,Huntington Bancshares,USA,,Finanzen,Nordamerika,red,normal,43.81,44.49,2026-10-28,15.7,-0.1,0.8,-13.5,False,False,green,stark,2026-10-24,False
+BYD,Boyd Gaming,USA,,Konsum zyklisch,Nordamerika,red,normal,37.23,43.98,2026-10-28,70.77,-1.5,1.3,-15.7,False,False,green,stark,2026-10-18,False
+DT,Dynatrace,USA,,Technologie,Nordamerika,red,normal,34.43,42.23,2026-10-28,62.81,-1.5,1.0,-5.3,True,True,red,stark,2026-10-24,True
+NNN,NNN Reit,USA,,Immobilien,Nordamerika,red,normal,29.47,41.0,2026-10-28,40.9,-2.0,1.7,-12.6,False,False,green,stark,2026-10-24,False
+GSK,GSK,USA,F1 Pharma,Gesundheit,Nordamerika,red,normal,26.31,38.44,2026-10-28,48.74,-4.3,1.4,-8.0,False,False,green,stark,2026-10-18,False
+BMW.DE,BMW,Deutschland,G1 Konsum zyklisch,Konsum zyklisch,Europa,red,normal,32.84,35.87,2026-10-27,56.72,-1.8,1.0,-12.0,False,False,green,normal,2026-10-24,False
+EXP,Eagle Materials,USA,,Rohstoffe & Materialien,Nordamerika,red,normal,24.41,24.75,2026-10-28,173.72,-0.6,0.7,-17.3,False,False,green,stark,2026-10-24,False
+ONGC.NS,Oil and Natural Gas Corporation,Indien,,Energie,Asien-Pazifik,red,normal,19.53,20.39,2026-10-28,224.89,-2.2,0.6,-7.5,False,False,green,stark,2026-10-24,False
+MBG.DE,Mercedes-Benz Group,Deutschland,G1 Konsum zyklisch,Konsum zyklisch,Europa,red,normal,10.02,18.36,2026-10-27,39.78,-3.9,1.8,-18.2,False,False,green,stark,2026-10-24,False
+ADC,Agree Realty,USA,,Immobilien,Nordamerika,red,normal,12.82,17.65,2026-10-28,66.22,-1.2,0.9,-12.1,False,False,green,stark,2026-10-18,False
+WY,Weyerhaeuser,USA,,Immobilien,Nordamerika,red,normal,5.37,14.08,2026-10-28,19.19,-1.0,0.7,-23.1,False,False,green,stark,2026-10-18,False
+PLTR,Palantir Technologies,USA,D1 Defense,Technologie,Nordamerika,red,normal,9.96,11.49,2026-10-28,196.81,-1.0,0.9,-7.6,True,True,red,stark,2026-10-24,True
+2057.HK,ZTO Express,Hongkong,,Industrie & Defense,Asien-Pazifik,red,normal,-1.38,-1.02,2026-10-28,157.6,0.0,0.8,-13.8,False,False,green,stark,2026-10-18,False
+FFIV,"F5, Inc.",USA,,Technologie,Nordamerika,red,normal,-30.19,-7.14,2026-10-28,365.53,-20.4,6.1,-24.4,False,True,red,stark,2026-10-24,True
+RELIANCE.NS,Reliance Industries,Indien,,Energie,Asien-Pazifik,red,normal,-23.15,-13.03,2026-10-28,1158.0,-3.2,1.5,-13.1,False,False,green,stark,2026-10-18,False
+WPC,W. P. Carey,USA,,Immobilien,Nordamerika,red,normal,-34.84,-20.24,2026-10-28,63.08,-0.7,1.5,-13.0,False,False,green,stark,2026-10-24,False
+VNA.DE,Vonovia,Deutschland,H1 REITs,Immobilien,Europa,red,normal,-25.2,-22.83,2026-10-27,16.54,-0.2,0.8,-19.2,False,False,green,stark,2026-10-18,False
+STWD,Starwood Property Trust,USA,,Finanzen,Nordamerika,red,normal,-30.75,-28.65,2026-10-28,12.24,-1.6,0.8,-26.8,False,False,green,stark,2026-10-24,False
+LNZ.VI,Lenzing,Österreich,,Konsum zyklisch,Europa,red,normal,-46.66,-46.58,2026-10-27,9.9,-5.0,1.8,-58.8,False,False,green,stark,2026-10-24,False
+HUBB,Hubbell Incorporated,USA,B1 Grid,Versorger,Nordamerika,red,normal,-61.57,-56.29,2026-10-27,434.28,-5.5,3.4,-15.4,False,False,red,normal,2026-10-24,True
+GIL.TO,Gildan Activewear Inc.,Kanada,,Konsum zyklisch,Nordamerika,red,normal,-61.52,-59.51,2026-10-28,55.79,-0.9,0.5,-29.6,False,False,green,stark,2026-10-18,False
