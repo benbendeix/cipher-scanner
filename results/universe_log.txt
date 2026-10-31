@@ -40,17 +40,17 @@ SMI                    20
 
 Branchen:
 sector
-Industrie & Defense        290
-Finanzen                   276
-Technologie                212
+Industrie & Defense        291
+Finanzen                   275
+Technologie                217
 Konsum zyklisch            201
-Gesundheit                 147
+Gesundheit                 146
 Rohstoffe & Materialien    129
-Energie                     88
+Energie                     87
 Versorger                   86
-Konsum defensiv             85
 Immobilien                  85
-Kommunikation & Medien      79
+Konsum defensiv             84
+Kommunikation & Medien      77
 ETFs & Indizes              32
 Krypto                      10
 Sonstige                     1

@@ -374,18 +374,17 @@ PG,Procter & Gamble,USA,S&P 500,G2 Staples,Konsum defensiv,Nordamerika
 PGR,Progressive Corporation,USA,S&P 500,,Finanzen,Nordamerika
 PLD,Prologis,USA,S&P 500,H1 REITs,Immobilien,Nordamerika
 PRU,Prudential Financial,USA,S&P 500,,Finanzen,Nordamerika
-PEG,Public Service Enterprise Group,USA,S&P 500,,Versorger,Nordamerika
 PTC,PTC Inc.,USA,S&P 500,,Technologie,Nordamerika
+PEG,Public Service Enterprise Group,USA,S&P 500,,Versorger,Nordamerika
 PSA,Public Storage,USA,S&P 500,,Immobilien,Nordamerika
 PHM,PulteGroup,USA,S&P 500,D5 Bau,Industrie & Defense,Nordamerika
-PWR,Quanta Services,USA,S&P 500,,Industrie & Defense,Nordamerika
-QCOM,Qualcomm,USA,S&P 500,A1 Fabless,Technologie,Nordamerika
-DGX,Quest Diagnostics,USA,S&P 500,,Gesundheit,Nordamerika
 Q,Qnity Electronics,USA,S&P 500,,Technologie,Nordamerika
+QCOM,Qualcomm,USA,S&P 500,A1 Fabless,Technologie,Nordamerika
+PWR,Quanta Services,USA,S&P 500,,Industrie & Defense,Nordamerika
+DGX,Quest Diagnostics,USA,S&P 500,,Gesundheit,Nordamerika
 RL,Ralph Lauren Corporation,USA,S&P 500,,Konsum zyklisch,Nordamerika
 RJF,Raymond James Financial,USA,S&P 500,,Finanzen,Nordamerika
 RDDT,Reddit,USA,S&P 500,A6 Internet,Kommunikation & Medien,Nordamerika
-RTX,RTX Corporation,USA,S&P 500,D1 Defense,Industrie & Defense,Nordamerika
 O,Realty Income,USA,S&P 500,H1 REITs,Immobilien,Nordamerika
 REG,Regency Centers,USA,S&P 500,,Immobilien,Nordamerika
 REGN,Regeneron Pharmaceuticals,USA,S&P 500,F2 Biotech,Gesundheit,Nordamerika
@@ -399,6 +398,7 @@ ROL,"Rollins, Inc.",USA,S&P 500,,Industrie & Defense,Nordamerika
 ROP,Roper Technologies,USA,S&P 500,,Technologie,Nordamerika
 ROST,Ross Stores,USA,S&P 500,,Konsum zyklisch,Nordamerika
 RCL,Royal Caribbean Group,USA,S&P 500,G1 Konsum zyklisch,Konsum zyklisch,Nordamerika
+RTX,RTX Corporation,USA,S&P 500,D1 Defense,Industrie & Defense,Nordamerika
 SPGI,S&P Global,USA,S&P 500,,Finanzen,Nordamerika
 CRM,Salesforce,USA,S&P 500,A4 Software,Technologie,Nordamerika
 SNDK,Sandisk,USA,S&P 500,,Technologie,Nordamerika
@@ -409,7 +409,7 @@ SRE,Sempra,USA,S&P 500,,Versorger,Nordamerika
 NOW,ServiceNow,USA,S&P 500,A4 Software,Technologie,Nordamerika
 SHW,Sherwin-Williams,USA,S&P 500,,Rohstoffe & Materialien,Nordamerika
 SPG,Simon Property Group,USA,S&P 500,H1 REITs,Immobilien,Nordamerika
-SKYD,Skydance Corporation,USA,S&P 500,,Kommunikation & Medien,Nordamerika
+SKYD,Skydance,USA,S&P 500,,Kommunikation & Medien,Nordamerika
 SWKS,Skyworks Solutions,USA,S&P 500,,Technologie,Nordamerika
 SJM,J.M. Smucker Company (The),USA,S&P 500,,Konsum defensiv,Nordamerika
 SW,Smurfit Westrock,USA,S&P 500,,Rohstoffe & Materialien,Nordamerika
@@ -998,7 +998,7 @@ AAL.L,Anglo American plc,UK,FTSE 100,,Rohstoffe & Materialien,Europa
 ANTO.L,Antofagasta plc,UK,FTSE 100,,Rohstoffe & Materialien,Europa
 ABF.L,Associated British Foods,UK,FTSE 100,,Konsum defensiv,Europa
 AZN.L,AstraZeneca,UK,FTSE 100,,Gesundheit,Europa
-AUTO.L,Autotrader Group,UK,FTSE 100,,Kommunikation & Medien,Europa
+AUTO.L,Autotrader Group,UK,FTSE 100,,Technologie,Europa
 AV.L,Aviva,UK,FTSE 100,,Finanzen,Europa
 BAB.L,Babcock International,UK,FTSE 100,,Industrie & Defense,Europa
 BA.L,BAE Systems,UK,FTSE 100,D1 Defense,Industrie & Defense,Europa
@@ -1009,7 +1009,7 @@ BP.L,BP,UK,FTSE 100,,Energie,Europa
 BATS.L,British American Tobacco,UK,FTSE 100,,Konsum defensiv,Europa
 BLND.L,British Land,UK,FTSE 100,,Immobilien,Europa
 BT-A.L,BT Group,UK,FTSE 100,,Kommunikation & Medien,Europa
-BNZL.L,Bunzl,UK,FTSE 100,,Konsum defensiv,Europa
+BNZL.L,Bunzl,UK,FTSE 100,,Industrie & Defense,Europa
 BRBY.L,Burberry Group,UK,FTSE 100,,Konsum zyklisch,Europa
 CNA.L,Centrica,UK,FTSE 100,,Versorger,Europa
 CCEP.L,Coca-Cola Europacific Partners,UK,FTSE 100,,Konsum defensiv,Europa
@@ -1018,7 +1018,7 @@ CPG.L,Compass Group,UK,FTSE 100,,Konsum zyklisch,Europa
 CCC.L,Computacenter,UK,FTSE 100,,Technologie,Europa
 CTEC.L,Convatec,UK,FTSE 100,,Gesundheit,Europa
 CRDA.L,Croda International,UK,FTSE 100,,Rohstoffe & Materialien,Europa
-DCC.L,DCC Energy,UK,FTSE 100,,Energie,Europa
+DCC.L,DCC Energy,UK,FTSE 100,,Industrie & Defense,Europa
 DGE.L,Diageo,UK,FTSE 100,,Konsum defensiv,Europa
 DPLM.L,Diploma,UK,FTSE 100,,Industrie & Defense,Europa
 EZJ.L,EasyJet,UK,FTSE 100,,Konsum zyklisch,Europa
@@ -1037,7 +1037,7 @@ HSBA.L,HSBC,UK,FTSE 100,,Finanzen,Europa
 ICG.L,ICG,UK,FTSE 100,,Finanzen,Europa
 IGG.L,IG Group,UK,FTSE 100,,Finanzen,Europa
 IHG.L,IHG Hotels & Resorts,UK,FTSE 100,,Konsum zyklisch,Europa
-IMI.L,IMI,UK,FTSE 100,,Industrie & Defense,Europa
+IMI.L,IMI,UK,FTSE 100,,Technologie,Europa
 IMB.L,Imperial Brands,UK,FTSE 100,,Konsum defensiv,Europa
 INF.L,Informa,UK,FTSE 100,,Kommunikation & Medien,Europa
 IAG.L,International Airlines Group,UK,FTSE 100,,Konsum zyklisch,Europa
@@ -1051,7 +1051,7 @@ LAND.L,Land Securities,UK,FTSE 100,,Immobilien,Europa
 LGEN.L,Legal & General,UK,FTSE 100,,Finanzen,Europa
 LLOY.L,Lloyds Banking Group,UK,FTSE 100,,Finanzen,Europa
 LMP.L,LondonMetric Property,UK,FTSE 100,,Immobilien,Europa
-LSEG.L,London Stock Exchange Group,UK,FTSE 100,,Finanzen,Europa
+LSEG.L,London Stock Exchange Group,UK,FTSE 100,,Technologie,Europa
 MNG.L,M&G,UK,FTSE 100,,Finanzen,Europa
 MKS.L,Marks & Spencer,UK,FTSE 100,,Konsum defensiv,Europa
 MRO.L,Melrose Industries,UK,FTSE 100,,Industrie & Defense,Europa
@@ -1064,7 +1064,7 @@ PSH.L,Pershing Square Holdings,UK,FTSE 100,,Finanzen,Europa
 PCT.L,Polar Capital Technology Trust,UK,FTSE 100,,Finanzen,Europa
 PRU.L,Prudential plc,UK,FTSE 100,,Finanzen,Europa
 RKT.L,Reckitt,UK,FTSE 100,,Konsum defensiv,Europa
-REL.L,RELX,UK,FTSE 100,,Kommunikation & Medien,Europa
+REL.L,RELX,UK,FTSE 100,,Technologie,Europa
 RTO.L,Rentokil Initial,UK,FTSE 100,,Industrie & Defense,Europa
 RIO.L,Rio Tinto,UK,FTSE 100,,Rohstoffe & Materialien,Europa
 RR.L,Rolls-Royce Holdings,UK,FTSE 100,D2 Aerospace,Industrie & Defense,Europa
@@ -1218,7 +1218,6 @@ BPE.MI,BPER Banca,Italien,FTSE MIB,,Finanzen,Europa
 BC.MI,Brunello Cucinelli,Italien,FTSE MIB,,Konsum zyklisch,Europa
 BZU.MI,Buzzi,Italien,FTSE MIB,,Rohstoffe & Materialien,Europa
 CPR.MI,Campari,Italien,FTSE MIB,,Konsum defensiv,Europa
-DIA.MI,Diasorin,Italien,FTSE MIB,,Gesundheit,Europa
 ENEL.MI,Enel,Italien,FTSE MIB,B4 Utilities,Versorger,Europa
 ENI.MI,Eni,Italien,FTSE MIB,,Energie,Europa
 RACE.MI,Ferrari,Italien,FTSE MIB,,Konsum zyklisch,Europa
@@ -1242,6 +1241,7 @@ SPM.MI,Saipem,Italien,FTSE MIB,,Energie,Europa
 SRG.MI,Snam,Italien,FTSE MIB,,Energie,Europa
 STLAM.MI,Stellantis,Italien,FTSE MIB,,Konsum zyklisch,Europa
 STMMI.MI,STMicroelectronics,Italien,FTSE MIB,,Technologie,Europa
+TPRO.MI,Technoprobe,Italien,FTSE MIB,,Technologie,Europa
 TIT.MI,Telecom Italia,Italien,FTSE MIB,,Kommunikation & Medien,Europa
 TEN.MI,Tenaris,Italien,FTSE MIB,,Energie,Europa
 TRN.MI,Terna,Italien,FTSE MIB,,Versorger,Europa
