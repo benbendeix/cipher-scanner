@@ -268,7 +268,6 @@ J,Jacobs Solutions,USA,S&P 500,,Industrie & Defense,Nordamerika
 JNJ,Johnson & Johnson,USA,S&P 500,F1 Pharma,Gesundheit,Nordamerika
 JCI,Johnson Controls,USA,S&P 500,,Industrie & Defense,Nordamerika
 JPM,JPMorgan Chase,USA,S&P 500,E1 Banken,Finanzen,Nordamerika
-KVUE,Kenvue,USA,S&P 500,,Konsum defensiv,Nordamerika
 KDP,Keurig Dr Pepper,USA,S&P 500,,Konsum defensiv,Nordamerika
 KEY,KeyCorp,USA,S&P 500,,Finanzen,Nordamerika
 KEYS,Keysight Technologies,USA,S&P 500,,Technologie,Nordamerika
@@ -346,6 +345,7 @@ NVR,"NVR, Inc.",USA,S&P 500,,Konsum zyklisch,Nordamerika
 NXPI,NXP Semiconductors,USA,S&P 500,A1 Analog,Technologie,Nordamerika
 ORLY,O'Reilly Automotive,USA,S&P 500,,Konsum zyklisch,Nordamerika
 OXY,Occidental Petroleum,USA,S&P 500,B2 Öl & Gas,Energie,Nordamerika
+OKTA,"Okta, Inc.",USA,S&P 500,A4 Cyber,Technologie,Nordamerika
 ODFL,Old Dominion,USA,S&P 500,,Industrie & Defense,Nordamerika
 OMC,Omnicom Group,USA,S&P 500,,Kommunikation & Medien,Nordamerika
 ON,ON Semiconductor,USA,S&P 500,A1 Analog,Technologie,Nordamerika
@@ -652,7 +652,7 @@ FN,Fabrinet,USA,S&P 400,A2 AI-Infra,Technologie,Nordamerika
 FNB,FNB Corporation,USA,S&P 400,,Finanzen,Nordamerika
 FND,Floor & Decor,USA,S&P 400,,Konsum zyklisch,Nordamerika
 FNF,Fidelity National Financial,USA,S&P 400,,Finanzen,Nordamerika
-FORM,"FormFactor, Inc.",USA,S&P 400,,Technologie,Nordamerika
+FORM,FormFactor,USA,S&P 400,,Technologie,Nordamerika
 FOUR,Shift4,USA,S&P 400,,Finanzen,Nordamerika
 FR,First Industrial Realty Trust,USA,S&P 400,,Immobilien,Nordamerika
 FTI,TechnipFMC,USA,S&P 400,,Energie,Nordamerika
@@ -663,6 +663,7 @@ GBCI,Glacier Bancorp,USA,S&P 400,,Finanzen,Nordamerika
 GEF,"Greif, Inc.",USA,S&P 400,,Rohstoffe & Materialien,Nordamerika
 GGG,Graco Inc.,USA,S&P 400,,Industrie & Defense,Nordamerika
 GHC,Graham Holdings,USA,S&P 400,,Konsum zyklisch,Nordamerika
+GKOS,Glaukos,USA,S&P 400,,Gesundheit,Nordamerika
 GLPI,Gaming and Leisure Properties,USA,S&P 400,,Immobilien,Nordamerika
 GME,GameStop,USA,S&P 400,,Konsum zyklisch,Nordamerika
 GMED,Globus Medical,USA,S&P 400,,Gesundheit,Nordamerika
@@ -760,7 +761,6 @@ OC,Owens Corning,USA,S&P 400,,Industrie & Defense,Nordamerika
 OGE,OGE Energy,USA,S&P 400,,Versorger,Nordamerika
 OGS,One Gas,USA,S&P 400,,Versorger,Nordamerika
 OHI,Omega Healthcare Investors,USA,S&P 400,,Immobilien,Nordamerika
-OKTA,"Okta, Inc.",USA,S&P 400,A4 Cyber,Technologie,Nordamerika
 OLED,Universal Display,USA,S&P 400,,Technologie,Nordamerika
 OLLI,Ollie's Bargain Outlet,USA,S&P 400,,Konsum zyklisch,Nordamerika
 ONB,Old National Bank,USA,S&P 400,,Finanzen,Nordamerika
