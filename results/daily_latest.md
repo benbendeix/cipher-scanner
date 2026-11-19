@@ -1,144 +1,121 @@
 # Cipher B · Daily-Check (407 Werte auf der Watchlist)
 
-Stand: 2026-11-18 · 74 bestätigte Signale (vollständig in der CSV)
+Stand: 2026-11-19 · 49 bestätigte Signale (vollständig in der CSV)
 
-## ✅ Bestätigt: Daily-Punkt in Richtung des Weekly-Punkts (40)
+## ✅ Bestätigt: Daily-Punkt in Richtung des Weekly-Punkts (35)
 | Ticker | Name | Daily | wt2 daily | Weekly (Datum) | Kurs |
 |---|---|---|---|---|---|
-| DY | Dycom Industries | 🟢 | -24.12 | 🟢 stark (2026-11-14) | 220.76 |
-| CFR.SW | Compagnie Financière Richemo | 🟢 | 26.93 | 🟢 (2026-11-14) | 172.95 |
-| 9992.HK | Pop Mart | 🟢 | 27.2 | 🟢 stark (2026-11-07) | 144.8 |
-| PRU.L | Prudential plc | 🟢 | 57.38 | 🟢 stark (2026-10-31) | 969.4 |
-| ACM | AECOM | 🟢 | 76.96 | 🟢 stark (2026-10-24) | 80.53 |
-| HUM | Humana | 🔴 stark | 62.59 | 🔴 stark (2026-10-31) | 443.34 |
-| ABBV | AbbVie | 🔴 stark | 54.62 | 🔴 stark (2026-11-14) | 292.82 |
-| 8001.T | Itochu | 🔴 | 43.81 | 🔴 stark (2026-11-07) | 2334.0 |
-| RNR | RenaissanceRe | 🔴 | 40.18 | 🔴 stark (2026-10-31) | 352.18 |
-| PTC | PTC Inc. | 🔴 | 38.03 | 🔴 stark (2026-11-14) | 195.64 |
-| HAE | Haemonetics | 🔴 | 33.62 | 🔴 stark (2026-10-31) | 120.92 |
-| COKE | Coca-Cola Consolidated | 🔴 | 20.07 | 🔴 stark (2026-11-14) | 205.77 |
-| RMD | ResMed | 🔴 | 2.95 | 🔴 stark (2026-11-07) | 237.85 |
-| 2881.TW | Fubon Financial | 🔴 | -0.6 | 🔴 stark (2026-10-24) | 150.5 |
-| EXPD | Expeditors International | 🔴 | -3.67 | 🔴 stark (2026-10-31) | 190.77 |
-| CVS | CVS Health | 🔴 | -3.96 | 🔴 (2026-11-07) | 85.81 |
-| DOCU | Docusign | 🔴 | -5.6 | 🔴 stark (2026-11-07) | 75.93 |
-| AR | Antero Resources | 🔴 | -11.3 | 🔴 (2026-11-14) | 36.83 |
-| META | Meta Platforms | 🔴 | -15.56 | 🔴 (2026-10-24) | 618.87 |
-| HAL | Halliburton | 🔴 | -15.93 | 🔴 (2026-11-14) | 31.97 |
-| DVN | Devon Energy | 🔴 | -26.59 | 🔴 (2026-11-07) | 43.46 |
-| XOM | ExxonMobil | 🔴 | -27.02 | 🔴 stark (2026-11-07) | 167.21 |
-| VST | Vistra Corp. | 🔴 | -27.16 | 🔴 (2026-10-31) | 127.15 |
-| WDAY | Workday, Inc. | 🔴 | -28.51 | 🔴 (2026-11-07) | 182.8 |
-| SMT.L | Scottish Mortgage Investment | 🔴 | -30.62 | 🔴 stark (2026-10-24) | 1464.5 |
-| OXY | Occidental Petroleum | 🔴 | -31.24 | 🔴 (2026-11-07) | 56.52 |
-| CNQ.TO | Canadian Natural Resources L | 🔴 | -34.21 | 🔴 stark (2026-11-07) | 68.29 |
-| GLEN.L | Glencore | 🔴 | -37.08 | 🔴 (2026-10-24) | 501.0 |
-| BP | BP | 🔴 | -37.83 | 🔴 stark (2026-11-07) | 44.85 |
-| MUR | Murphy Oil | 🔴 | -40.41 | 🔴 stark (2026-11-07) | 34.64 |
-| NOW | ServiceNow | 🔴 | -41.23 | 🔴 (2026-10-31) | 92.9 |
-| SHOP.TO | Shopify Inc. | 🔴 | -41.35 | 🔴 stark (2026-10-31) | 202.83 |
-| SHEL | Shell | 🔴 | -43.91 | 🔴 stark (2026-11-07) | 97.24 |
-| SCA-B.ST | SCA B | 🔴 | -44.83 | 🔴 stark (2026-10-31) | 116.9 |
-| CL=F | WTI-Öl | 🔴 | -45.41 | 🔴 (2026-11-07) | 86.01 |
-| SHOP | Shopify | 🔴 | -48.94 | 🔴 stark (2026-10-31) | 141.9 |
-| PBF | PBF Energy | 🔴 | -49.11 | 🔴 stark (2026-10-24) | 67.17 |
-| DINO | HF Sinclair | 🔴 | -51.39 | 🔴 stark (2026-10-24) | 97.71 |
-| CRM | Salesforce | 🔴 | -52.71 | 🔴 (2026-10-31) | 194.52 |
-| DDOG | Datadog | 🔴 | -54.33 | 🔴 (2026-10-24) | 165.18 |
+| CAI.VI | CA Immo | 🟢 | -33.36 | 🟢 stark (2026-10-24) | 21.15 |
+| AVGO | Broadcom | 🟢 | 10.82 | 🟢 stark (2026-11-14) | 354.05 |
+| 0981.HK | Semiconductor Manufacturing  | 🟢 | 15.48 | 🟢 stark (2026-11-14) | 49.2 |
+| RIOT | Riot | 🟢 | 39.02 | 🟢 (2026-11-14) | 18.24 |
+| CMG | Chipotle Mexican Grill | 🟢 | 45.61 | 🟢 (2026-11-07) | 36.95 |
+| 0939.HK | China Construction Bank | 🔴 stark | 59.77 | 🔴 stark (2026-10-24) | 10.51 |
+| WST | West Pharmaceutical Services | 🔴 | 42.9 | 🔴 stark (2026-11-14) | 404.02 |
+| NTGY.MC | Naturgy | 🔴 | 33.59 | 🔴 stark (2026-10-31) | 30.36 |
+| LNG | Cheniere | 🔴 | 24.26 | 🔴 stark (2026-11-14) | 296.49 |
+| EOG | EOG Resources | 🔴 | 5.12 | 🔴 stark (2026-11-07) | 149.69 |
+| SREN.SW | Swiss Reinsurance Company Lt | 🔴 | 4.78 | 🔴 stark (2026-11-14) | 150.05 |
+| TTE.PA | TotalEnergies | 🔴 | 2.49 | 🔴 stark (2026-11-07) | 79.81 |
+| PSON.L | Pearson plc | 🔴 | 1.38 | 🔴 stark (2026-11-07) | 1301.0 |
+| NU | Nubank | 🔴 | -0.21 | 🔴 (2026-10-31) | 12.08 |
+| APA | APA Corporation | 🔴 | -4.37 | 🔴 stark (2026-11-07) | 45.52 |
+| OMV.VI | OMV | 🔴 | -5.77 | 🔴 stark (2026-11-07) | 70.35 |
+| ENI.MI | Eni | 🔴 | -9.4 | 🔴 stark (2026-11-07) | 24.95 |
+| TTE | TotalEnergies | 🔴 | -13.51 | 🔴 (2026-11-07) | 87.14 |
+| COP | ConocoPhillips | 🔴 | -13.9 | 🔴 stark (2026-11-07) | 134.4 |
+| HUBS | HubSpot | 🔴 | -18.18 | 🔴 (2026-11-07) | 205.12 |
+| CVX | Chevron Corporation | 🔴 | -22.4 | 🔴 stark (2026-11-07) | 205.88 |
+| XLE | Energie-ETF | 🔴 | -26.88 | 🔴 stark (2026-11-07) | 61.29 |
+| PR | Permian Resources | 🔴 | -28.47 | 🔴 stark (2026-11-07) | 21.36 |
+| BP.L | BP | 🔴 | -31.73 | 🔴 stark (2026-11-07) | 551.2 |
+| VLO | Valero Energy | 🔴 | -31.88 | 🔴 stark (2026-10-24) | 343.7 |
+| PSX | Phillips 66 | 🔴 | -34.25 | 🔴 stark (2026-10-24) | 244.83 |
+| MPC | Marathon Petroleum | 🔴 | -34.28 | 🔴 stark (2026-10-24) | 373.86 |
+| ADBE | Adobe Inc. | 🔴 | -34.58 | 🔴 (2026-11-07) | 226.2 |
+| SHELL.AS | Shell plc | 🔴 | -35.86 | 🔴 stark (2026-11-07) | 43.34 |
+| 6702.T | Fujitsu | 🔴 | -35.97 | 🔴 stark (2026-10-31) | 3389.0 |
+| ITH.L | Ithaca Energy | 🔴 | -38.96 | 🔴 stark (2026-11-07) | 247.8 |
+| SHEL.L | Shell plc | 🔴 | -39.53 | 🔴 stark (2026-11-07) | 3595.5 |
+| SU.TO | Suncor Energy Inc. | 🔴 | -43.98 | 🔴 stark (2026-11-07) | 93.09 |
+| TEAM | Atlassian | 🔴 | -59.15 | 🔴 stark (2026-10-31) | 135.05 |
+| MELI | MercadoLibre | 🔴 | -61.18 | 🔴 (2026-10-31) | 1423.11 |
 
-## 🟢 Stark grün – Kreuz im überverkauften Bereich (wt2 ≤ −53) (5)
+## 🟢 Stark grün – Kreuz im überverkauften Bereich (wt2 ≤ −53) (1)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| BTC-USD | Bitcoin | I1 Krypto | -91.38 | 64855.84 | -0.7 | 1.1 | -25.6% | nein |
-| DOGE-USD | Dogecoin | I1 Krypto | -86.03 | 0.06 | -1.7 | 0.9 | -40.8% | nein |
-| XLM-USD | Stellar | I1 Krypto | -69.49 | 0.14 | -2.7 | 1.0 | -41.8% | nein |
-| RHM.DE | Rheinmetall | D1 Defense | -69.33 | 769.7 | 0.5 | 1.1 | -29.8% | nein |
-| MCHP | Microchip Technology | A1 Analog | -55.9 | 59.43 | 1.3 | 1.1 | -28.7% | nein |
+| CSCO | Cisco | A2 AI-Infra | -54.95 | 97.18 | 2.2 | 1.0 | -18.1% | nein |
 
-## 🔴 Stark rot – Kreuz im überkauften Bereich (wt2 ≥ 53) (7)
+## 🔴 Stark rot – Kreuz im überkauften Bereich (wt2 ≥ 53) (3)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| ALV.DE | Allianz | E3 Versicherer | 80.56 | 475.2 | -0.4 | 0.9 | -0.8% | ja |
-| SBILIFE.NS | SBI Life Insurance Company | Indien | 69.62 | 1815.0 | -0.7 | 0.4 | -1.1% | nein |
-| HUM | Humana | USA | 62.59 | 443.34 | -3.9 | 1.2 | -4.2% | ja |
-| JNJ | Johnson & Johnson | F1 Pharma | 62.54 | 278.7 | -1.4 | 1.2 | -4.0% | ja |
-| FDX | FedEx | D4 Transport | 57.03 | 319.94 | -2.4 | 0.8 | -3.6% | ja |
-| ABBV | AbbVie | F1 Pharma | 54.62 | 292.82 | -0.6 | 0.8 | -3.3% | ja |
-| POR | Portland General Electric | USA | 53.69 | 45.51 | -1.8 | 0.4 | -8.4% | nein |
+| DTE.DE | Deutsche Telekom | J1 Telekom | 62.91 | 26.33 | -2.9 | 1.1 | -9.7% | nein |
+| 0939.HK | China Construction Bank | Hongkong | 59.77 | 10.51 | -0.8 | 0.8 | -2.1% | ja |
+| ASIANPAINT.NS | Asian Paints | Indien | 57.86 | 2580.3 | -1.7 | 0.7 | -3.2% | ja |
 
-## ⭐ Marktlandkarte – normale grüne Punkte (3)
+## ⭐ Marktlandkarte – normale grüne Punkte (6)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| NEM.DE | Nemetschek | L2 Nebenwerte DE | -50.96 | 64.2 | 0.9 | 0.9 | -16.7% | ja |
-| HO.PA | Thales | D1 Defense | -5.77 | 229.5 | 1.1 | 0.9 | -6.2% | nein |
-| CFR.SW | Compagnie Financière Richemo | G1 Konsum zyklisch | 26.93 | 172.95 | -0.6 | 1.2 | -7.3% | ja |
+| RDDT | Reddit | A6 Internet | -48.14 | 94.09 | -0.4 | 0.4 | -43.4% | nein |
+| ZS | Zscaler | A4 Cyber | -47.82 | 197.83 | 6.8 | 1.0 | -26.1% | ja |
+| ROK | Rockwell Automation | D3 Maschinenbau | -40.08 | 395.86 | 1.2 | 0.9 | -14.0% | nein |
+| AVGO | Broadcom | A1 Fabless | 10.82 | 354.05 | 3.6 | 0.9 | -7.0% | nein |
+| RIOT | Riot | I2 Krypto-Aktien | 39.02 | 18.24 | 7.0 | 0.9 | -28.2% | nein |
+| CMG | Chipotle Mexican Grill | G1 Konsum zyklisch | 45.61 | 36.95 | 3.1 | 0.7 | -1.3% | ja |
 
-## ⭐ Marktlandkarte – normale rote Punkte (26)
+## ⭐ Marktlandkarte – normale rote Punkte (16)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| NVO | Novo Nordisk | F1 Pharma | 50.61 | 40.7 | -2.2 | 1.5 | -12.9% | nein |
-| AAPL | Apple Inc. | A3 Mega-Cap | 48.58 | 351.91 | -0.2 | 0.8 | -2.5% | ja |
-| SIE.DE | Siemens | D3 Maschinenbau | 47.58 | 272.55 | -2.5 | 1.1 | -6.5% | ja |
-| APP | AppLovin | A6 Internet | 46.96 | 398.94 | -3.9 | 0.8 | -4.7% | nein |
-| ABNB | Airbnb | A6 Internet | 46.1 | 180.94 | -2.8 | 0.7 | -8.6% | ja |
-| UBER | Uber | A6 Internet | 26.68 | 68.81 | -1.7 | 1.2 | -10.5% | nein |
-| CEG | Constellation Energy | B1 AI-Power | 26.13 | 268.07 | -3.5 | 0.8 | -13.5% | nein |
-| LUNR | Intuitive Machines | D2 Space | 22.33 | 11.05 | -5.8 | 0.9 | -32.1% | nein |
-| NRG | NRG Energy | B1 AI-Power | -2.36 | 91.76 | -2.4 | 0.4 | -24.6% | nein |
-| CVS | CVS Health | F4 Krankenversicherer | -3.96 | 85.81 | -3.1 | 1.2 | -12.4% | nein |
-| AR | Antero Resources | B2 Öl & Gas | -11.3 | 36.83 | -2.3 | 0.6 | -13.8% | nein |
-| META | Meta Platforms | A3 Mega-Cap | -15.56 | 618.87 | -1.2 | 0.5 | -20.6% | nein |
-| HAL | Halliburton | B2 Öl & Gas | -15.93 | 31.97 | -1.6 | 1.0 | -15.4% | nein |
-| DVN | Devon Energy | B2 Öl & Gas | -26.59 | 43.46 | -1.8 | 1.3 | -16.9% | nein |
-| XOM | ExxonMobil | B2 Öl & Gas | -27.02 | 167.21 | 0.2 | 0.8 | -11.3% | ja |
-| VST | Vistra Corp. | B1 AI-Power | -27.16 | 127.15 | -2.3 | 0.6 | -24.7% | nein |
-| WDAY | Workday, Inc. | A4 Software | -28.51 | 182.8 | -5.8 | 1.4 | -14.1% | ja |
-| OXY | Occidental Petroleum | B2 Öl & Gas | -31.24 | 56.52 | -1.5 | 0.9 | -13.0% | nein |
-| GLEN.L | Glencore | C2 Industriemetalle | -37.08 | 501.0 | -1.8 | 0.7 | -25.1% | nein |
-| BP | BP | B2 Öl & Gas | -37.83 | 44.85 | -0.2 | 0.5 | -12.9% | ja |
-| NOW | ServiceNow | A4 Software | -41.23 | 92.9 | -6.5 | 1.2 | -41.8% | nein |
-| SHEL | Shell | B2 Öl & Gas | -43.91 | 97.24 | -0.5 | 0.5 | -11.1% | ja |
-| CL=F | WTI-Öl | Kompass | -45.41 | 86.01 | 0.3 | 0.7 | -22.1% | nein |
-| SHOP | Shopify | A6 Internet | -48.94 | 141.9 | -4.0 | 0.6 | -21.6% | ja |
-| CRM | Salesforce | A4 Software | -52.71 | 194.52 | -9.5 | 2.0 | -26.2% | nein |
-| DDOG | Datadog | A4 Software | -54.33 | 165.18 | -4.4 | 1.5 | -45.1% | nein |
+| WISE.L | Wise | E4 Fintech | 42.81 | 834.4 | -1.6 | 0.7 | -11.6% | nein |
+| LNG | Cheniere | B2 Öl & Gas | 24.26 | 296.49 | -1.8 | 0.6 | -10.4% | ja |
+| LDO.MI | Leonardo | D1 Defense | 9.93 | 48.56 | -4.1 | 1.2 | -7.6% | nein |
+| EOG | EOG Resources | B2 Öl & Gas | 5.12 | 149.69 | -3.4 | 1.0 | -9.8% | ja |
+| NU | Nubank | E4 Fintech | -0.21 | 12.08 | -2.0 | 0.4 | -25.4% | nein |
+| TTE | TotalEnergies | B2 Öl & Gas | -13.51 | 87.14 | -3.6 | 0.8 | -9.0% | ja |
+| COP | ConocoPhillips | B2 Öl & Gas | -13.9 | 134.4 | -3.6 | 1.1 | -12.9% | ja |
+| HUBS | HubSpot | A4 Software | -18.18 | 205.12 | -5.2 | 0.7 | -24.5% | nein |
+| CVX | Chevron Corporation | B2 Öl & Gas | -22.4 | 205.88 | -4.7 | 1.2 | -12.9% | ja |
+| XLE | Energie-ETF | ETF | -26.88 | 61.29 | -3.3 | 1.5 | -12.6% | ja |
+| VLO | Valero Energy | B2 Öl & Gas | -31.88 | 343.7 | -5.5 | 1.1 | -25.5% | ja |
+| PSX | Phillips 66 | B2 Öl & Gas | -34.25 | 244.83 | -4.7 | 1.4 | -18.2% | ja |
+| MPC | Marathon Petroleum | B2 Öl & Gas | -34.28 | 373.86 | -5.5 | 1.1 | -24.3% | ja |
+| ADBE | Adobe Inc. | A4 Software | -34.58 | 226.2 | -4.0 | 1.0 | -16.9% | nein |
+| TEAM | Atlassian | A4 Software | -59.15 | 135.05 | -4.2 | 1.0 | -41.3% | ja |
+| MELI | MercadoLibre | K1 China Tech | -61.18 | 1423.11 | -1.0 | 0.5 | -27.7% | nein |
 
-## 🟢 Grün normal – Top 20 (tiefster wt2) (6)
+## 🟢 Grün normal – Top 20 (tiefster wt2) (4)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| QLYS | Qualys | USA | -49.96 | 174.67 | -4.0 | 1.0 | -25.8% | ja |
-| REC.MI | Recordati | Italien | -41.28 | 52.85 | 0.4 | 0.2 | -1.8% | ja |
-| DY | Dycom Industries | USA | -24.12 | 220.76 | 2.5 | 0.6 | -28.7% | nein |
-| 9992.HK | Pop Mart | Hongkong | 27.2 | 144.8 | 0.8 | 0.5 | -8.2% | nein |
-| PRU.L | Prudential plc | UK | 57.38 | 969.4 | 0.9 | 0.8 | -7.5% | nein |
-| ACM | AECOM | USA | 76.96 | 80.53 | 11.1 | 3.2 | -3.6% | ja |
+| CAI.VI | CA Immo | Österreich | -33.36 | 21.15 | 1.2 | 0.8 | -10.9% | nein |
+| A | Agilent Technologies | USA | -14.62 | 177.33 | 3.0 | 1.2 | -3.1% | ja |
+| RMD | ResMed | USA | 7.13 | 242.61 | 2.0 | 0.8 | -5.1% | ja |
+| 0981.HK | Semiconductor Manufacturing  | Hongkong | 15.48 | 49.2 | 0.0 | 0.9 | -29.0% | nein |
 
-## 🔴 Rot normal – Top 20 (höchster wt2) (27)
+## 🔴 Rot normal – Top 20 (höchster wt2) (19)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| 8001.T | Itochu | Japan | 43.81 | 2334.0 | -2.6 | 0.8 | -4.2% | ja |
-| RNR | RenaissanceRe | USA | 40.18 | 352.18 | -1.2 | 0.6 | -3.2% | ja |
-| TIT.MI | Telecom Italia | Italien | 40.01 | 5.75 | -1.8 | 0.5 | -27.1% | nein |
-| PTC | PTC Inc. | USA | 38.03 | 195.64 | -0.4 | 1.1 | -0.6% | ja |
-| HAE | Haemonetics | USA | 33.62 | 120.92 | -0.3 | 1.3 | -8.4% | ja |
-| HLMA.L | Halma plc | UK | 28.96 | 3492.0 | 0.3 | 0.5 | -7.3% | nein |
-| MRL.MC | Merlin Properties | Spanien | 28.34 | 11.52 | -1.5 | 0.9 | -13.5% | nein |
-| BARC.L | Barclays | UK | 26.58 | 427.9 | -0.8 | 0.5 | -14.9% | nein |
-| JBHT | J.B. Hunt | USA | 22.05 | 224.25 | -3.4 | 1.5 | -18.9% | nein |
-| COKE | Coca-Cola Consolidated | USA | 20.07 | 205.77 | -0.3 | 0.7 | -6.5% | ja |
-| VC | Visteon | USA | 15.07 | 77.19 | -0.9 | 0.6 | -25.4% | nein |
-| PCAR | Paccar | USA | 11.84 | 104.61 | -0.9 | 0.9 | -17.3% | nein |
-| RMD | ResMed | USA | 2.95 | 237.85 | -0.1 | 1.0 | -6.9% | ja |
-| 2881.TW | Fubon Financial | Taiwan | -0.6 | 150.5 | -1.0 | 1.8 | -8.5% | ja |
-| EXPD | Expeditors International | USA | -3.67 | 190.77 | -2.3 | 1.1 | -8.3% | ja |
-| DOCU | Docusign | USA | -5.6 | 75.93 | -4.9 | 1.6 | -11.6% | ja |
-| BESI.AS | BE Semiconductors | Niederlande | -12.4 | 150.8 | -2.1 | 0.6 | -27.8% | nein |
-| SMT.L | Scottish Mortgage Investment | UK | -30.62 | 1464.5 | -1.7 | 1.0 | -11.4% | ja |
-| CNQ.TO | Canadian Natural Resources L | Kanada | -34.21 | 68.29 | -1.0 | 3.0 | -13.1% | ja |
-| 329180.KS | HD Hyundai Heavy | Korea | -36.57 | 256500.0 | -5.0 | 0.5 | -47.8% | nein |
+| TEF.MC | Telefónica | Spanien | 48.56 | 3.39 | -2.6 | 1.1 | -10.0% | nein |
+| WST | West Pharmaceutical Services | USA | 42.9 | 404.02 | -2.4 | 0.8 | -7.8% | ja |
+| NTGY.MC | Naturgy | Spanien | 33.59 | 30.36 | -0.1 | 0.6 | -2.4% | ja |
+| 035720.KS | Kakao | Korea | 24.95 | 31800.0 | 0.3 | 0.6 | -13.8% | nein |
+| SREN.SW | Swiss Reinsurance Company Lt | Schweiz | 4.78 | 150.05 | -1.1 | 0.7 | -6.5% | ja |
+| IGG.L | IG Group | UK | 3.89 | 915.8 | -2.6 | 0.5 | -34.3% | nein |
+| TTE.PA | TotalEnergies | Frankreich | 2.49 | 79.81 | -2.6 | 0.7 | -7.1% | ja |
+| PSON.L | Pearson plc | UK | 1.38 | 1301.0 | 0.2 | 0.6 | -6.4% | ja |
+| APA | APA Corporation | USA | -4.37 | 45.52 | -2.9 | 1.0 | -14.0% | ja |
+| OMV.VI | OMV | Österreich | -5.77 | 70.35 | -3.0 | 0.9 | -7.6% | ja |
+| ENI.MI | Eni | Italien | -9.4 | 24.95 | -2.6 | 0.8 | -10.1% | ja |
+| PR | Permian Resources | USA | -28.47 | 21.36 | -3.7 | 0.9 | -18.1% | ja |
+| BP.L | BP | UK | -31.73 | 551.2 | -3.0 | 0.6 | -13.7% | ja |
+| SHELL.AS | Shell plc | Niederlande | -35.86 | 43.34 | -2.2 | 1.2 | -12.2% | ja |
+| 6702.T | Fujitsu | Japan | -35.97 | 3389.0 | -1.5 | 0.7 | -26.8% | nein |
+| ITH.L | Ithaca Energy | UK | -38.96 | 247.8 | -2.3 | 1.1 | -21.7% | nein |
+| SHEL.L | Shell plc | UK | -39.53 | 3595.5 | -2.1 | 0.8 | -12.5% | ja |
+| SFM | Sprouts Farmers Market | USA | -43.56 | 48.53 | -2.1 | 0.5 | -40.5% | nein |
+| SU.TO | Suncor Energy Inc. | Kanada | -43.98 | 93.09 | -4.7 | 1.0 | -17.5% | ja |
 
-<details><summary>1 Ticker ohne Daten</summary>
+<details><summary>2 Ticker ohne Daten</summary>
 
-TCBI
+AVAX-USD, TCBI
 
 </details>
