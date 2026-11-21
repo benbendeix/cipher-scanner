@@ -1,91 +1,95 @@
-# Cipher B · Daily-Check (407 Werte auf der Watchlist)
+# Cipher B · Daily-Check (406 Werte auf der Watchlist)
 
-Stand: 2026-11-20 · 34 bestätigte Signale (vollständig in der CSV)
+Stand: 2026-11-21 · 45 bestätigte Signale (vollständig in der CSV)
 
-## ✅ Bestätigt: Daily-Punkt in Richtung des Weekly-Punkts (20)
+## ✅ Bestätigt: Daily-Punkt in Richtung des Weekly-Punkts (19)
 | Ticker | Name | Daily | wt2 daily | Weekly (Datum) | Kurs |
 |---|---|---|---|---|---|
-| 000270.KS | Kia | 🟢 stark | -61.04 | 🟢 stark (2026-11-14) | 91500.0 |
-| IPGP | IPG Photonics | 🟢 stark | -56.52 | 🟢 stark (2026-10-31) | 63.94 |
-| UFPI | UFP Industries | 🟢 | -29.72 | 🟢 stark (2026-10-24) | 78.89 |
-| BESI.AS | BE Semiconductors | 🟢 | -23.2 | 🟢 stark (2026-11-14) | 151.2 |
-| PDD | PDD | 🟢 | -20.8 | 🟢 (2026-11-07) | 86.0 |
-| NRG | NRG Energy | 🟢 | -8.72 | 🟢 stark (2026-11-14) | 93.85 |
-| MKSI | MKS Instruments | 🟢 | -4.61 | 🟢 stark (2026-11-14) | 205.08 |
-| ENR.DE | Siemens Energy | 🟢 | 1.61 | 🟢 stark (2026-11-14) | 126.7 |
-| VC | Visteon | 🟢 | 11.85 | 🟢 stark (2026-11-07) | 81.3 |
-| POWERGRID.NS | Power Grid | 🟢 | 11.96 | 🟢 stark (2026-10-31) | 264.5 |
-| NTPC.NS | NTPC | 🟢 | 20.72 | 🟢 stark (2026-10-31) | 325.0 |
-| ANET | Arista Networks | 🟢 | 21.43 | 🟢 (2026-11-14) | 189.59 |
-| 035720.KS | Kakao | 🟢 | 24.09 | 🟢 stark (2026-11-07) | 31900.0 |
-| HWM | Howmet Aerospace | 🟢 | 25.34 | 🟢 stark (2026-11-07) | 218.17 |
-| MARUTI.NS | Maruti Suzuki | 🟢 | 55.3 | 🟢 stark (2026-10-31) | 13589.0 |
-| EVK.DE | Evonik | 🔴 | 30.07 | 🔴 stark (2026-10-31) | 18.25 |
-| ROK | Rockwell Automation | 🔴 | -41.54 | 🔴 (2026-11-07) | 383.1 |
-| RDDT | Reddit | 🔴 | -47.9 | 🔴 (2026-10-24) | 89.88 |
-| XLM-USD | Stellar | 🔴 | -62.74 | 🔴 (2026-10-24) | 0.13 |
-| HBAR-USD | Hedera | 🔴 | -71.63 | 🔴 (2026-10-24) | 0.05 |
+| CYTK | Cytokinetics | 🟢 stark | -67.45 | 🟢 stark (2026-10-31) | 50.78 |
+| T | AT&T | 🟢 | 21.47 | 🟢 (2026-11-21) | 22.31 |
+| VZ | Verizon | 🟢 | 27.34 | 🟢 (2026-11-07) | 46.48 |
+| BEL.NS | Bharat Electronics | 🟢 | 44.01 | 🟢 stark (2026-11-07) | 402.0 |
+| SHL.DE | Siemens Healthineers | 🔴 | 27.16 | 🔴 stark (2026-11-21) | 42.96 |
+| FPE3.DE | Fuchs Petrolub | 🔴 | 19.95 | 🔴 stark (2026-10-31) | 43.9 |
+| ANET | Arista Networks | 🔴 | 15.02 | 🔴 (2026-11-21) | 167.62 |
+| RMD | ResMed | 🔴 | 9.07 | 🔴 stark (2026-11-07) | 235.63 |
+| 9432.T | NTT | 🔴 | -1.94 | 🔴 stark (2026-10-31) | 167.7 |
+| WAT | Waters Corporation | 🔴 | -11.1 | 🔴 stark (2026-11-14) | 440.45 |
+| HO.PA | Thales | 🔴 | -17.53 | 🔴 (2026-11-07) | 223.4 |
+| 6098.T | Recruit | 🔴 | -23.12 | 🔴 stark (2026-11-07) | 16835.0 |
+| REC.MI | Recordati | 🔴 | -25.26 | 🔴 stark (2026-10-31) | 52.75 |
+| SNAP | Snap | 🔴 | -25.82 | 🔴 (2026-10-31) | 4.55 |
+| CVLT | CommVault Systems | 🔴 | -36.6 | 🔴 stark (2026-11-07) | 145.9 |
+| MCHP | Microchip Technology | 🔴 | -52.76 | 🔴 (2026-11-07) | 55.44 |
+| RHM.DE | Rheinmetall | 🔴 | -65.03 | 🔴 (2026-11-07) | 693.4 |
+| PLUG | Plug Power | 🔴 | -69.23 | 🔴 (2026-11-14) | 0.96 |
+| R3NK.DE | Renk | 🔴 | -73.84 | 🔴 (2026-11-14) | 30.53 |
 
-## 🟢 Stark grün – Kreuz im überverkauften Bereich (wt2 ≤ −53) (6)
+## 🟢 Stark grün – Kreuz im überverkauften Bereich (wt2 ≤ −53) (3)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| R3NK.DE | Renk | D1 Defense | -72.9 | 31.6 | -1.2 | 0.7 | -27.5% | nein |
-| PLUG | Plug Power | B3 Renewables | -69.24 | 1.03 | -4.6 | 1.1 | -55.2% | nein |
-| IREN | IREN | A2 Miner-Pivot | -68.13 | 14.41 | -5.4 | 1.7 | -70.8% | nein |
-| 000270.KS | Kia | Korea | -61.04 | 91500.0 | -0.8 | 0.8 | -31.0% | nein |
-| IPGP | IPG Photonics | USA | -56.52 | 63.94 | -2.8 | 0.9 | -26.0% | nein |
-| DDOG | Datadog | A4 Software | -53.91 | 166.46 | -0.4 | 1.1 | -44.6% | nein |
+| CYTK | Cytokinetics | USA | -67.45 | 50.78 | -1.3 | 0.7 | -33.2% | nein |
+| TEAM | Atlassian | A4 Software | -59.37 | 134.65 | 1.2 | 1.0 | -41.4% | ja |
+| IFF | International Flavors & Frag | USA | -53.5 | 79.62 | 1.3 | 1.4 | -16.4% | ja |
 
-## 🔴 Stark rot – Kreuz im überkauften Bereich (wt2 ≥ 53) (1)
+## 🔴 Stark rot – Kreuz im überkauften Bereich (wt2 ≥ 53) (0)
+_keine_
+
+## ⭐ Marktlandkarte – normale grüne Punkte (3)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| BCE.TO | BCE Inc. | Kanada | 64.06 | 30.6 | -3.3 | 1.6 | -7.1% | nein |
+| XYL | Xylem Inc. | D6 Abfall & Wasser | -31.77 | 94.66 | -0.6 | 0.8 | -14.2% | nein |
+| T | AT&T | J1 Telekom | 21.47 | 22.31 | 2.1 | 1.1 | -17.2% | nein |
+| VZ | Verizon | J1 Telekom | 27.34 | 46.48 | 1.6 | 1.2 | -10.0% | nein |
 
-## ⭐ Marktlandkarte – normale grüne Punkte (6)
+## ⭐ Marktlandkarte – normale rote Punkte (17)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| CIEN | Ciena | A2 AI-Infra | -41.6 | 262.63 | -1.5 | 0.8 | -42.2% | nein |
-| PDD | PDD | K1 China Tech | -20.8 | 86.0 | 11.0 | 4.1 | -1.6% | nein |
-| HO.PA | Thales | D1 Defense | -12.39 | 227.6 | 0.7 | 1.0 | -7.0% | nein |
-| NRG | NRG Energy | B1 AI-Power | -8.72 | 93.85 | 0.2 | 0.6 | -21.1% | nein |
-| ENR.DE | Siemens Energy | B1 Grid | 1.61 | 126.7 | 0.0 | 0.7 | -16.1% | nein |
-| ANET | Arista Networks | A2 AI-Infra | 21.43 | 189.59 | -2.2 | 0.8 | -12.8% | ja |
+| CMG | Chipotle Mexican Grill | G1 Konsum zyklisch | 44.73 | 35.55 | -2.1 | 1.0 | -4.5% | ja |
+| RIOT | Riot | I2 Krypto-Aktien | 38.95 | 16.23 | -8.5 | 1.2 | -36.1% | nein |
+| CFR.SW | Compagnie Financière Richemo | G1 Konsum zyklisch | 34.1 | 169.0 | -4.6 | 1.4 | -6.5% | ja |
+| ZIM | ZIM | D4 Transport | 33.48 | 29.32 | -1.0 | 1.8 | -5.4% | ja |
+| SHL.DE | Siemens Healthineers | F3 Medtech | 27.16 | 42.96 | -2.0 | 1.1 | -5.0% | ja |
+| AVGO | Broadcom | A1 Fabless | 16.18 | 304.41 | -12.2 | 2.1 | -20.1% | nein |
+| ANET | Arista Networks | A2 AI-Infra | 15.02 | 167.62 | -11.6 | 1.6 | -22.9% | nein |
+| CORZ | Core Scientific | A2 Miner-Pivot | 4.09 | 11.33 | -15.2 | 1.3 | -40.7% | nein |
+| ENR.DE | Siemens Energy | B1 Grid | -4.51 | 118.32 | -6.6 | 1.1 | -21.6% | nein |
+| NRG | NRG Energy | B1 AI-Power | -14.18 | 87.8 | -6.4 | 1.2 | -23.6% | nein |
+| HO.PA | Thales | D1 Defense | -17.53 | 223.4 | -1.8 | 1.2 | -8.7% | nein |
+| SNAP | Snap | A6 Internet | -25.82 | 4.55 | -11.1 | 1.3 | -33.6% | nein |
+| MCHP | Microchip Technology | A1 Analog | -52.76 | 55.44 | -5.2 | 2.1 | -33.5% | nein |
+| RHM.DE | Rheinmetall | D1 Defense | -65.03 | 693.4 | -4.4 | 1.3 | -36.8% | nein |
+| PLUG | Plug Power | B3 Renewables | -69.23 | 0.96 | -6.8 | 3.2 | -56.2% | nein |
+| IREN | IREN | A2 Miner-Pivot | -69.46 | 11.82 | -18.0 | 1.8 | -76.1% | nein |
+| R3NK.DE | Renk | D1 Defense | -73.84 | 30.53 | -3.4 | 0.9 | -28.8% | nein |
 
-## ⭐ Marktlandkarte – normale rote Punkte (4)
+## 🟢 Grün normal – Top 20 (tiefster wt2) (4)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| ROK | Rockwell Automation | D3 Maschinenbau | -41.54 | 383.1 | -3.2 | 1.0 | -16.8% | nein |
-| RDDT | Reddit | A6 Internet | -47.9 | 89.88 | -4.5 | 0.5 | -45.9% | nein |
-| XLM-USD | Stellar | I1 Krypto | -62.74 | 0.13 | -3.5 | 1.0 | -43.9% | nein |
-| HBAR-USD | Hedera | I1 Krypto | -71.63 | 0.05 | -4.3 | 1.0 | -56.1% | nein |
+| DSFIR.AS | DSM Firmenich AG | Niederlande | -35.36 | 104.2 | -0.2 | 0.7 | -8.2% | ja |
+| EXPD | Expeditors International | USA | -9.9 | 192.56 | -0.3 | 1.3 | -7.4% | ja |
+| VRSN | Verisign | USA | -1.79 | 306.87 | 0.1 | 1.5 | -5.5% | ja |
+| BEL.NS | Bharat Electronics | Indien | 44.01 | 402.0 | -0.5 | 0.4 | -3.4% | nein |
 
-## 🟢 Grün normal – Top 20 (tiefster wt2) (12)
+## 🔴 Rot normal – Top 20 (höchster wt2) (18)
 | Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
 |---|---|---|---|---|---|---|---|---|
-| SMT.L | Scottish Mortgage Investment | UK | -52.64 | 1457.0 | 0.5 | 1.0 | -11.8% | ja |
-| CVLT | CommVault Systems | USA | -35.77 | 152.37 | 0.9 | 0.8 | -12.6% | ja |
-| UFPI | UFP Industries | USA | -29.72 | 78.89 | -0.8 | 1.0 | -10.1% | nein |
-| BESI.AS | BE Semiconductors | Niederlande | -23.2 | 151.2 | 1.3 | 0.7 | -27.6% | nein |
-| WAT | Waters Corporation | USA | -4.86 | 456.48 | -2.1 | 1.1 | -5.6% | ja |
-| MKSI | MKS Instruments | USA | -4.61 | 205.08 | -2.6 | 1.0 | -28.4% | nein |
-| VC | Visteon | USA | 11.85 | 81.3 | 1.2 | 0.6 | -20.3% | nein |
-| POWERGRID.NS | Power Grid | Indien | 11.96 | 264.5 | 2.1 | 0.7 | -3.5% | nein |
-| NTPC.NS | NTPC | Indien | 20.72 | 325.0 | 1.4 | 0.9 | -3.7% | nein |
-| 035720.KS | Kakao | Korea | 24.09 | 31900.0 | 0.3 | 0.8 | -13.6% | nein |
-| HWM | Howmet Aerospace | USA | 25.34 | 218.17 | -1.3 | 0.8 | -8.6% | nein |
-| MARUTI.NS | Maruti Suzuki | Indien | 55.3 | 13589.0 | 7.6 | 2.4 | -0.2% | ja |
+| GAW.L | Games Workshop | UK | 40.0 | 16570.0 | -1.9 | 0.8 | -9.7% | nein |
+| HWM | Howmet Aerospace | USA | 22.0 | 209.16 | -4.1 | 1.4 | -10.4% | nein |
+| FPE3.DE | Fuchs Petrolub | Deutschland | 19.95 | 43.9 | -1.3 | 1.1 | -5.8% | ja |
+| 035720.KS | Kakao | Korea | 19.73 | 31000.0 | -2.8 | 0.9 | -16.0% | nein |
+| AAON | AAON | USA | 19.47 | 75.21 | -2.4 | 1.0 | -17.8% | nein |
+| RMD | ResMed | USA | 9.07 | 235.63 | -0.5 | 1.0 | -7.8% | ja |
+| LSTR | Landstar System | USA | 3.7 | 146.43 | -3.5 | 0.8 | -16.6% | nein |
+| 9432.T | NTT | Japan | -1.94 | 167.7 | -0.7 | 0.9 | -7.5% | ja |
+| PRY.MI | Prysmian | Italien | -3.37 | 100.5 | -6.3 | 1.5 | -23.4% | nein |
+| MKSI | MKS Instruments | USA | -10.28 | 184.52 | -10.0 | 1.4 | -35.6% | nein |
+| WAT | Waters Corporation | USA | -11.1 | 440.45 | -3.5 | 1.4 | -8.9% | ja |
+| DY | Dycom Industries | USA | -11.47 | 205.55 | -7.1 | 1.8 | -33.6% | nein |
+| 6098.T | Recruit | Japan | -23.12 | 16835.0 | -5.5 | 0.9 | -13.9% | ja |
+| REC.MI | Recordati | Italien | -25.26 | 52.75 | 0.0 | – | -2.0% | ja |
+| BESI.AS | BE Semiconductors | Niederlande | -26.48 | 142.7 | -5.6 | 1.2 | -31.7% | nein |
+| CVLT | CommVault Systems | USA | -36.6 | 145.9 | -4.2 | 0.5 | -16.3% | ja |
+| IPGP | IPG Photonics | USA | -59.32 | 58.64 | -8.3 | 1.3 | -32.1% | nein |
+| 000270.KS | Kia | Korea | -62.93 | 88200.0 | -3.6 | 1.0 | -33.5% | nein |
 
-## 🔴 Rot normal – Top 20 (höchster wt2) (5)
-| Ticker | Name | Region/Cluster | wt2 | Kurs | Δ% | Vol× | vs 52W-Hoch | >MA200 |
-|---|---|---|---|---|---|---|---|---|
-| WPC | W. P. Carey | USA | 45.56 | 65.16 | -1.3 | 0.8 | -7.8% | nein |
-| EVK.DE | Evonik | Deutschland | 30.07 | 18.25 | -16.2 | 3.7 | -19.0% | ja |
-| 9992.HK | Pop Mart | Hongkong | 27.42 | 142.4 | -1.2 | 0.7 | -9.8% | nein |
-| KNX | Knight-Swift | USA | 19.34 | 62.18 | -0.9 | 0.6 | -12.7% | nein |
-| CAI.VI | CA Immo | Österreich | -37.96 | 20.9 | -1.2 | 0.7 | -10.7% | nein |
-
-<details><summary>1 Ticker ohne Daten</summary>
-
-TCBI
-
-</details>
